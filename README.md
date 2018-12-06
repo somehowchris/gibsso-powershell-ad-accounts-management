@@ -13,6 +13,7 @@
 Active students: `only status 1`
 
 Org: `m122g`
+Password: `gibs.001`
 
 ## Checklist
 - [ ] Convert XML
