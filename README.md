@@ -27,7 +27,7 @@ Password: `gibs.001`
 - [ ] Create Directories for Classes
 - [ ] Grand access to Directories for students
 - [ ] Create Home directories for Accounts
-- [ ] Grand access to Home directory 
+- [ ] Grand access to Home directory
 - [ ] Add unused_ to directory if not specified in csv
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
