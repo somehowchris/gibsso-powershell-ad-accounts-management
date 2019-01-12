@@ -1,5 +1,5 @@
 . "$PSScriptRoot\Config.ps1"
-. "$PSScriptRoot\FileManager.ps1"
-. "$PSScriptRoot\AccountManager.ps1"
+. "$PSScriptRoot\Logger.ps1"
+. "$PSScriptRoot\Handlers\FlowHandler.ps1"
 
-add-Account("florian.leimer")
+initial-userInput
