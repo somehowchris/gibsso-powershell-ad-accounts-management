@@ -1,9 +1,13 @@
-function convert-XmlToCsv() {
+function convert-XmlToCsv {
     # Read from file
     [xml]$inputFile = Get-Content $global:xmlPath
 
+    # Remove old and create new CSV
+    Remove-Item $global:csvPath -Force | Out-Null
+    New-Item $global:csvPath -ItemType File -Force | Out-Null
+
     # Set separator in file
-    Set-Content -Value "sep=;" -Path $global:csvPath -Encoding $global:encoding
+    #Set-Content -Value "sep=;" -Path $global:csvPath -Encoding $global:encoding
 
     # Create fields for "stammklasse" und "zweitausbildung_stammklasse"
     $inputFile.ad.schueler | ForEach-Object {
@@ -35,6 +39,7 @@ function convert-XmlToCsv() {
 
 }
 
-function read-Csv() {
-    $global:csvContent = (Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding)
+function read-Csv {
+    # TODO Remove Select-Object for only the first 25
+    $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding | Select-Object -First 25
 }

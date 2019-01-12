@@ -1,5 +1,4 @@
-﻿sep=;
-"username";"initpw";"id";"name";"vorname";"geburtsdatum";"geschlecht";"kuerzel";"mail";"status";"ldap_export";"stammklasse";"zweitausbildung_stammklasse"
+﻿"username";"initpw";"id";"name";"vorname";"geburtsdatum";"geschlecht";"kuerzel";"mail";"status";"ldap_export";"stammklasse";"zweitausbildung_stammklasse"
 "nicola.frey";"";"gibsso502906";"Frey";"Nicola";"2002-10-06";"m";"-";"nicola.frey@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
 "jan.geisser";"";"gibsso502790";"Geisser";"Jan";"2001-03-12";"m";"-";"jan.geisser@bbzsogr.ch";"1";"1";"PKB17A";"BM1_TE17A"
 "sarah.schroeter";"";"gibsso500200";"SchrÃ¶ter";"Sarah";"2002-01-03";"w";"-";"sarah.schroeter@bbzsogr.ch";"1";"1";"INF17S";"BM1_TE17A"

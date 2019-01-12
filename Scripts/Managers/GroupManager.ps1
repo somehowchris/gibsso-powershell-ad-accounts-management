@@ -5,5 +5,5 @@ function add-Group([String] $name) {
         New-ADGroup -Name $name -GroupScope DomainLocal -Path "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local"
     }
 }
-function update-Group() {}
-function disable-Group() {}
+function update-Group {}
+function disable-Group {}
