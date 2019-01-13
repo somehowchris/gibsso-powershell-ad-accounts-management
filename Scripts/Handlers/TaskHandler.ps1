@@ -16,10 +16,10 @@ function createOrUpdateUsers {
     foreach ($schueler in $global:csvContent) {
         add-Account $($schueler).username $($schueler).name $($schueler).vorname
 
-        add-AccountToGroup $($schueler).username $($schueler).stammklasse
+        <# add-AccountToGroup $($schueler).username $($schueler).stammklasse
         if ($($schueler).zweitausbildung_stammklasse -ne ""){
             add-AccountToGroup $($schueler).username $($schueler).zweitausbildung_stammklasse
-        }
+        } #>
     }
 }
 function createOrUpdateGroups {
