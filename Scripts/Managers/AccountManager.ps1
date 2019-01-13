@@ -14,12 +14,12 @@ function add-Account([String]$username, [String]$name, [String]$prename) {
   }
 }
 function disable-Account([String]$username) {
-  (Get-ADUser -Filter { SamAccountName -eq $username }) | Enable-ADAccount
+  (Get-ADUser -Filter { SamAccountName -eq $username }) | Disable-ADAccount
   log("Disabled User account ${username}")
 }
 function enable-Account([String]$username){
-  (Get-ADUser -Filter { SamAccountName -eq $username }) | Disable-ADAccount
-  log("Disabled User account ${username}")
+  (Get-ADUser -Filter { SamAccountName -eq $username }) | Enable-ADAccount
+  log("Enabled User account ${username}")
 }
 function add-AccountToGroup([String]$userName, [String]$groupName) {
   Add-ADGroupMember -Identity $groupName -Members $userName
