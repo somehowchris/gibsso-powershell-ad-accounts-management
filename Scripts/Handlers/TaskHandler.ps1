@@ -23,20 +23,34 @@ function createOrUpdateUsers {
     }
 }
 function createOrUpdateGroups {
-    $groupsHT = @{}
-    $groupsHTValue = @()
+    $groups = @()
     foreach ($schueler in $global:csvContent) {
-        $groupsHTValue = @();
-        if ($groupsHT.ContainsKey($($schueler).stammklasse)) {
-            $groupsHTValue = $groupsHT[$($schueler).stammklasse]
-            $groupsHTValue += $schueler
-        } else {
-            $groupsHTValue = $schueler
+        if(-not $groups.Contains($schueler.stammklasse)){
+            add-Group($schueler.stammklasse);
         }
-        $groupsHT.$($schueler).stammklasse = $schueler
+        if(-not $groups.Contains($schueler.zweitausbildung_stammklasse)){
+            add-Group($schueler.zweitausbildung_stammklasse);
+        }
+    }
+    log("Finished task creating groups");
+}
+function deactivateNotMentionedUsers {
+    $ADUsers = retreive-AllAdUsers
+    Write-Host $ADGroups
+
+    foreach($adUser in $ADUsers){
+        $mentioned = $false
+        foreach($schueler in $global:csvContent){
+            if(-not $mentioned -and $schueler.username -eq $adUser.username){
+                $mentioned = $true
+                break
+            }
+        }
+        if(-not $mentioned){
+            disable-Account($adUser.username);
+        }
     }
 }
-function deactivateNotMentionedUsers {}
 function deleteNotMentionedGroups {}
 function assosiateAccountsToGroups {}
 function createGroupDirectory {}

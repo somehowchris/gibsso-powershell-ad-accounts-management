@@ -41,5 +41,5 @@ function convert-XmlToCsv {
 
 function read-Csv {
   # TODO Remove Select-Object for only the first 25
-  $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding | Select-Object -First 25
+  $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding 
 }
