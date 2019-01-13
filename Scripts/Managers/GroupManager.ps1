@@ -1,6 +1,6 @@
 . "$PSScriptRoot\..\Logger.ps1"
 function add-Group([String] $name) {
-  if ([bool] (Get-ADGroup -Name $name)) {
+  if ([bool] (Get-ADGroup -Filter {name -eq $name})) {
     Write-Host "Group does already exist!"
     log("Group ${name} already exists");
   }
