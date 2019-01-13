@@ -43,7 +43,6 @@ function deactivateNotMentionedUsers {
         foreach($schueler in $global:csvContent){
             if(-not $mentioned -and $schueler.username -eq $adUser.username){
                 $mentioned = $true
-                break
             }
         }
         if(-not $mentioned){
@@ -51,7 +50,21 @@ function deactivateNotMentionedUsers {
         }
     }
 }
-function deleteNotMentionedGroups {}
+function deleteNotMentionedGroups {
+    $groups = @()
+    foreach ($schueler in $global:csvContent) {
+        if(-not $groups.Contains($schueler.stammklasse)){
+            add-Group($schueler.stammklasse);
+        }
+        if(-not $groups.Contains($schueler.zweitausbildung_stammklasse)){
+            add-Group($schueler.zweitausbildung_stammklasse);
+        }
+    }
+    $ADGroups = retreiveAllGroups
+
+    
+
+}
 function assosiateAccountsToGroups {}
 function createGroupDirectory {}
 function setGroupDirectoryPermissions {}
