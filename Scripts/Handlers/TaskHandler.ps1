@@ -2,11 +2,14 @@
 . "$PSScriptRoot\..\Managers\AccountManager.ps1"
 . "$PSScriptRoot\..\Managers\GroupManager.ps1"
 . "$PSScriptRoot\..\Managers\DirectoryManager.ps1"
+. "$PSScriptRoot\..\Logger.ps1"
 
 function XMLtoCSV {
+    log("Converting XML to CSV");
     convert-XmlToCsv
 }
 function loadCSV {
+    log("Loading CSV");
     read-Csv
 }
 function createOrUpdateUsers {

@@ -40,10 +40,8 @@ function initial-userInput() {
 function run-selectableScript {
   Write-Host "Converting XML to CSV"
   Write-Host "This might take some seconds"
-  log("Converting XML to CSV");
   XMLtoCSV
   Write-Host "Loading freshly converted CSV"
-  log("Loading CSV");
   loadCSV
 
   # TODO ask user to select Script & run it
