@@ -5,7 +5,7 @@ function add-Group([String] $name) {
     log("Group ${name} already exists");
   }
   else {
-    New-ADGroup -Name $name -GroupScope DomainLocal -Path "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local" -Enabled $true
+    New-ADGroup -Name $name -GroupScope DomainLocal -Path "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local"
     log("Group ${name} created")
   }
 }
