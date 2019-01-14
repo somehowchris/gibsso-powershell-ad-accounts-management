@@ -2,7 +2,7 @@
 
 function find-ExistingGroup([String]$name) {
     log("Looking for group GISO_${name}")
-    return (Get-ADGroup -Filter "Name -eq ""GISO_$name""") -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local"
+    return (Get-ADGroup -Filter "Name -eq ""GISO_$name""" -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local")
 }
 function add-Group([String] $name) {
     if ([bool] (find-ExistingGroup $name)) {
@@ -31,88 +31,4 @@ function get-AllGroupsFromCSV() {
         }
     }
     return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV() {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
-        }
-    }
-    return $groups
-}
-function get-AllGroupsFromCSV(){
-  $groups = @()
-  foreach ($schueler in $global:csvContent) {
-    if (-not $groups.Contains($schueler.stammklasse)) {
-      $groups += $schueler.stammklasse
-    }
-    if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-      $groups += $schueler.zweitausbildung_stammklasse
-    }
-  }
-  return $groups
 }

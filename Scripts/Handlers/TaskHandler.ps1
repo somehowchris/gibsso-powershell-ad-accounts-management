@@ -23,7 +23,7 @@ function createOrUpdateGroups {
         if (-not $groups.Contains($schueler.stammklasse)) {
             add-Group($schueler.stammklasse);
         }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse -not $null) {
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse -ne $null) {
             add-Group($schueler.zweitausbildung_stammklasse);
         }
     }
