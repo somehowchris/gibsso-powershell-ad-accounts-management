@@ -9,8 +9,9 @@ function add-Group([String] $name) {
     log("Group ${name} created")
   }
 }
-function update-Group {}
-function disable-Group {}
 function retreiveAllGroups(){
   return (Get-ADGroup -Filter {name -like "*"})
+}
+function remove-Group([String] $name){
+  Remove-ADGroup -Filter {name -eq $name}
 }

@@ -8,7 +8,7 @@ function add-Account([String]$username, [String]$name, [String]$prename) {
     enable-Account($username);
   }
   else {
-    New-ADUser -Name ($prename + " " + $name) -GivenName $prename -Surname $name -SamAccountName $username -UserPrincipalName ($username + "@" + $global:domain) -AccountPassword (ConvertTo-SecureString -AsPlainText $global:defaultPassword -Force) -Path "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local" -LogonWorkstations $true -Enabled $true
+    New-ADUser -Name ($prename + " " + $name) -GivenName $prename -Surname $name -SamAccountName $username -UserPrincipalName ($username + "@" + $global:domain) -AccountPassword (ConvertTo-SecureString -AsPlainText $global:defaultPassword -Force) -Path "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local" -Enabled $true
     log("Added User ${username}")
     enable-Account $username
   }
@@ -26,5 +26,5 @@ function add-AccountToGroup([String]$userName, [String]$groupName) {
   log("Added ${userName} to group ${groupName}")
 }
 function retreive-AllAdUsers(){
-  return (Get-ADUser -Filter {name -like "greg*"})
+  return (Get-ADUser -Filter {name -like "*"})
 }
