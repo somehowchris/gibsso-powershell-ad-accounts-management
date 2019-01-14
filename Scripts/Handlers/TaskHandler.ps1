@@ -15,11 +15,6 @@ function loadCSV {
 function createOrUpdateUsers {
     foreach ($schueler in $global:csvContent) {
         add-Account $($schueler).username $($schueler).name $($schueler).vorname
-
-        <# add-AccountToGroup $($schueler).username $($schueler).stammklasse
-        if ($($schueler).zweitausbildung_stammklasse -ne ""){
-            add-AccountToGroup $($schueler).username $($schueler).zweitausbildung_stammklasse
-        } #>
     }
 }
 function createOrUpdateGroups {
@@ -28,7 +23,7 @@ function createOrUpdateGroups {
         if (-not $groups.Contains($schueler.stammklasse)) {
             add-Group($schueler.stammklasse);
         }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse -not $null) {
             add-Group($schueler.zweitausbildung_stammklasse);
         }
     }

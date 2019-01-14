@@ -2,7 +2,7 @@
 . "$PSScriptRoot\GroupManager.ps1"
 function find-existingAccount([String]$username) {
     log("Looking for user ${username}")
-    return (Get-ADUser -Filter { SamAccountName -eq $username })
+    return (Get-ADUser -Filter "SamAccountName -eq ""$username""")
 }
 function add-Account([String]$username, [String]$name, [String]$prename) {
     $domain = $global:domain.Split(".")
@@ -31,7 +31,7 @@ function add-AccountToGroup([String]$userName, [String]$groupName) {
 }
 function retrieve-AllADUsers() {
     log("Getting all users")
-    return (Get-ADUser -Filter {name -like "*"})
+    return (Get-ADUser -Filter "Name -like ""*"""})
 }
 function getGroupsofUser([String]$username) {
     log("Getting groups of ${username}");
