@@ -5,7 +5,7 @@ function find-ExistingGroup([String]$name){
   return (Get-ADGroup -Filter {Name -eq "GISO_${name}"})
 }
 function add-Group([String] $name) {
-  if ([bool] find-ExistingGroup $name) {
+  if ([bool] (find-ExistingGroup $name)) {
     log("Group GISO_${name} already exists")
   }
   else {

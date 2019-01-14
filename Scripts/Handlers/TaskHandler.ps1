@@ -25,27 +25,27 @@ function createOrUpdateUsers {
 function createOrUpdateGroups {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
-        if(-not $groups.Contains($schueler.stammklasse)){
+        if (-not $groups.Contains($schueler.stammklasse)) {
             add-Group($schueler.stammklasse);
         }
-        if(-not $groups.Contains($schueler.zweitausbildung_stammklasse)){
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
             add-Group($schueler.zweitausbildung_stammklasse);
         }
     }
     log("Finished task creating groups");
 }
 function deactivateNotMentionedUsers {
-    $ADUsers = retreive-AllAdUsers
+    $ADUsers = retrieve-AllAdUsers
     Write-Host $ADGroups
 
-    foreach($adUser in $ADUsers){
+    foreach ($adUser in $ADUsers) {
         $mentioned = $false
-        foreach($schueler in $global:csvContent){
-            if(-not $mentioned -and $schueler.username -eq $adUser.username){
+        foreach ($schueler in $global:csvContent) {
+            if (-not $mentioned -and $schueler.username -eq $adUser.username) {
                 $mentioned = $true
             }
         }
-        if(-not $mentioned){
+        if (-not $mentioned) {
             disable-Account($adUser.username);
         }
     }
@@ -53,24 +53,24 @@ function deactivateNotMentionedUsers {
 function deleteNotMentionedGroups {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
-        if(-not $groups.Contains($schueler.stammklasse)){
+        if (-not $groups.Contains($schueler.stammklasse)) {
             $groups += $schueler.stammklasse
         }
-        if(-not $groups.Contains($schueler.zweitausbildung_stammklasse)){
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
             $groups += $schueler.zweitausbildung_stammklasse
         }
     }
     $ADGroups = retreiveAllGroups
 
-    foreach($group in $ADGroups){
-        if(-not $groups.Contains($group.name)){
+    foreach ($group in $ADGroups) {
+        if (-not $groups.Contains($group.name)) {
 
         }
     }
 
 }
 function assosiateAccountsToGroups {
-    foreach($user in retrieve-AllADUsers){
+    foreach ($user in retrieve-AllADUsers) {
         getGroupsofUser $user.SamAccountName
     }
 }
