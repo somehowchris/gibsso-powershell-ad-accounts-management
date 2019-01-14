@@ -25,8 +25,8 @@ function enable-Account([String]$username){
   log("Enabled User account ${username}")
 }
 function add-AccountToGroup([String]$userName, [String]$groupName) {
-  Add-ADGroupMember -Identity $groupName -Members $userName
-  log("Added ${userName} to group ${groupName}")
+  Add-ADGroupMember -Identity "GISO_${groupName}" -Members $userName
+  log("Added ${userName} to group GISO_${groupName}")
 }
 function retrieve-AllADUsers(){
   log("Getting all users")
@@ -35,7 +35,7 @@ function retrieve-AllADUsers(){
 function getGroupsofUser([String]$username){
   log("Getting groups of ${username}");
   $groups = @()
-  foreach($group in retreiveAllGroups){
+  foreach($group in retrieveAllGroups){
       $user = Get-ADUser -Filter {GroupScope -eq "DomainLocal" -and SamAccountName -eq $username} -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local"
       if([bool]$user){
         $groups += $group
