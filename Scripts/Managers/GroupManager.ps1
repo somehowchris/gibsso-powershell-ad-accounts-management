@@ -9,9 +9,8 @@ function add-Group([String] $name) {
     log("Group ${name} created")
   }
 }
+function remove-Group([String] $name) {
+  Get-ADGroup -Filter {name -eq $name} -searchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local"
 function retreiveAllGroups(){
   return (Get-ADGroup -Filter {name -like "*"})
-}
-function remove-Group([String] $name){
-  Remove-ADGroup -Filter {name -eq $name}
 }
