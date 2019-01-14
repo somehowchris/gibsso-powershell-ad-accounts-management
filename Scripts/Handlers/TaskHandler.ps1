@@ -63,7 +63,7 @@ function deleteNotMentionedGroups {
     $ADGroups = retreiveAllGroups
 
     foreach($group in $ADGroups){
-        if(-not $group.name in $groups){
+        if(-not $groups.Contains($group.name)){
 
         }
     }
