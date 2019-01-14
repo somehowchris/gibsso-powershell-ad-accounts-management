@@ -26,5 +26,8 @@ function add-AccountToGroup([String]$userName, [String]$groupName) {
   log("Added ${userName} to group ${groupName}")
 }
 function retreive-AllAdUsers(){
-  return (Get-ADUser -Filter {name -like "greg*"})
+  return (Get-ADUser -Filter {name -like "*"})
+}
+function getGroupsofUser([String]$userName){
+
 }
