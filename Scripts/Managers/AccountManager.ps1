@@ -29,5 +29,5 @@ function retreive-AllAdUsers(){
   return (Get-ADUser -Filter {name -like "*"})
 }
 function getGroupsofUser([String]$userName){
-
+ retrun Get-ADUser -Filter {GroupScope -eq "DomainLocal"} -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local"
 }

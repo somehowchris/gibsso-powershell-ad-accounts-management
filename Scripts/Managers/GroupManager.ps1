@@ -10,7 +10,8 @@ function add-Group([String] $name) {
   }
 }
 function update-Group {}
-function disable-Group {}
+function remove-Group {
+  Get-ADGroup -Filter {name -eq $name} -searchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local"
 function retreiveAllGroups(){
   return (Get-ADGroup -Filter {name -like "*"})
 }
