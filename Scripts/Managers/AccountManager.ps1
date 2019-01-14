@@ -2,7 +2,7 @@
 . "$PSScriptRoot\GroupManager.ps1"
 function find-existingAccount([String]$username) {
     log("Looking for user ${username}")
-    return (Get-ADUser -Filter "SamAccountName -eq ""$username""")
+    return (Get-ADUser -Filter {SamAccountName -eq "${$username}"})
 }
 function add-Account([String]$username, [String]$name, [String]$prename) {
     $domain = $global:domain.Split(".")
