@@ -60,7 +60,7 @@ function deleteNotMentionedGroups {
             $groups += $schueler.zweitausbildung_stammklasse
         }
     }
-    $ADGroups = retreiveAllGroups
+    $ADGroups = retrieveAllGroups
 
     foreach ($group in $ADGroups) {
         if (-not $groups.Contains($group.name)) {

@@ -4,26 +4,26 @@ function create-Directory() {
 function set-DirectoryUnused() {
     # rename folder with added unsuded_
 }
-function is-direcotryCreated(){
+function is-direcotryCreated() {
     <# lookup used and unsued folders#>  
 }
 
-function createGroupDirecotry(){
+function createGroupDirecotry() {
     # forward to create-Direcotry with specific path
 }
-function createUserDirectory(){
+function createUserDirectory() {
     # forward to create-Direcotry with specific path
 }
-function addUserToGroupDirectory(){
+function addUserToGroupDirectory() {
     # giving permission to user for a group directory
 }
-function addUserToPersonalDirectorry(){
+function addUserToPersonalDirectorry() {
     # give permission to user for his person directory
 }
 
-function removeUserFromGroupDirecotry(){
+function removeUserFromGroupDirecotry() {
     # remove permission of user for a group directory
 }
 
-function setGroupDirecotryUnused(){}
-function setPersonalDirectoryUnused(){}
+function setGroupDirecotryUnused() {}
+function setPersonalDirectoryUnused() {}
