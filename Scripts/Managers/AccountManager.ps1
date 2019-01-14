@@ -1,9 +1,12 @@
 . "$PSScriptRoot\..\Logger.ps1"
-function find-existingAccount {}
+. "$PSScriptRoot\GroupManager.ps1"
+function find-existingAccount([String]$username) {
+  return (Get-ADUser -Filter { SamAccountName -eq $username })
+}
 function add-Account([String]$username, [String]$name, [String]$prename) {
   $domain = $global:domain.Split(".")
     
-  if ([bool] (Get-ADUser -Filter { SamAccountName -eq $username })) {
+  if ([bool] (find-existingAccount($username))) {
     log("User ${username} already exist!");
     enable-Account($username);
   }
@@ -14,20 +17,30 @@ function add-Account([String]$username, [String]$name, [String]$prename) {
   }
 }
 function disable-Account([String]$username) {
-  (Get-ADUser -Filter { SamAccountName -eq $username }) | Disable-ADAccount
+  find-existingAccount($username) | Disable-ADAccount
   log("Disabled User account ${username}")
 }
 function enable-Account([String]$username){
-  (Get-ADUser -Filter { SamAccountName -eq $username }) | Enable-ADAccount
+  find-existingAccount($username) | Enable-ADAccount
   log("Enabled User account ${username}")
 }
 function add-AccountToGroup([String]$userName, [String]$groupName) {
   Add-ADGroupMember -Identity $groupName -Members $userName
   log("Added ${userName} to group ${groupName}")
 }
-function retreive-AllAdUsers(){
+function retrieve-AllADUsers(){
+  log("Getting all users")
   return (Get-ADUser -Filter {name -like "*"})
 }
-function getGroupsofUser([String]$userName){
- retrun Get-ADUser -Filter {GroupScope -eq "DomainLocal"} -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local"
+function getGroupsofUser([String]$username){
+  log("Getting groups of ${username}");
+  $groups = @()
+  foreach($group in retreiveAllGroups){
+      $user = Get-ADUser -Filter {GroupScope -eq "DomainLocal" -and SamAccountName -eq $username} -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local"
+      if([bool]$user){
+        $groups += $group
+        Write-Host $group
+      }
+  }
+  return $groups
 }

@@ -54,18 +54,26 @@ function deleteNotMentionedGroups {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
         if(-not $groups.Contains($schueler.stammklasse)){
-            add-Group($schueler.stammklasse);
+            $groups += $schueler.stammklasse
         }
         if(-not $groups.Contains($schueler.zweitausbildung_stammklasse)){
-            add-Group($schueler.zweitausbildung_stammklasse);
+            $groups += $schueler.zweitausbildung_stammklasse
         }
     }
     $ADGroups = retreiveAllGroups
 
-    
+    foreach($group in $ADGroups){
+        if(-not $group.name in $groups){
+
+        }
+    }
 
 }
-function assosiateAccountsToGroups {}
+function assosiateAccountsToGroups {
+    foreach($user in retrieve-AllADUsers){
+        getGroupsofUser $user.SamAccountName
+    }
+}
 function createGroupDirectory {}
 function setGroupDirectoryPermissions {}
 function createUserDirectory {}
