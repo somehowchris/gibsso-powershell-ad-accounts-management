@@ -8,3 +8,4 @@ $global:csvPath = "$PSScriptRoot\Files\gibsso_AD-Export.csv"
 $global:encoding = "UTF8"
 $global:baseUserDirecotry = ""
 $global:baseGroupDirectory = ""
+$global:reuseUnusedDirectories = $true

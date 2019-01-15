@@ -2,7 +2,11 @@
 
 function find-ExistingGroup([String]$name) {
     log("Looking for group GISO_${name}")
-    return (Get-ADGroup -Filter "Name -eq ""GISO_$name""" -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local")
+    return (Get-ADGroup -Filter "SamAccountName -eq ""GISO_$name""" -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local")
+}
+function find-byIdentity([String]$identity) {
+    log("Looking for ${identity}")
+    return (Get-ADGroup -Identity $identity)
 }
 function add-Group([String] $name) {
     if ([bool] (find-ExistingGroup $name)) {
@@ -14,7 +18,7 @@ function add-Group([String] $name) {
     }
 }
 function remove-Group([String] $name) {
-    Get-ADGroup -Filter {name -eq "GISO_${name}"} -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local" | Remove-ADGroup
+    Get-ADGroup -Filter {name -eq $name} -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local" | Remove-ADGroup -Confirm:$false
     log("Group GISO_${name} deleted")
 }
 function retrieveAllGroups() {

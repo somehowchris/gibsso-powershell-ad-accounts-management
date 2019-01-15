@@ -5,5 +5,3 @@ log("Loading Config")
 
 log("Init scripts")
 initial-userInput
-
-

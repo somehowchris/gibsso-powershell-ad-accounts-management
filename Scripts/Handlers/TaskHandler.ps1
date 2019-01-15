@@ -16,17 +16,19 @@ function createOrUpdateUsers {
     foreach ($schueler in $global:csvContent) {
         add-Account $($schueler).username $($schueler).name $($schueler).vorname
     }
+    add-Account "Test"
 }
 function createOrUpdateGroups {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
+        if (-not $groups.Contains($schueler.stammklasse) -and -not ([string]::IsNullOrEmpty($schueler.stammklasse))) {
             add-Group($schueler.stammklasse);
         }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse -ne $null) {
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and -not ([string]::IsNullOrEmpty($schueler.zweitausbildung_stammklasse))) {
             add-Group($schueler.zweitausbildung_stammklasse);
         }
     }
+    add-Group("Fake")
     log("Finished task creating groups");
 }
 function deactivateNotMentionedUsers {
@@ -36,12 +38,12 @@ function deactivateNotMentionedUsers {
     foreach ($adUser in $ADUsers) {
         $mentioned = $false
         foreach ($schueler in $global:csvContent) {
-            if (-not $mentioned -and $schueler.username -eq $adUser.username) {
+            if (-not $mentioned -and $schueler.username -eq $adUser.SamAccountName) {
                 $mentioned = $true
             }
         }
-        if (-not $mentioned) {
-            disable-Account($adUser.username);
+        if (-not $mentioned -and $adUser.SamAccountName.Contains(".") -and $adUser.Enabled) {
+            disable-Account($adUser.SamAccountName);
         }
     }
 }
@@ -49,24 +51,43 @@ function deleteNotMentionedGroups {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
         if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
+            $groups += "GISO_$($schueler.stammklasse)"
         }
         if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse) {
-            $groups += $schueler.zweitausbildung_stammklasse
+            $groups += "GISO_$($schueler.zweitausbildung_stammklasse)"
         }
     }
     $ADGroups = retrieveAllGroups
-
     foreach ($group in $ADGroups) {
         if (-not $groups.Contains($group.name)) {
-
+            remove-Group($group.name)
         }
     }
 
 }
 function assosiateAccountsToGroups {
+    $GroupsPerPerson = @{}
+    foreach ($schueler in $global:csvContent) {
+        add-AccountToGroup $schueler.username $schueler.stammklasse 
+        $GroupsPerPerson[$schueler.username] = @()
+        $GroupsPerPerson[$schueler.username] += "GISO_$($schueler.stammklasse)"
+        if (-not ([string]::IsNullOrEmpty($schueler.zweitausbildung_stammklasse))) {
+            add-AccountToGroup $schueler.username $schueler.zweitausbildung_stammklasse
+            $GroupsPerPerson[$schueler.username] += "GISO_$($schueler.zweitausbildung_stammklasse)"
+        }
+    }
     foreach ($user in retrieve-AllADUsers) {
-        getGroupsofUser $user.SamAccountName
+        $groups = getGroupsofUser $user.SamAccountName
+        foreach ($group in $groups) {
+            if ($GroupsPerPerson.ContainsKey($user.SamAccountName)) {
+                if (-not $GroupsPerPerson[$user.SamAccountName].Contains($group.SamAccountName)) {
+                    remove-AccountFromGroup $user.SamAccountName $group.SamAccountName
+                }
+            }
+            else {
+                remove-AccountFromGroup $user.SamAccountName $group.SamAccountName
+            }
+        }
     }
 }
 function createGroupDirectory {}

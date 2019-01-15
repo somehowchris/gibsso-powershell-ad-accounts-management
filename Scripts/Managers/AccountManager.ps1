@@ -1,47 +1,88 @@
 . "$PSScriptRoot\..\Logger.ps1"
 . "$PSScriptRoot\GroupManager.ps1"
 function find-existingAccount([String]$username) {
-    log("Looking for user ${username}")
-    return (Get-ADUser -Filter { SamAccountName -eq $username })
+    try {
+        log("Looking for user ${username}")
+        return (Get-ADUser -Filter "SamAccountName -eq ""$username""" -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local" -Properties MemberOf)
+    }
+    catch {
+        log("Acces denied to search in AD")
+    }
 }
 function add-Account([String]$username, [String]$name, [String]$prename) {
     $domain = $global:domain.Split(".")
-    
-    if ([bool] (find-existingAccount($username))) {
+    $result = (find-existingAccount($username))
+    if ([bool] $result -and $result.Enabled -eq $false) {
         log("User ${username} already exist!");
-        enable-Account($username);
+        enable-Account($username)
+    }
+    elseif ([bool] $result -and $result.Enabled -eq $true) {
+        log("User ${username} already has been registered and enabled")
     }
     else {
-        New-ADUser -Name ($prename + " " + $name) -GivenName $prename -Surname $name -SamAccountName $username -UserPrincipalName ($username + "@" + $global:domain) -AccountPassword (ConvertTo-SecureString -AsPlainText $global:defaultPassword -Force) -Path "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local" -Enabled $true
-        log("Added User ${username}")
-        enable-Account $username
+        try {
+            New-ADUser -Name ($prename + " " + $name) -GivenName $prename -Surname $name -SamAccountName $username -UserPrincipalName ($username + "@" + $global:domain) -AccountPassword (ConvertTo-SecureString -AsPlainText $global:defaultPassword -Force) -Path "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local" -Enabled $true
+            log("Added User ${username}")
+        }
+        catch {
+            log("Couldn't add ${username}")
+        }
     }
 }
 function disable-Account([String]$username) {
-    find-existingAccount($username) | Disable-ADAccount
-    log("Disabled User account ${username}")
+    try {
+        find-existingAccount($username) | Disable-ADAccount
+        log("Disabled User account ${username}")
+    }
+    catch {
+        log("Couldn't disable")
+    }
 }
 function enable-Account([String]$username) {
-    find-existingAccount($username) | Enable-ADAccount
-    log("Enabled User account ${username}")
+    try {
+        find-existingAccount($username) | Enable-ADAccount
+        log("Enabled User account ${username}")
+    }
+    catch {
+        log("Couldn't enable ${username}")
+    }
 }
-function add-AccountToGroup([String]$userName, [String]$groupName) {
-    Add-ADGroupMember -Identity "GISO_${groupName}" -Members $userName
-    log("Added ${userName} to group GISO_${groupName}")
+function add-AccountToGroup([String]$username, [String]$groupname) {
+    <# }
+catch {
+    log("Couldn't add ${userName} to ${groupName}")
+} #>
+    $group = find-ExistingGroup($groupname)
+    $user = find-existingAccount($username)
+    Add-ADGroupMember -Identity $group -Members $user
+    log("Added ${username} to group GISO_${groupname}")
+    
+}
+function remove-AccountFromGroup([String]$username, [String]$groupname) {
+    <# }
+catch {
+  log("Couldn't add ${userName} to ${groupName}")
+} #>
+    $group = find-ExistingGroup($groupname)
+    $user = find-existingAccount($username)
+    Remove-ADGroupMember -Identity $group -Members $user -Confirm:$false
+    log("Added ${username} to group GISO_${groupname}")
+  
 }
 function retrieve-AllADUsers() {
-    log("Getting all users")
-    return (Get-ADUser -Filter "Name -like ""*""")
+    try {
+        log("Getting all users")
+        return (Get-ADUser -Filter "Name -like ""*""")
+    }
+    catch {
+        log("Couldn't get all AD Users")
+    }
 }
 function getGroupsofUser([String]$username) {
-    log("Getting groups of ${username}");
+    log("Getting groups of ${username}")
     $groups = @()
-    foreach ($group in retrieveAllGroups) {
-        $user = Get-ADUser -Filter {GroupScope -eq "DomainLocal" -and SamAccountName -eq $username} -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local"
-        if ([bool]$user) {
-            $groups += $group
-            Write-Host $group
-        }
+    foreach ($group in (find-existingAccount($username)).MemberOf) {
+        $groups += find-byIdentity($group)
     }
     return $groups
 }

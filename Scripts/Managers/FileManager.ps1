@@ -32,11 +32,10 @@ function convert-XmlToCsv {
     $profiles = $inputFile.SelectNodes('//ad/schueler/profile')
     foreach ($profile in $profiles) {
         $profile.ParentNode.RemoveChild($profile) | Out-Null
-    }
+    } # | ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:csvPath -Encoding $global:encoding
 
     # Export xml as csv
-    $inputFile.ad.schueler | ConvertTo-Csv -NoTypeInformation -Delimiter ";" | Add-Content -Path $global:csvPath -Encoding $global:encoding
-
+    $inputFile.ad.schueler  | Where-Object {$_.status -eq "1"} | ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:csvPath -Encoding $global:encoding
 }
 function read-Csv {
     # TODO Remove Select-Object for only the first 25
