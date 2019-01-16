@@ -31,7 +31,6 @@ function createOrUpdateGroups {
 }
 function deactivateNotMentionedUsers {
     $ADUsers = retrieve-AllAdUsers
-    Write-Host $ADGroups
 
     foreach ($adUser in $ADUsers) {
         $mentioned = $false
@@ -46,15 +45,7 @@ function deactivateNotMentionedUsers {
     }
 }
 function deleteNotMentionedGroups {
-    $groups = @()
-    foreach ($schueler in $global:csvContent) {
-        if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += "GISO_$($schueler.stammklasse)"
-        }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse) {
-            $groups += "GISO_$($schueler.zweitausbildung_stammklasse)"
-        }
-    }
+    $groups = get-AllGroupsFromCSV
     $ADGroups = retrieveAllGroups
     foreach ($group in $ADGroups) {
         if (-not $groups.Contains($group.name)) {
@@ -88,8 +79,33 @@ function assosiateAccountsToGroups {
         }
     }
 }
-function createGroupDirectory {
-    
+function createGroupDirectories {
+    $groups = get-AllGroupsFromCSV
+    foreach ($group in $groups) {
+        createGroupDirectory($group)
+    }
 }
-function createUserDirectory {}
-function renameUnusedDirectories {}
+function createUserDirectories {
+    foreach ($schueler in $global:csvContent) {
+        createUserDirectory($schueler.username)
+    }
+}
+function renameUnusedDirectories {
+    $dirUsers = get-AllUsersByDirectories
+    $dirGroups = get-AllGroupsByDirectories
+    $csvGroups = get-AllGroupsFromCSV
+    $csvUsers = get-AllUserNamesFromCSV
+
+    foreach ($group in $dirGroups) {
+        if (-not ($csvGroups.Contains($group)) -and -not ($group.Contains("unused_"))) {
+            setGroupDirectoryUnused($group)
+        }
+    }
+
+    foreach ($user in $dirUsers) {
+        if (-not ($csvUsers.Contains($user)) -and -not ($user.Contains("unused_"))) {
+            setUserDirectoryUnused($user)
+        }
+    }
+
+}

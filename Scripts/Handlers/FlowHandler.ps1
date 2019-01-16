@@ -55,10 +55,8 @@ function run-selectableScript {
         Write-Host "4: Press '4' to delete not mentioned groups"
         Write-Host "5: Press '5' to assosiate accounts to groups"
         Write-Host "6: Press '6' to create group directories"
-        Write-Host "7: Press '7' to set group directories permissions"
-        Write-Host "8: Press '8' to create users directory"
-        Write-Host "9: Press '9' to set users directory permissions"
-        Write-Host "10: Press '10' to rename unused directories"
+        Write-Host "8: Press '7' to create users directory"
+        Write-Host "10: Press '8' to rename unused directories"
         Write-Host "Q: Press 'Q' to quit."
 
         $scriptSelection = Read-Host "`nPlease make a selection"
@@ -91,12 +89,12 @@ function run-selectableScript {
             '6' {
                 Clear-Host
                 log("Start creating group directories");
-                createGroupDirectory
+                createGroupDirectories
             }
             '7' {
                 Clear-Host
                 log("Start creaing personal directories");
-                createUserDirectory
+                createUserDirectories
             }
             '8' {
                 Clear-Host

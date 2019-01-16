@@ -1,11 +1,12 @@
 $global:domain = "m122g.local"
+$global:seperator = ([IO.Path]::DirectorySeparatorChar)
 $global:mainOU = "GIBS"
 $global:userOU = "Lernende"
 $global:groupOU = "Klassengruppen"
 $global:defaultPassword = "gibs.001"
-$global:xmlPath = "$PSScriptRoot\..\Ressources\gibsso_AD-Export.xml"
-$global:csvPath = "$PSScriptRoot\Files\gibsso_AD-Export.csv"
+$global:xmlPath = "$PSScriptRoot$($global:seperator)..$($global:seperator)Ressources$($global:seperator)gibsso_AD-Export.xml"
+$global:csvPath = "$PSScriptRoot$($global:seperator)Files$($global:seperator)gibsso_AD-Export.csv"
 $global:encoding = "UTF8"
-$global:baseUserDirecotry = ""
-$global:baseGroupDirectory = ""
-$global:reuseUnusedDirectories = $true
+$global:baseUserDirectory = "C:\Users\Christof Weickhardt\Desktop\Users"#"$PSScriptRoot$($global:seperator)Files$($global:seperator)Users"
+$global:baseGroupDirectory = "C:\Users\Christof Weickhardt\Desktop\Groups"#"$PSScriptRoot$($global:seperator)Files$($global:seperator)Groups"
+$global:reuseUnusedDirecotires = "1"

@@ -1,100 +1,126 @@
-function create-Directory() {
-    # create a new directory
+function create-Directory($dir) {
+    if (-not (Test-Path -Path $dir)) {
+        New-Item -type directory -Path $dir | Out-Null
+    }
 }
-function set-DirectoryUnused() {
-    # rename folder with added unsuded_
+function set-DirectoryUnused($base, $addon) {
+    # check if unused already exists
+    if (Test-Path -Path (Join-Path -Path $base -ChildPath $addon)) {
+        Rename-Item -Path (Join-Path -Path $base -ChildPath $addon) -newName (Join-Path -Path $base -ChildPath "unused_${addon}") | Out-Null
+    }
 }
-function is-direcotryCreated() {
-    <# lookup used and unsued folders#>  
+function reuseDirectory($base, $addon) {
+    if (Test-Path -Path (Join-Path -Path $base -ChildPath "unused_${addon}")) {
+        Rename-Item -Path (Join-Path -Path $base -ChildPath "unused_${addon}") -newName (Join-Path -Path $base -ChildPath $addon) | Out-Null
+    }
 }
 
-function give-UserPermissionToDirecotry($user, $path) {
+function give-PermissionToDirectory($name, $path) {
+    $readWrite = [System.Security.AccessControl.FileSystemRights]"FullControl"
+    $inheritanceFlag = [System.Security.AccessControl.InheritanceFlags]"ContainerInherit, ObjectInherit"
+    $propagationFlag = [System.Security.AccessControl.PropagationFlags]"InheritOnly"
+    $type = [System.Security.AccessControl.AccessControlType]::Allow
 
-}
-function remove-UserPermissionFromDirectory($user, $path) {
+    $accessControlEntryRW = New-Object System.Security.AccessControl.FileSystemAccessRule($name, $readWrite, $inheritanceFlag, $propagationFlag, $type)
+
+    $objACL = Get-ACL $path
     
-}
+    $objACL.AddAccessRule($accessControlEntryRW)  
 
-function createGroupDirecotry([String]$name) {
-    $UserPath = Join-Path -Path $global:baseGroupDirecotry -ChildPath $name
-    $UnusedPath = Join-Path -Path 
-    # forward to create-Direcotry with specific path
+    Set-ACL $path $objACL
+}
+function createGroupDirectory([String]$name) {
+    switch (doesGroupDirectoryExist($name)) {
+        $true {
+            log("Directory for group ${name} already created");
+        }
+        "unused" {
+            if ($global:reuseUnusedDirecotires -eq "1") {
+                reuseDirectory $global:baseGroupDirectory $name
+                log("Unused directory for group ${name}. Reusing that.")
+            }
+            else {
+                log("Unused directory for group ${name}. Creating new one.")
+                Remove-Item -Path (get-UnusedGroupPath($name)) | Out-Null
+                $path = (get-GroupPath($name))
+                create-Directory($path)
+                give-PermissionToDirectory $name $path
+            }
+        }
+        Default {
+            log("No Directory for ${name} found")
+            $path = (get-GroupPath($name))
+            create-Directory($path)
+            give-PermissionToDirectory $name $path
+        }
+    }
 }
 function createUserDirectory([String]$username) {
-    $Path = Join-Path -Path $global:baseUserDirecotry -ChildPath $username
-    # forward to create-Direcotry with specific path
     switch (doesUserDirectoryExist($username)) {
-        $true { 
+        $true {
             log("Directory for user ${username} already created");
         }
         "unused" {
-            if ($global:reuseUnusedDirecotires -eq $true) {
-                #TODO reuse unused
+            if ($global:reuseUnusedDirecotires -eq "1") {
+                reuseDirectory ($global:baseUserDirectory)  ($username)
                 log("Unused directory for user ${username}. Reusing that.")
             }
             else {
                 log("Unused directory for user ${username}. Creating new one.")
-                #TODO remove unused
-                #TODO create new one
+                Remove-Item -Path (get-UnusedUserPath($username)) | Out-Null
+                $path = (get-UserPath($username))
+                create-Directory($path)
+                give-PermissionToDirectory $username $path
             }
-            
         }
         Default {
             log("Not Directory for ${username}")
-            # TODO crreate new one
+            $path = (get-UserPath($username))
+            create-Directory($path)
+            give-PermissionToDirectory $username $path
         }
     }
 }
-function addUserToGroupDirectory($groupname, $username) {
-    # giving permission to user for a group directory => give-UserPermissionToDirecotry
-}
-function addUserToPersonalDirectorry($username) {
-    # give permission to user for his person directory => remove-UserPermissionFromDirectory
-}
-
-function removeUserFromGroupDirecotry($groupname, $username) {
-    # remove permission of user for a group directory
-}
-
-function setGroupDirecotryUnused([String]$name) {
-    $UserPath = Join-Path -Path $global:baseGroupDirecotry -ChildPath $name
-    if (!(Test-Path -Path $TARGETDIR )) {
-        # TODO set unused
+function setGroupDirectoryUnused([String]$name) {
+    if (Test-Path -Path (get-GroupPath($name))) {
+        set-DirectoryUnused $global:baseGroupDirectory $name
     }
 }
-function setPersonalDirectoryUnused() {
-    #TODO set unused
+function setUserDirectoryUnused($name) {
+    if (Test-Path -Path (get-UserPath($name))) {
+        set-DirectoryUnused $global:baseUserDirectory $name 
+    }
 }
 
 function get-UserPath($username) {
-    return (Join-Path -Path $global:baseUserDirecotry -ChildPath $username)
+    return (Join-Path -Path $global:baseUserDirectory -ChildPath $username)
 }
 function get-UnusedUserPath($username) {
-    return (Join-Path -Path $global:baseUserDirecotry -ChildPath "unused_${username}")
+    return (Join-Path -Path $global:baseUserDirectory -ChildPath "unused_${username}")
 }
-function get-GroupPath($username) {
-    return (Join-Path -Path $global:baseUserDirecotry -ChildPath $username)
+function get-GroupPath($name) {
+    return (Join-Path -Path $global:baseGroupDirectory -ChildPath $name)
 }
-function get-UnusedGroupPath($username) {
-    return (Join-Path -Path $global:baseUserDirecotry -ChildPath "unused_${username}")
+function get-UnusedGroupPath($name) {
+    return (Join-Path -Path $global:baseGroupDirectory -ChildPath "unused_${name}")
 }
 
 function doesUserDirectoryExist($username) {
-    if (Test-Path -Path get-UserPath($username)) {
+    if (Test-Path -Path (get-UserPath($username))) {
         return $true
     }
-    elseif (Test-Path get-UnusedUserPath($username)) {
+    elseif (Test-Path -Path (get-UnusedUserPath($username))) {
         return "unused"
     }
     else {
         return $false
     }
 }
-function doesGroupDirectoryExist($username) {
-    if (Test-Path -Path get-UserPath($username)) {
+function doesGroupDirectoryExist($name) {
+    if (Test-Path -Path (get-GroupPath($name))) {
         return $true
     }
-    elseif (Test-Path get-UnusedUserPath($username)) {
+    elseif (Test-Path -Path (get-UnusedGroupPath($name))) {
         return "unused"
     }
     else {
@@ -102,11 +128,9 @@ function doesGroupDirectoryExist($username) {
     }
 }
 
-function getAll-GroupsByDirectories() {
-    # TODO return all groups
+function get-AllGroupsByDirectories() {
+    return ((Get-ChildItem -Directory -Path $global:baseGroupDirectory).Name)
 }
-function get-All-UsersByDirectories() {
-    # TODO returrn all people
+function get-AllUsersByDirectories() {
+    return ((Get-ChildItem -Directory -Path $global:baseUserDirectory).Name)
 }
-
-function get-AllPeopleWithAccesstoDirectory($Path) {}

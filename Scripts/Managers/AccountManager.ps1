@@ -51,12 +51,14 @@ function add-AccountToGroup([String]$username, [String]$groupname) {
     <# }
 catch {
     log("Couldn't add ${userName} to ${groupName}")
-} #>
+} #>try{
     $group = find-ExistingGroup($groupname)
     $user = find-existingAccount($username)
     Add-ADGroupMember -Identity $group -Members $user
     log("Added ${username} to group GISO_${groupname}")
-    
+}catch{
+    Write-Host $groupname
+}
 }
 function remove-AccountFromGroup([String]$username, [String]$groupname) {
     <# }
@@ -85,4 +87,12 @@ function getGroupsofUser([String]$username) {
         $groups += find-byIdentity($group)
     }
     return $groups
+}
+
+function get-AllUserNamesFromCSV() {
+    $usernames = @()
+    foreach ($schueler in $global:csvContent) {
+        $usernames += $schueler.username
+    }
+    return $usernames
 }

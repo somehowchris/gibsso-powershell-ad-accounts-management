@@ -40,10 +40,10 @@ function convert-XmlToCsv {
             $_.username = $_.username.substring(0, 20)
         }
     }
-    
+
     $inputFile.ad.schueler  | Where-Object {$_.status -eq "1"} |  ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:csvPath -Encoding $global:encoding
 }
 function read-Csv {
     # TODO Remove Select-Object for only the first 25
-    $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding | Select-Object -First 25
+    $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding
 }

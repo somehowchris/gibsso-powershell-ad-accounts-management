@@ -4,4 +4,5 @@ log("Loading Config")
 . "$PSScriptRoot\Handlers\FlowHandler.ps1"
 
 log("Init scripts")
+
 initial-userInput

@@ -28,10 +28,10 @@ function get-AllGroupsFromCSV() {
     $groups = @()
     foreach ($schueler in $global:csvContent) {
         if (-not $groups.Contains($schueler.stammklasse)) {
-            $groups += $schueler.stammklasse
+            $groups += "GISO_$($schueler.stammklasse)"
         }
-        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse)) {
-            $groups += $schueler.zweitausbildung_stammklasse
+        if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and $schueler.zweitausbildung_stammklasse) {
+            $groups += "GISO_$($schueler.zweitausbildung_stammklasse)"
         }
     }
     return $groups
