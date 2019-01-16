@@ -16,7 +16,6 @@ function createOrUpdateUsers {
     foreach ($schueler in $global:csvContent) {
         add-Account $($schueler).username $($schueler).name $($schueler).vorname
     }
-    add-Account "Test"
 }
 function createOrUpdateGroups {
     $groups = @()
@@ -28,7 +27,6 @@ function createOrUpdateGroups {
             add-Group($schueler.zweitausbildung_stammklasse);
         }
     }
-    add-Group("Fake")
     log("Finished task creating groups");
 }
 function deactivateNotMentionedUsers {
@@ -90,8 +88,8 @@ function assosiateAccountsToGroups {
         }
     }
 }
-function createGroupDirectory {}
-function setGroupDirectoryPermissions {}
+function createGroupDirectory {
+    
+}
 function createUserDirectory {}
-function setUserDirectoryPermissions {}
 function renameUnusedDirectories {}
