@@ -95,20 +95,10 @@ function run-selectableScript {
             }
             '7' {
                 Clear-Host
-                log("Start giving permissions to users for group directories");
-                setGroupDirectoryPermissions
-            }
-            '8' {
-                Clear-Host
                 log("Start creaing personal directories");
                 createUserDirectory
             }
-            '9' {
-                Clear-Host
-                log("Start giving users permissions to personal directories");
-                setUserDirectoryPermissions
-            }
-            '10' {
+            '8' {
                 Clear-Host
                 log("Start renaming unused directories");
                 renameUnusedDirectories
@@ -140,8 +130,6 @@ function run-fullScript {
     deleteNotMentionedGroups
     assosiateAccountsToGroups
     createGroupDirectory
-    setGroupDirectoryPermissions
     createUserDirectory
-    setUserDirectoryPermissions
     renameUnusedDirectories
 }
