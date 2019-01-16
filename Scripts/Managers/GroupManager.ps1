@@ -22,7 +22,7 @@ function remove-Group([String] $name) {
     log("Group GISO_${name} deleted")
 }
 function retrieveAllGroups() {
-    return (Get-ADGroup -Filter {name -like "*"} -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local")
+    return (Get-ADGroup -Filter * -SearchBase "OU=$global:groupOU,OU=$global:mainOU,DC=m122g,DC=local")
 }
 function get-AllGroupsFromCSV() {
     $groups = @()

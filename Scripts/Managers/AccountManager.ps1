@@ -72,7 +72,7 @@ catch {
 function retrieve-AllADUsers() {
     try {
         log("Getting all users")
-        return (Get-ADUser -Filter "Name -like ""*""")
+        return (Get-ADUser -Filter * -SearchBase "OU=$global:userOU,OU=$global:mainOU,DC=m122g,DC=local")
     }
     catch {
         log("Couldn't get all AD Users")
