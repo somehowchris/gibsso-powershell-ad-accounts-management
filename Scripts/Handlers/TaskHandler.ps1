@@ -5,33 +5,38 @@
 . "$PSScriptRoot\..\Logger.ps1"
 
 function XMLtoCSV {
-    Logger("Converting XML to CSV");
+    Logger-WithMessage("Converting XML to CSV");
     Convert-XmlToCsv
 }
 function Load-CSV {
-    Logger("Loading CSV");
+    Logger-WithMessage("Loading CSV");
     Read-CSV
 }
 function Create-Users {
+    Logger-WithMessage("Creating user accounts");
     foreach ($schueler in $global:csvContent) {
+        Logger("Create user $($schueler.username)")
         Add-Account $($schueler).username $($schueler).name $($schueler).vorname
     }
 }
 function Create-Groups {
+    Logger-WithMessage("Creating groups");
     $groups = @()
     foreach ($schueler in $global:csvContent) {
         if (-not $groups.Contains($schueler.stammklasse) -and -not ([string]::IsNullOrEmpty($schueler.stammklasse))) {
+            Logger("Creating group $($schueler.stammklasse)")
             Add-Group($schueler.stammklasse);
         }
         if (-not $groups.Contains($schueler.zweitausbildung_stammklasse) -and -not ([string]::IsNullOrEmpty($schueler.zweitausbildung_stammklasse))) {
+            Logger("Creating group $($schueler.zweitausbildung_stammklasse)")
             Add-Group($schueler.zweitausbildung_stammklasse);
         }
     }
-    Logger("Finished task creating groups");
+    Logger("Finished creating $($groups.Length) groups");
 }
 function Deactivate-NotRequieredUsers {
+    Logger-WithMessage("Deactivating not mentioned users");
     $ADUsers = Get-AllADUsers
-
     foreach ($adUser in $ADUsers) {
         $mentioned = $false
         foreach ($schueler in $global:csvContent) {
@@ -40,21 +45,24 @@ function Deactivate-NotRequieredUsers {
             }
         }
         if (-not $mentioned -and $adUser.SamAccountName.Contains(".") -and $adUser.Enabled) {
+            Logger("Disabling user $($adUser.SamAccountName)")
             Disable-Account($adUser.SamAccountName);
         }
     }
 }
 function Delete-NotRequieredGroups {
+    Logger-WithMessage("Deleting not mentioned groups");
     $groups = Get-AllGroupsFromCSV
     $ADGroups = Get-AllADGroups
     foreach ($group in $ADGroups) {
         if (-not $groups.Contains($group.name)) {
+            Logger("Removing group $($group.name)")
             Remove-Group($group.name)
         }
     }
-
 }
 function Assosiate-UsersToGroups {
+    Logger-WithMessage("Adding users to groups");
     $GroupsPerPerson = @{}
     foreach ($schueler in $global:csvContent) {
         Add-AccountToGroup $schueler.username $schueler.stammklasse 
@@ -65,6 +73,7 @@ function Assosiate-UsersToGroups {
             $GroupsPerPerson[$schueler.username] += "GISO_$($schueler.zweitausbildung_stammklasse)"
         }
     }
+    Logger-WithMessage("Removing not permitted users from groups");
     foreach ($user in Get-AllADUsers) {
         $groups = Get-GroupsOfUser $user.SamAccountName
         foreach ($group in $groups) {
@@ -80,28 +89,29 @@ function Assosiate-UsersToGroups {
     }
 }
 function Create-GroupDirectories {
+    Logger-WithMessage("Creating group directories");
     $groups = Get-AllGroupsFromCSV
     foreach ($group in $groups) {
         Create-GroupDirectory($group)
     }
 }
 function Create-UserDirectories {
+    Logger-WithMessage("Creating user directories");
     foreach ($schueler in $global:csvContent) {
         Create-UserDirectory($schueler.username)
     }
 }
 function Rename-OldDirectories {
+    Logger-WithMessage("Renaming all not needed folders to unused");
     $dirUsers = Get-AllUsersByDirectories
-    $dirGroups = Get-AllGroupsByDirectorie
+    $dirGroups = Get-AllGroupsByDirectories
     $csvGroups = Get-AllGroupsFromCSV
     $csvUsers = Get-AllUserNamesFromCSV
-
     foreach ($group in $dirGroups) {
         if (-not ($csvGroups.Contains($group)) -and -not ($group.Contains("unused_"))) {
             Set-GroupDirectoryUnused($group)
         }
     }
-
     foreach ($user in $dirUsers) {
         if (-not ($csvUsers.Contains($user)) -and -not ($user.Contains("unused_"))) {
             Set-UserDirectoryUnused($user)

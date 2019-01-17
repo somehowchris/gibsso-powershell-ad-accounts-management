@@ -6,7 +6,7 @@ function Find-ExistingAccount([String]$username) {
         return (Get-ADUser -Filter "SamAccountName -eq ""$username""" -SearchBase "OU=$global:UserOU,OU=$global:MainOU,DC=m122g,DC=local" -Properties MemberOf)
     }
     catch {
-        Logger("Acces denied to search in AD")
+        Logger("Access denied to search in AD")
     }
 }
 function Add-Account([String]$username, [String]$name, [String]$prename) {
@@ -17,7 +17,7 @@ function Add-Account([String]$username, [String]$name, [String]$prename) {
         Enable-Account($username)
     }
     elseif ([bool] $result -and $result.Enabled -eq $true) {
-        Logger("User ${username} already has been registered and enabled")
+        Logger("User ${username} already has been registered and is enabled")
     }
     else {
         try {
@@ -55,19 +55,18 @@ function Add-AccountToGroup([String]$username, [String]$groupname) {
         Logger("Added ${username} to group GISO_${groupname}")
     }
     catch {
-       
+        Logger("Couldnt add ${username} to ${groupname}")
     }
 }
 function Remove-AccountFromGroup([String]$username, [String]$groupname) {
-    <# }
-catch {
-  Logger("Couldn't add ${userName} to ${groupName}")
-} #>
-    $group = Find-ExistingGroup($groupname)
-    $user = Find-ExistingAccount($username)
-    Remove-ADGroupMember -Identity $group -Members $user -Confirm:$false
-    Logger("Added ${username} to group GISO_${groupname}")
-  
+    try{
+        $group = Find-ExistingGroup($groupname)
+        $user = Find-ExistingAccount($username)
+        Remove-ADGroupMember -Identity $group -Members $user -Confirm:$false
+        Logger("Removed ${username} from group GISO_${groupname}")
+    }catch(
+        Logger("Couldnt remove ${username} from ${groupname}")
+    )
 }
 function Get-AllADUsers() {
     try {
@@ -79,18 +78,27 @@ function Get-AllADUsers() {
     }
 }
 function Get-GroupsOfUser([String]$username) {
-    Logger("Getting groups of ${username}")
-    $groups = @()
-    foreach ($group in (Find-ExistingAccount($username)).MemberOf) {
-        $groups += Find-ByIdentity($group)
+    try{
+        Logger("Getting groups of ${username}")
+        $groups = @()
+        foreach ($group in (Find-ExistingAccount($username)).MemberOf) {
+            $groups += Find-ByIdentity($group)
+        }
+        return $groups
+    }catch{
+        Logger("Failed getting group ${username}")
     }
-    return $groups
 }
 
 function Get-AllUserNamesFromCSV() {
-    $usernames = @()
-    foreach ($schueler in $global:csvContent) {
-        $usernames += $schueler.username
+    try{
+        Logger("Collecting usernames of csv")
+        $usernames = @()
+        foreach ($schueler in $global:csvContent) {
+            $usernames += $schueler.username
+        }
+        return $usernames
+    }catch {
+        Logger("Failed getting all users of csv")
     }
-    return $usernames
 }
