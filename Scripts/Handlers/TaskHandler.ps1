@@ -35,7 +35,7 @@ function Create-Groups {
     Logger("Finished creating $($groups.Length) groups");
 }
 function Deactivate-NotRequieredUsers {
-    Logger-WithMessage("Deactivating not mentioned users");
+    Logger-WithMessage("Disabling not mentioned users");
     $ADUsers = Get-AllADUsers
     foreach ($adUser in $ADUsers) {
         $mentioned = $false
@@ -49,6 +49,7 @@ function Deactivate-NotRequieredUsers {
             Disable-Account($adUser.SamAccountName);
         }
     }
+    Logger("Disabled all not mentioned users")
 }
 function Delete-NotRequieredGroups {
     Logger-WithMessage("Deleting not mentioned groups");
@@ -60,6 +61,7 @@ function Delete-NotRequieredGroups {
             Remove-Group($group.name)
         }
     }
+    Logger("Deleted not mentioned groups")
 }
 function Assosiate-UsersToGroups {
     Logger-WithMessage("Adding users to groups");
@@ -87,19 +89,22 @@ function Assosiate-UsersToGroups {
             }
         }
     }
+    Logger("Finished assosiating users to groups")
 }
 function Create-GroupDirectories {
     Logger-WithMessage("Creating group directories");
     $groups = Get-AllGroupsFromCSV
     foreach ($group in $groups) {
         Create-GroupDirectory($group)
-    }
+    } 
+    Logger("Created group directories")
 }
 function Create-UserDirectories {
     Logger-WithMessage("Creating user directories");
     foreach ($schueler in $global:csvContent) {
         Create-UserDirectory($schueler.username)
     }
+    Logger("Created user directories")
 }
 function Rename-OldDirectories {
     Logger-WithMessage("Renaming all not needed folders to unused");
@@ -117,5 +122,5 @@ function Rename-OldDirectories {
             Set-UserDirectoryUnused($user)
         }
     }
-
+    Logger("Renamed all not needed folders by users")
 }

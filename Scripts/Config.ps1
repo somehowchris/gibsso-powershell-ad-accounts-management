@@ -10,3 +10,4 @@ $global:Encoding = "UTF8"
 $global:BaseUserDirectory = "C:\Users\Christof Weickhardt\Desktop\Users"#"$PSScriptRoot$($global:Seperator)Files$($global:Seperator)Users"
 $global:BaseGroupDirectory = "C:\Users\Christof Weickhardt\Desktop\Groups"#"$PSScriptRoot$($global:Seperator)Files$($global:Seperator)Groups"
 $global:ReuseUnusedDirecotires = "1"
+$global:ConvertXMLToCSV = $true

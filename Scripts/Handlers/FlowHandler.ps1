@@ -39,7 +39,9 @@ function Initial-UserInput {
 function Run-SelectableScript {
     Write-Host "Converting XML to CSV"
     Write-Host "This might take some seconds"
-    XMLtoCSV
+    if($global:ConvertXMLToCSV -eq $true){
+        XMLtoCSV
+    }
     Logger-WithMessage "Loading freshly converted CSV"
     Load-CSV
 
@@ -113,13 +115,12 @@ function Run-SelectableScript {
     } until ($input -eq 'q')
 }
 function Run-FullScript {
-    # TODO convert XML to CSV
-    XMLtoCSV
+    if($global:ConvertXMLToCSV -eq $true){
+        XMLtoCSV
+    }
 
-    # TODO load CSV
     Load-CSV
 
-    # TODO run all tasks
     Create-Users
     Create-Groups
     Deactivate-NotRequieredUsers

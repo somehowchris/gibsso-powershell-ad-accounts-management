@@ -3,6 +3,6 @@ function Logger($message) {
 }
 function Logger-WithMessage($message) {
     Logger($message)
-    Write-Host $messge
+    Write-Host $message
 }
 

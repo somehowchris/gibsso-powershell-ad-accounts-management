@@ -6,6 +6,7 @@ function Find-ExistingAccount([String]$username) {
         return (Get-ADUser -Filter "SamAccountName -eq ""$username""" -SearchBase "OU=$global:UserOU,OU=$global:MainOU,DC=m122g,DC=local" -Properties MemberOf)
     }
     catch {
+        return $false
         Logger("Access denied to search in AD")
     }
 }
@@ -64,9 +65,9 @@ function Remove-AccountFromGroup([String]$username, [String]$groupname) {
         $user = Find-ExistingAccount($username)
         Remove-ADGroupMember -Identity $group -Members $user -Confirm:$false
         Logger("Removed ${username} from group GISO_${groupname}")
-    }catch(
+    }catch{
         Logger("Couldnt remove ${username} from ${groupname}")
-    )
+    }
 }
 function Get-AllADUsers() {
     try {
