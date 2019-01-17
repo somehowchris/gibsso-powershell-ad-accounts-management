@@ -1,13 +1,13 @@
-function convert-XmlToCsv {
+function Convert-XmlToCsv {
     # Read from file
     [xml]$inputFile = Get-Content $global:xmlPath
 
     # Remove old and create new CSV
-    Remove-Item $global:csvPath -Force | Out-Null
-    New-Item $global:csvPath -ItemType File -Force | Out-Null
+    Remove-Item $global:CSVPath -Force | Out-Null
+    New-Item $global:CSVPath -ItemType File -Force | Out-Null
 
     # Set separator in file
-    #Set-Content -Value "sep=;" -Path $global:csvPath -Encoding $global:encoding
+    #Set-Content -Value "sep=;" -Path $global:CSVPath -Encoding $global:Encoding
 
     # Create fields for "stammklasse" und "zweitausbildung_stammklasse"
     $inputFile.ad.schueler | ForEach-Object {
@@ -32,7 +32,7 @@ function convert-XmlToCsv {
     $profiles = $inputFile.SelectNodes('//ad/schueler/profile')
     foreach ($profile in $profiles) {
         $profile.ParentNode.RemoveChild($profile) | Out-Null
-    } # | ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:csvPath -Encoding $global:encoding
+    } # | ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:CSVPath -Encoding $global:Encoding
 
     # Export xml as csv
     $inputFile.ad.schueler  | Where-Object {$_.status -eq "1"} | ForEach-Object {
@@ -41,9 +41,9 @@ function convert-XmlToCsv {
         }
     }
 
-    $inputFile.ad.schueler  | Where-Object {$_.status -eq "1"} |  ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:csvPath -Encoding $global:encoding
+    $inputFile.ad.schueler  | Where-Object {$_.status -eq "1"} |  ConvertTo-Csv -NoTypeInformation -Delimiter ";"| Add-Content -Path $global:CSVPath -Encoding $global:Encoding
 }
-function read-Csv {
+function Read-CSV {
     # TODO Remove Select-Object for only the first 25
-    $global:csvContent = Import-Csv -Delimiter ";" -Path $global:csvPath -Encoding $global:encoding
+    $global:csvContent = Import-Csv -Delimiter ";" -Path $global:CSVPath -Encoding $global:Encoding
 }

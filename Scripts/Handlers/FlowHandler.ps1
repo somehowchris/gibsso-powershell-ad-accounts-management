@@ -1,6 +1,6 @@
 . "$PSScriptRoot\TaskHandler.ps1"
 . "$PSScriptRoot\..\Logger.ps1"
-function initial-userInput() {
+function Initial-UserInput {
     # TODO ask user to run selected Tasks or whole script
     Clear-Host
     do {
@@ -14,35 +14,35 @@ function initial-userInput() {
         switch ($selection) {
             '1' {
                 Clear-Host
-                log("Handing over to run full script");
-                run-fullScript
+                Logger("Handing over to run full script");
+                Run-FullScript
                 return
             }
             '2' {
                 Clear-Host
-                log("Handing over to run paritial scripts");
-                run-selectableScript
+                Logger("Handing over to run paritial scripts");
+                Run-SelectableScript
                 return
             }
             'q' {
                 Clear-Host
-                log("Terminating by user input");
+                Logger("Terminating by user input");
                 return
             }
             Default {
                 Clear-Host
-                log("Didnt recognize user input");
+                Logger("Didnt recognize user input");
                 Write-Host "You didn't enter a valid option`n" -ForegroundColor Red
             }
         }
     } until ($input -eq 'q')
 }
-function run-selectableScript {
+function Run-SelectableScript {
     Write-Host "Converting XML to CSV"
     Write-Host "This might take some seconds"
     XMLtoCSV
     Write-Host "Loading freshly converted CSV"
-    loadCSV
+    Load-CSV
 
     # TODO ask user to select Script & run it
     Clear-Host
@@ -63,71 +63,71 @@ function run-selectableScript {
         switch ($scriptSelection) {
             '1' {
                 Clear-Host
-                log("Start creating and updating users");
-                createOrUpdateUsers
+                Logger("Start creating and updating users");
+                Create-Users
             }
             '2' {
                 Clear-Host
-                log("Start creating and updating groups");
-                createOrUpdateGroups
+                Logger("Start creating and updating groups");
+                Create-Groups
             }
             '3' {
                 Clear-Host
-                log("Start deactivating not mentioned users");
-                deactivateNotMentionedUsers
+                Logger("Start deactivating not mentioned users");
+                Deactivate-NotRequieredUsers
             }
             '4' {
                 Clear-Host
-                log("Start deleting not mentioned users");
-                deleteNotMentionedGroups
+                Logger("Start deleting not mentioned users");
+                Delete-NotRequieredGroups
             }
             '5' {
                 Clear-Host
-                log("Start assosiating accounts to groups");
-                assosiateAccountsToGroups
+                Logger("Start assosiating accounts to groups");
+                Assosiate-UsersToGroups
             }
             '6' {
                 Clear-Host
-                log("Start creating group directories");
-                createGroupDirectories
+                Logger("Start creating group directories");
+                Create-GroupDirectories
             }
             '7' {
                 Clear-Host
-                log("Start creaing personal directories");
-                createUserDirectories
+                Logger("Start creaing personal directories");
+                Create-UserDirectories
             }
             '8' {
                 Clear-Host
-                log("Start renaming unused directories");
-                renameUnusedDirectories
+                Logger("Start renaming unused directories");
+                Rename-OldDirectories
             }
             'q' {
                 Clear-Host
-                log("Terminating by user input");
+                Logger("Terminating by user input");
                 return
             }
             Default {
                 Clear-Host
-                log("Didnt recognize user input");
+                Logger("Didnt recognize user input");
                 Write-Host "You didn't enter a valid option`n" -ForegroundColor Red
             }
         }
     } until ($input -eq 'q')
 }
-function run-fullScript {
+function Run-FullScript {
     # TODO convert XML to CSV
     XMLtoCSV
 
     # TODO load CSV
-    loadCSV
+    Load-CSV
 
     # TODO run all tasks
-    createOrUpdateUsers
-    createOrUpdateGroup
-    deactivateNotMentionedUsers
-    deleteNotMentionedGroups
-    assosiateAccountsToGroups
-    createGroupDirectory
-    createUserDirectory
-    renameUnusedDirectories
+    Create-Users
+    Create-Groups
+    Deactivate-NotRequieredUsers
+    Delete-NotRequieredGroups
+    Assosiate-UsersToGroups
+    Create-GroupDirectories
+    Create-UserDirectories
+    Rename-OldDirectories
 }
