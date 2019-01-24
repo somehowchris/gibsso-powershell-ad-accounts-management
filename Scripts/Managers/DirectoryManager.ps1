@@ -9,9 +9,8 @@ function Set-DirectoryUnused($base, $addon, $nr) {
             if (Test-Path -Path (Join-Path -Path $base -ChildPath "unused_${addon}${nr}")) {
                 if ($nr -eq "") {
                     $nr = 0
-                } else {
-                    $nr = $nr + 1
                 }
+                $nr++
                 Set-DirectoryUnused $base $addon $nr
             } else {
                 Logger("Renaming $addon to unused")
