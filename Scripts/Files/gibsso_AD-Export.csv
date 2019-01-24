@@ -1,7 +1,7 @@
-"username";"initpw";"id";"name";"vorname";"geburtsdatum";"geschlecht";"kuerzel";"mail";"status";"ldap_export";"stammklasse";"zweitausbildung_stammklasse"
+﻿"username";"initpw";"id";"name";"vorname";"geburtsdatum";"geschlecht";"kuerzel";"mail";"status";"ldap_export";"stammklasse";"zweitausbildung_stammklasse"
 "nicola.frey";"";"gibsso502906";"Frey";"Nicola";"2002-10-06";"m";"-";"nicola.frey@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
 "jan.geisser";"";"gibsso502790";"Geisser";"Jan";"2001-03-12";"m";"-";"jan.geisser@bbzsogr.ch";"1";"1";"PKB17A";"BM1_TE17A"
-"sarah.schroeter";"";"gibsso500200";"Schröter";"Sarah";"2002-01-03";"w";"-";"sarah.schroeter@bbzsogr.ch";"1";"1";"INF17S";"BM1_TE17A"
+"sarah.schroeter";"";"gibsso500200";"SchrÃ¶ter";"Sarah";"2002-01-03";"w";"-";"sarah.schroeter@bbzsogr.ch";"1";"1";"INF17S";"BM1_TE17A"
 "jana.slezinger";"";"gibsso502973";"Slezinger";"Jana";"2001-07-20";"w";"-";"jana.slezinger@bbzsogr.ch";"1";"1";"DRO18A";
 "leif.sterchi";"";"gibsso501859";"Sterchi";"Leif";"2000-07-12";"m";"-";"leif.sterchi@bbzsogr.ch";"1";"1";"INF17S";"BM1_TE17A"
 "fabian.wenk";"";"gibsso502744";"Wenk";"Fabian";"2001-01-09";"m";"-";"fabian.wenk@bbzsogr.ch";"1";"1";"PKB17A";"BM1_TE17A"
@@ -13,7 +13,7 @@
 "nicola.temporal";"";"gibsso501861";"Temporal";"Nicola";"2000-05-04";"m";"-";"nicola.temporal@bbzsogr.ch";"1";"1";"INF17A";"BM1_TE17A"
 "florin.barbisch";"";"gibsso500126";"Barbisch";"Florin";"2001-08-05";"m";"-";"florin.barbisch@bbzsogr.ch";"1";"1";"INF17A";"BM1_TE17A"
 "joel.kamber";"";"gibsso502974";"Kamber";"Joel";"2001-12-05";"m";"-";"joel.kamber@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18A"
-"fabio.mueller";"";"gibsso502935";"Müller";"Fabio";"2002-08-17";"m";"-";"fabio.mueller@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18B"
+"fabio.mueller";"";"gibsso502935";"MÃ¼ller";"Fabio";"2002-08-17";"m";"-";"fabio.mueller@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18B"
 "remo.misteli";"";"gibsso502921";"Misteli";"Remo";"2001-07-13";"m";"-";"remo.misteli@bbzsogr.ch";"1";"1";"INF18B";
 "raphaelfabian.hofer";"";"gibsso502865";"Hofer";"Raphael Fabian";"2000-08-11";"m";"-";"raphaelfabian.hofer@bbzsogr.ch";"1";"1";"INF18A";
 "fabian.affolter";"";"gibsso502519";"Affolter";"Fabian";"2000-02-01";"m";"-";"fabian.affolter@bbzsogr.ch";"1";"1";"VWB17B";
@@ -24,14 +24,14 @@
 "damian.baumann";"";"gibsso502763";"Baumann";"Damian";"1999-08-19";"m";"-";"damian.baumann@bbzsogr.ch";"1";"1";"AUA17A";
 "kevin.berki";"";"gibsso503195";"Berki";"Kevin";"1998-09-02";"m";"-";"kevin.berki@bbzsogr.ch";"1";"1";"Ex";
 "nicolas.bettschen";"";"gibsso315003";"Bettschen";"Nicolas";"1997-08-04";"m";"-";"nicolas.bettschen@bbzsogr.ch";"1";"1";"BM2_TE18A";
-"talisa.bluelle";"";"gibsso502440";"Blülle";"Talisa Chiara Rea";"2000-05-02";"w";"-";"talisachiararea.bluelle@bbzsogr.ch";"1";"1";"VWB17C";
+"talisa.bluelle";"";"gibsso502440";"BlÃ¼lle";"Talisa Chiara Rea";"2000-05-02";"w";"-";"talisachiararea.bluelle@bbzsogr.ch";"1";"1";"VWB17C";
 "carlos.casanova";"";"gibsso502654";"Casanova Moure";"Carlos";"1998-08-17";"m";"-";"carlos.casanovamoure@bbzsogr.ch";"1";"1";"VWB17B";
 "mattia.chirico";"";"gibsso502652";"Chirico";"Mattia";"1998-11-22";"m";"-";"mattia.chirico@bbzsogr.ch";"1";"1";"VWB17C";
 "lia.digiacinto";"";"gibsso502575";"Di Giacinto";"Lia";"2000-02-22";"w";"-";"lia.digiacinto@bbzsogr.ch";"1";"1";"VWB17C";
 "leon.duppenthaler";"";"gibsso502731";"Duppenthaler";"Leon";"1999-10-16";"m";"-";"leon.duppenthaler@bbzsogr.ch";"1";"1";"VWB17C";
 "ivan.eberhard";"";"gibsso313749";"Eberhard";"Ivan";"1997-12-09";"m";"-";"ivan.eberhard@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"nils.flueckiger";"";"gibsso502628";"Flückiger";"Nils";"1999-03-07";"m";"-";"nils.flueckiger@bbzsogr.ch";"1";"1";"VWB17A";
-"gabriel.fuerst";"";"gibsso315475";"Fürst";"Gabriel";"1998-07-03";"m";"-";"gabriel.fuerst@bbzsogr.ch";"1";"1";"BM2_TE18A";
+"nils.flueckiger";"";"gibsso502628";"FlÃ¼ckiger";"Nils";"1999-03-07";"m";"-";"nils.flueckiger@bbzsogr.ch";"1";"1";"VWB17A";
+"gabriel.fuerst";"";"gibsso315475";"FÃ¼rst";"Gabriel";"1998-07-03";"m";"-";"gabriel.fuerst@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "pascal.gadient";"";"gibsso502678";"Gadient";"Pascal";"1997-12-27";"m";"-";"pascal.gadient@bbzsogr.ch";"1";"1";"AUA17A";
 "ardian.gashi";"";"gibsso502233";"Gashi";"Ardian";"1999-09-13";"m";"-";"ardian.gashi@bbzsogr.ch";"1";"1";"AUA17A";
 "janine.henzi";"";"gibsso502458";"Henzi";"Janine";"2000-08-09";"w";"-";"janine.henzi@bbzsogr.ch";"1";"1";"VWB17C";
@@ -62,7 +62,7 @@
 "sophia.kissling";"";"gibsso306776";"Kissling";"Sophia";"1995-05-09";"w";"-";"sophia.kissling@bbzsogr.ch";"1";"1";"BM1_TE15B";
 "julia.kristiansen";"";"gibsso304723";"Kristiansen";"Julia";"1999-05-31";"w";"-";"julia.kristiansen@bbzsogr.ch";"1";"1";"BM1_TE15B";
 "timo.ritter";"";"gibsso317529";"Ritter";"Timo";"1998-01-09";"m";"-";"timo.ritter@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"philipp.vondaeniken";"";"gibsso502377";"von Däniken";"Philipp";"1999-07-30";"m";"-";"philipp.vondaeniken@bbzsogr.ch";"1";"1";"VWB17B";
+"philipp.vondaeniken";"";"gibsso502377";"von DÃ¤niken";"Philipp";"1999-07-30";"m";"-";"philipp.vondaeniken@bbzsogr.ch";"1";"1";"VWB17B";
 "yves.witmer";"";"gibsso317863";"Witmer";"Yves";"1998-12-11";"m";"-";"yves.witmer@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "sven.zwahlen";"";"gibsso305077";"Zwahlen";"Sven";"1999-08-28";"m";"-";"sven.zwahlen@bbzsogr.ch";"1";"1";"BM1_TE15B";
 "sarah.gasser";"";"gibsso304891";"Gasser";"Sarah";"1999-11-20";"w";"-";"sarah.gasser@bbzsogr.ch";"1";"1";"BM1_TE15A";
@@ -70,9 +70,9 @@
 "robin.lorenz";"";"gibsso305065";"Lorenz";"Robin";"1998-11-26";"m";"-";"robin.lorenz@bbzsogr.ch";"1";"1";"BM1_TE15B";
 "michele.moraschini";"";"gibsso312861";"Moraschini";"Michele";"2000-04-12";"m";"-";"michele.moraschini@bbzsogr.ch";"1";"1";"BM1_TE16B";
 "marco.moser";"";"gibsso313689";"Moser";"Marco";"2000-07-22";"m";"-";"marco.moser@bbzsogr.ch";"1";"1";"BM1_TE16A";
-"luana.mueller2";"";"gibsso502063";"Müller";"Luana";"1999-05-19";"w";"-";"luana.mueller@bbzsogr.ch";"1";"1";"BM1_TE15A";
+"luana.mueller2";"";"gibsso502063";"MÃ¼ller";"Luana";"1999-05-19";"w";"-";"luana.mueller@bbzsogr.ch";"1";"1";"BM1_TE15A";
 "leander.palm";"";"gibsso309499";"Palm";"Leander";"1999-02-15";"m";"-";"leander.palm@bbzsogr.ch";"1";"1";"BM1_TE15A";
-"aaron.rueegger";"";"gibsso305327";"Rüegger";"Aaron";"1999-06-23";"m";"-";"aaron.rueegger@bbzsogr.ch";"1";"1";"BM1_TE15A BM1_TE15A";
+"aaron.rueegger";"";"gibsso305327";"RÃ¼egger";"Aaron";"1999-06-23";"m";"-";"aaron.rueegger@bbzsogr.ch";"1";"1";"BM1_TE15A BM1_TE15A";
 "najalis.steinmann";"";"gibsso304728";"Steinmann";"Naja Lis";"1999-02-03";"w";"-";"najalis.steinmann@bbzsogr.ch";"1";"1";"BM1_TE15A";
 "neal.stoll";"";"gibsso314120";"Stoll";"Neal";"2000-05-31";"m";"-";"neal.stoll@bbzsogr.ch";"1";"1";"BM1_TE16B";
 "adriatik.abdullahu";"";"gibsso318611";"Abdullahu";"Adriatik";"1983-09-05";"m";"-";"adriatik.abdullahu@bbzsogr.ch";"1";"1";"NPR17A";
@@ -87,7 +87,7 @@
 "robin.aeschlimann";"";"gibsso302069";"Aeschlimann";"Robin";"1999-07-10";"m";"-";"robin.aeschlimann@bbzsogr.ch";"1";"1";"INF15A";
 "janik.affolter";"";"gibsso312172";"Affolter";"Janik";"2001-04-08";"m";"-";"janik.affolter@bbzsogr.ch";"1";"1";"AUM16A";
 "aram.karem";"";"gibsso308910";"Ahmad Karem";"Aram";"1986-06-07";"m";"-";"aram.karem@bbzsogr.ch";"1";"1";"PKE15A";
-"hueseyin.akcay";"";"gibsso287702";"Akcay";"Hüseyin";"1995-07-03";"m";"-";"hueseyin.akcay@bbzsogr.ch";"1";"1";"BM2_TE18A";
+"hueseyin.akcay";"";"gibsso287702";"Akcay";"HÃ¼seyin";"1995-07-03";"m";"-";"hueseyin.akcay@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "louay.alali";"";"gibsso312960";"Al Ali";"Mohamad Louay";"1999-03-08";"m";"-";"louay.alali@bbzsogr.ch";"1";"1";"PRM16C";
 "rana.ali";"";"gibsso317733";"Ali";"Rana";"2000-03-02";"w";"-";"rana.ali@bbzsogr.ch";"1";"1";"KOE18A";
 "shendrit.aliu";"";"gibsso307337";"Aliu";"Shendrit";"1998-09-25";"m";"-";"shendrit.aliu@bbzsogr.ch";"1";"1";"PKE15A";
@@ -98,9 +98,9 @@
 "stefan.arnold";"";"gibsso304379";"Arnold";"Stefan";"1999-11-11";"m";"-";"stefan.arnold@bbzsogr.ch";"1";"1";"ELT15A";"BM1_TE15A"
 "driton.avdili";"";"gibsso311651";"Avdili";"Driton";"2000-12-04";"m";"-";"driton.avdili@bbzsogr.ch";"1";"1";"PRM16B";
 "luca.bachmann";"";"gibsso313870";"Bachmann";"Luca";"2000-07-26";"m";"-";"luca.bachmann@bbzsogr.ch";"1";"1";"INF16A";"BM1_TE16B"
-"ramon.baer";"";"gibsso297764";"Bär";"Ramon";"1999-01-15";"m";"-";"ramon.baer@bbzsogr.ch";"1";"1";"KOE16B";
+"ramon.baer";"";"gibsso297764";"BÃ¤r";"Ramon";"1999-01-15";"m";"-";"ramon.baer@bbzsogr.ch";"1";"1";"KOE16B";
 "mike.barrer";"";"gibsso303790";"Barrer";"Mike";"2000-04-22";"m";"-";"mike.barrer@bbzsogr.ch";"1";"1";"PMG15A";
-"joshua.baertschi";"";"gibsso306191";"Bärtschi";"Joshua";"2000-02-07";"m";"-";"joshua.baertschi@bbzsogr.ch";"1";"1";"PMG15A";
+"joshua.baertschi";"";"gibsso306191";"BÃ¤rtschi";"Joshua";"2000-02-07";"m";"-";"joshua.baertschi@bbzsogr.ch";"1";"1";"PMG15A";
 "marcoluc.baumann";"";"gibsso313805";"Baumann";"Marco Luc";"2000-08-13";"m";"-";"marcoluc.baumann@bbzsogr.ch";"1";"1";"PKE16A";
 "sammy.baumann";"";"gibsso316693";"Baumann";"Sammy";"2000-05-26";"m";"-";"sammy.baumann@bbzsogr.ch";"1";"1";"AUM16A";
 "lukas.baumgartner";"";"gibsso314774";"Baumgartner";"Lukas";"1999-03-29";"m";"-";"lukas.baumgartner@bbzsogr.ch";"1";"1";"AUF16A";
@@ -121,18 +121,18 @@
 "pascal.borel";"";"gibsso303944";"Borel";"Pascal";"1998-07-10";"m";"-";"pascal.borel@bbzsogr.ch";"1";"1";"INF15A";"BM1_TE15B"
 "larissa.borer";"";"gibsso303791";"Borer";"Larissa";"1999-07-04";"w";"-";"larissa.borer@bbzsogr.ch";"1";"1";"PMG15B";
 "antonio.bosankic";"";"gibsso302068";"Bosankic";"Antonio";"1999-05-17";"m";"-";"antonio.bosankic@bbzsogr.ch";"1";"1";"INF15A";"BM1_TE15A"
-"jennifer.boesch";"";"gibsso313332";"Bösch";"Jennifer";"2000-09-12";"w";"-";"jennifer.boesch@bbzsogr.ch";"1";"1";"DRO16A";
+"jennifer.boesch";"";"gibsso313332";"BÃ¶sch";"Jennifer";"2000-09-12";"w";"-";"jennifer.boesch@bbzsogr.ch";"1";"1";"DRO16A";
 "ramon.brand";"";"gibsso315830";"Brand";"Ramon";"2000-10-01";"m";"-";"ramon.brand@bbzsogr.ch";"1";"1";"PMG16A";
 "marcel.braun";"";"gibsso317766";"Braun";"Marcel";"1997-05-13";"m";"-";"marcel.braun@bbzsogr.ch";"1";"1";"KOE16C";
-"jan.bruegger";"";"gibsso297763";"Brügger";"Jan";"1997-12-12";"m";"-";"jan.bruegger@bbzsogr.ch";"1";"1";"KOE16B";
+"jan.bruegger";"";"gibsso297763";"BrÃ¼gger";"Jan";"1997-12-12";"m";"-";"jan.bruegger@bbzsogr.ch";"1";"1";"KOE16B";
 "laurent.bruttin";"";"gibsso317949";"Bruttin";"Laurent";"1998-03-29";"m";"-";"laurent.bruttin@bbzsogr.ch";"1";"1";"BM1_TE16A";
 "timo.buchser";"";"gibsso313621";"Buchser";"Timo";"2000-09-02";"m";"-";"timo.buchser@bbzsogr.ch";"1";"1";"Ex";
-"rahel.buehler";"";"gibsso293115";"Bühler";"Rahel";"1999-01-11";"w";"-";"rahel.buehler@bbzsogr.ch";"1";"1";"BM2_TE18A";
+"rahel.buehler";"";"gibsso293115";"BÃ¼hler";"Rahel";"1999-01-11";"w";"-";"rahel.buehler@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "hongnhungdiana.bui";"";"gibsso316818";"Bui";"Hong Nhung Diana";"2000-07-14";"w";"-";"hongnhungdiana.bui@bbzsogr.ch";"1";"1";"WTG16A";
-"luana.buergi";"";"gibsso293347";"Bürgi";"Luana";"1998-03-16";"w";"-";"luana.buergi@bbzsogr.ch";"1";"1";"REF16A";
+"luana.buergi";"";"gibsso293347";"BÃ¼rgi";"Luana";"1998-03-16";"w";"-";"luana.buergi@bbzsogr.ch";"1";"1";"REF16A";
 "francesco.burgo";"";"gibsso312730";"Burgo";"Francesco";"1999-12-06";"m";"-";"francesco.burgo@bbzsogr.ch";"1";"1";"AUF16A";
-"jan.buettler";"";"gibsso314023";"Büttler";"Jan";"2000-06-12";"m";"-";"jan.buettler@bbzsogr.ch";"1";"1";"PME16A";
-"lukas.buettler";"";"gibsso311081";"Büttler";"Lukas";"2001-04-23";"m";"-";"lukas.buettler@bbzsogr.ch";"1";"1";"KOE16A";
+"jan.buettler";"";"gibsso314023";"BÃ¼ttler";"Jan";"2000-06-12";"m";"-";"jan.buettler@bbzsogr.ch";"1";"1";"PME16A";
+"lukas.buettler";"";"gibsso311081";"BÃ¼ttler";"Lukas";"2001-04-23";"m";"-";"lukas.buettler@bbzsogr.ch";"1";"1";"KOE16A";
 "michelle.carrel";"";"gibsso308404";"Carrel";"Michelle";"1999-11-15";"w";"-";"michelle.carrel@bbzsogr.ch";"1";"1";"REF16A";
 "leonardo.castro";"WK3NP74M5A";"gibsso317403";"Castro";"Leonardo";"1999-12-28";"m";"-";"leonardo.castro@bbzsogr.ch";"1";"1";"PKB16A";"BM1_TE16A"
 "asmir.celikovic";"";"gibsso314018";"Celikovic";"Asmir";"2000-10-20";"m";"-";"asmir.celikovic@bbzsogr.ch";"1";"1";"PRM16C";
@@ -146,16 +146,16 @@
 "luca.dantoni";"";"gibsso306101";"D'Antoni";"Luca";"1998-05-06";"m";"-";"luca.dantoni@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
 "nico.dantoni";"";"gibsso314779";"D'Antoni";"Nico";"2001-02-28";"m";"-";"nico.dantoni@bbzsogr.ch";"1";"1";"PKE16A";
 "narthana.dasan";"";"gibsso317612";"Dasan";"Narthana";"2000-06-06";"w";"-";"narthana.dasan@bbzsogr.ch";"1";"1";"INF16A";"BM1_TE16A"
-"benjamin.daetwyler";"";"gibsso297486";"Dätwyler";"Benjamin";"1997-08-22";"m";"-";"benjamin.daetwyler@bbzsogr.ch";"1";"1";"BM2_TE18A";
+"benjamin.daetwyler";"";"gibsso297486";"DÃ¤twyler";"Benjamin";"1997-08-22";"m";"-";"benjamin.daetwyler@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "pren.dedaj";"";"gibsso306693";"Dedaj";"Pren";"2000-02-01";"m";"-";"pren.dedaj@bbzsogr.ch";"1";"1";"PRM16A";
 "david.dedic";"";"gibsso312750";"Dedic";"David";"2000-02-26";"m";"-";"david.dedic@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16A"
-"celine.derendinger";"";"gibsso311472";"Derendinger";"Céline";"2000-06-17";"w";"-";"celine.derendinger@bbzsogr.ch";"1";"1";"KOE16A";
+"celine.derendinger";"";"gibsso311472";"Derendinger";"CÃ©line";"2000-06-17";"w";"-";"celine.derendinger@bbzsogr.ch";"1";"1";"KOE16A";
 "natalie.deutsch";"";"gibsso318576";"Deutsch";"Natalie";"2000-08-14";"w";"-";"natalie.deutsch@bbzsogr.ch";"1";"1";"WTG16A";
 "michael.diethelm";"";"gibsso303514";"Diethelm";"Michael";"2000-04-11";"m";"-";"michael.diethelm@bbzsogr.ch";"1";"1";"PMG15A";
 "loris.dietlin";"";"gibsso303941";"Dietlin";"Loris";"2000-01-02";"m";"-";"loris.dietlin@bbzsogr.ch";"1";"1";"PMG15B";
 "christian.dietschi";"";"gibsso304480";"Dietschi";"Christian";"1999-05-01";"m";"-";"christian.dietschi@bbzsogr.ch";"1";"1";"PMG15B";
 "stefan.djokic";"";"gibsso303669";"Djokic";"Stefan";"1999-11-04";"m";"-";"stefan.djokic@bbzsogr.ch";"1";"1";"AUM15A";
-"esna.doener";"";"gibsso312385";"Döner";"Esna";"2000-01-28";"w";"-";"esna.doener@bbzsogr.ch";"1";"1";"REF16A";
+"esna.doener";"";"gibsso312385";"DÃ¶ner";"Esna";"2000-01-28";"w";"-";"esna.doener@bbzsogr.ch";"1";"1";"REF16A";
 "livio.donofrio";"";"gibsso303183";"D'Onofrio";"Livio";"1999-07-04";"m";"-";"livio.donofrio@bbzsogr.ch";"1";"1";"PMG15B";
 "khalid.douch";"";"gibsso296125";"Douch";"Khalid";"1998-10-26";"m";"-";"khalid.douch@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "alexandra.dreher";"";"gibsso313593";"Dreher";"Alexandra";"2001-01-09";"w";"-";"alexandra.dreher@bbzsogr.ch";"1";"1";"REF16B";
@@ -164,12 +164,12 @@
 "mustapha.elsakakini";"";"gibsso317450";"El Sakakini";"Mustapha";"2000-01-14";"m";"-";"mustapha.elsakakini@bbzsogr.ch";"1";"1";"AUF16A";
 "gjelbrim.elezi";"";"gibsso315006";"Elezi";"Gjelbrim";"2000-10-29";"m";"-";"gjelbrim.elezi@bbzsogr.ch";"1";"1";"PRM16A";
 "qendrim.elezi";"";"gibsso315195";"Elezi";"Qendrim";"2000-10-29";"m";"-";"qendrim.elezi@bbzsogr.ch";"1";"1";"PRM16C";
-"alexander.elsaesser";"";"gibsso311614";"Elsässer";"Alexander";"2000-07-16";"m";"-";"alexander.elsaesser@bbzsogr.ch";"1";"1";"PMG16B";"VWB18C"
+"alexander.elsaesser";"";"gibsso311614";"ElsÃ¤sser";"Alexander";"2000-07-16";"m";"-";"alexander.elsaesser@bbzsogr.ch";"1";"1";"PMG16B";"VWB18C"
 "rebecca.emmenegger";"";"gibsso313101";"Emmenegger";"Rebecca";"1999-05-21";"w";"-";"rebecca.emmenegger@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16A"
 "ecehanarife.erken";"";"gibsso305422";"Erken";"Ecehan Arife";"2000-01-17";"w";"-";"ecehanarife.erken@bbzsogr.ch";"1";"1";"INF15A";
 "jan.escurriola";"";"gibsso312751";"Escurriola";"Jan";"2000-12-13";"m";"-";"jan.escurriola@bbzsogr.ch";"1";"1";"PKE16A";
 "elif.eser";"";"gibsso305114";"Eser";"Elif";"1999-04-06";"w";"-";"elif.eser@bbzsogr.ch";"1";"1";"KOE16A";
-"michele.espna";"";"gibsso315154";"Espana Montoya";"Michèle Maria-Isabel Lilian";"2000-07-29";"w";"-";"michele.espna@bbzsogr.ch";"1";"1";"REF16A";
+"michele.espna";"";"gibsso315154";"Espana Montoya";"MichÃ¨le Maria-Isabel Lilian";"2000-07-29";"w";"-";"michele.espna@bbzsogr.ch";"1";"1";"REF16A";
 "selam.eyasu";"";"gibsso317970";"Eyasu";"Selam";"1999-08-15";"w";"-";"selam.eyasu@bbzsogr.ch";"1";"1";"INVOL18B";
 "sebastian.fahrni";"";"gibsso306800";"Fahrni";"Sebastian";"1999-08-16";"m";"-";"sebastian.fahrni@bbzsogr.ch";"1";"1";"ELT15A";"VWB17A"
 "jannis.fankhauser";"";"gibsso303167";"Fankhauser";"Jannis Reto";"1999-10-05";"m";"-";"jannis.fankhauser@bbzsogr.ch";"1";"1";"PKE15A";"VWB17B"
@@ -182,22 +182,22 @@
 "karim.fiechter";"";"gibsso303454";"Fiechter";"Karim";"2000-04-25";"m";"-";"karim.fiechter@bbzsogr.ch";"1";"1";"PKE15A";
 "alisha.fillinger";"";"gibsso311086";"Fillinger";"Alisha";"2000-05-04";"w";"-";"alisha.fillinger@bbzsogr.ch";"1";"1";"REF16B";
 "andrea.fischer";"";"gibsso293267";"Fischer";"Andrea";"1998-06-18";"m";"-";"andrea.fischer@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"jonas.flueeli";"";"gibsso296236";"Flüeli";"Jonas";"1998-07-17";"m";"-";"jonas.flueeli@bbzsogr.ch";"1";"1";"AUM16A";
+"jonas.flueeli";"";"gibsso296236";"FlÃ¼eli";"Jonas";"1998-07-17";"m";"-";"jonas.flueeli@bbzsogr.ch";"1";"1";"AUM16A";
 "jonas.fluri";"";"gibsso304818";"Fluri";"Jonas";"1994-03-14";"m";"-";"jonas.fluri@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
 "jan.flury";"";"gibsso305421";"Flury";"Jan";"1999-11-24";"m";"-";"jan.flury@bbzsogr.ch";"1";"1";"PMG15A";
 "leander.flury";"";"gibsso311391";"Flury";"Leander";"2001-01-08";"m";"-";"leander.flury@bbzsogr.ch";"1";"1";"PME16A";"VWB18B"
 "sanja.flury";"";"gibsso312175";"Flury";"Sanja";"2000-12-07";"w";"-";"sanja.flury@bbzsogr.ch";"1";"1";"PME16A";"VWB18A"
 "michael.fomasi";"";"gibsso314838";"Fomasi";"Michael";"2000-08-01";"m";"-";"michael.fomasi@bbzsogr.ch";"1";"1";"AUF17A";
-"fabio.fraeulin";"";"gibsso303062";"Fräulin";"Fabio";"1998-07-06";"m";"-";"fabio.fraeulin@bbzsogr.ch";"1";"1";"INF15S";"BM1_TE15A"
+"fabio.fraeulin";"";"gibsso303062";"FrÃ¤ulin";"Fabio";"1998-07-06";"m";"-";"fabio.fraeulin@bbzsogr.ch";"1";"1";"INF15S";"BM1_TE15A"
 "jordi.freudiger";"";"gibsso303350";"Freudiger";"Jordi";"1999-09-15";"m";"-";"jordi.freudiger@bbzsogr.ch";"1";"1";"ELT15A";
 "lucas.frey";"";"gibsso312225";"Frey";"Lucas";"2000-01-22";"m";"-";"lucas.frey@bbzsogr.ch";"1";"1";"KOE16A";
 "cyrill.friedli";"";"gibsso317536";"Friedli";"Cyrill";"1998-08-07";"m";"-";"cyrill.friedli@bbzsogr.ch";"1";"1";"Ex";
 "fabiomaick.friedli";"";"gibsso312472";"Friedli";"Fabio Maick";"2000-11-19";"m";"-";"fabiomaick.friedli@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16A"
-"celine.fueeg";"";"gibsso317314";"Füeg";"Céline";"1999-10-16";"w";"-";"celine.fueeg@bbzsogr.ch";"1";"1";"AUF16B";
+"celine.fueeg";"";"gibsso317314";"FÃ¼eg";"CÃ©line";"1999-10-16";"w";"-";"celine.fueeg@bbzsogr.ch";"1";"1";"AUF16B";
 "jarno.fuhrer";"";"gibsso302224";"Fuhrer";"Jarno";"1999-05-01";"m";"-";"jarno.fuhrer@bbzsogr.ch";"1";"1";"KOE16A";
 "livio.furrer";"";"gibsso311087";"Furrer";"Livio";"2000-05-21";"m";"-";"livio.furrer@bbzsogr.ch";"1";"1";"AUM16A";"VWB18A"
-"christian.fuerst";"";"gibsso312133";"Fürst";"Christian";"1988-07-22";"m";"-";"christian.fuerst@bbzsogr.ch";"1";"1";"INF16A";
-"kevin.fuerst";"";"gibsso266013";"Fürst";"Kevin";"1990-09-27";"m";"-";"kevin.fuerst@bbzsogr.ch";"1";"1";"KOE16A";
+"christian.fuerst";"";"gibsso312133";"FÃ¼rst";"Christian";"1988-07-22";"m";"-";"christian.fuerst@bbzsogr.ch";"1";"1";"INF16A";
+"kevin.fuerst";"";"gibsso266013";"FÃ¼rst";"Kevin";"1990-09-27";"m";"-";"kevin.fuerst@bbzsogr.ch";"1";"1";"KOE16A";
 "patrikanton.gaberell";"";"gibsso306103";"Gaberell";"Patrik";"1999-03-24";"m";"-";"patrikanton.gaberell@bbzsogr.ch";"1";"1";"PKE15A";
 "jerome.galli";"";"gibsso316810";"Galli";"Jerome";"1995-12-10";"m";"-";"jerome.galli@bbzsogr.ch";"1";"1";"PKE15A";
 "alessandro.gambardel";"";"gibsso293699";"Gambardelli";"Alessandro";"1995-08-28";"m";"-";"alessandro.gambardelli@bbzsogr.ch";"1";"1";"PRM16A";
@@ -212,7 +212,7 @@
 "colin.gerber";"";"gibsso311178";"Gerber";"Colin";"2000-01-25";"m";"-";"colin.gerber@bbzsogr.ch";"1";"1";"PKE16A";
 "jonas.gerber";"";"gibsso303788";"Gerber";"Jonas Manuel";"1999-05-22";"m";"-";"jonas.gerber@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
 "erin.giezendanner";"";"gibsso304409";"Giezendanner";"Erin";"2000-03-01";"w";"-";"erin.giezendanner@bbzsogr.ch";"1";"1";"INF15A";"VWB17A"
-"joel.gilgen";"";"gibsso285661";"Gilgen";"Joël";"1997-08-24";"m";"-";"joel.gilgen@bbzsogr.ch";"1";"1";"PMG15A";
+"joel.gilgen";"";"gibsso285661";"Gilgen";"JoÃ«l";"1997-08-24";"m";"-";"joel.gilgen@bbzsogr.ch";"1";"1";"PMG15A";
 "leo.girard";"";"gibsso311621";"Girard";"Leo";"2000-12-26";"m";"-";"leo.girard@bbzsogr.ch";"1";"1";"PMG16B";"VWB18B"
 "nicolas.giroud";"";"gibsso306192";"Giroud";"Nicolas";"1999-06-12";"m";"-";"nicolas.giroud@bbzsogr.ch";"1";"1";"PMG15A";
 "kristian.gjoklaj";"";"gibsso311091";"Gjoklaj";"Kristian";"1999-03-16";"m";"-";"kristian.gjoklaj@bbzsogr.ch";"1";"1";"PRM16B";
@@ -224,17 +224,17 @@
 "anicia.grotti";"";"gibsso312905";"Grotti";"Anicia";"1999-12-07";"w";"-";"anicia.grotti@bbzsogr.ch";"1";"1";"DRO16A";
 "darius.gschwind";"";"gibsso315562";"Gschwind";"Darius";"1999-11-03";"m";"-";"darius.gschwind@bbzsogr.ch";"1";"1";"PRM16A";
 "andrin.guldimann";"";"gibsso308148";"Guldimann";"Andrin";"1999-04-14";"m";"-";"andrin.guldimann@bbzsogr.ch";"1";"1";"REF16B";
-"cedric.guenther";"";"gibsso316185";"Günther";"Cédric";"2000-05-16";"m";"-";"cedric.guenther@bbzsogr.ch";"1";"1";"PRM17B";
+"cedric.guenther";"";"gibsso316185";"GÃ¼nther";"CÃ©dric";"2000-05-16";"m";"-";"cedric.guenther@bbzsogr.ch";"1";"1";"PRM17B";
 "nick.gutmann";"";"gibsso311471";"Gutmann";"Nick";"2000-11-10";"m";"-";"nick.gutmann@bbzsogr.ch";"1";"1";"PMG16A";"VWB18B"
 "sven.habegger";"";"gibsso316064";"Habegger";"Sven";"2000-09-01";"m";"-";"sven.habegger@bbzsogr.ch";"1";"1";"AUF16B";
 "larissa.haefeli";"";"gibsso313868";"Haefeli";"Larissa Selina";"1999-01-03";"w";"-";"larissa.haefeli@bbzsogr.ch";"1";"1";"KOE17A";
 "nicolasyves.haefeli";"";"gibsso312749";"Haefeli";"Nicolas Yves";"1999-06-29";"m";"-";"nicolasyves.haefeli@bbzsogr.ch";"1";"1";"INF16S";
-"robin.haefeli";"";"gibsso312518";"Häfeli";"Robin";"2001-01-03";"m";"-";"robin.haefeli@bbzsogr.ch";"1";"1";"PRM16A";
+"robin.haefeli";"";"gibsso312518";"HÃ¤feli";"Robin";"2001-01-03";"m";"-";"robin.haefeli@bbzsogr.ch";"1";"1";"PRM16A";
 "noemi.hafner";"";"gibsso311442";"Hafner";"Noemi";"2000-04-07";"w";"-";"noemi.hafner@bbzsogr.ch";"1";"1";"PKE16A";
 "virgile.hagmann";"";"gibsso300758";"Hagmann";"Virgile";"1998-12-12";"m";"-";"virgile.hagmann@bbzsogr.ch";"1";"1";"BM2_TE18B";
 "alain.haldi";"";"gibsso311619";"Haldi";"Alain";"2000-08-10";"m";"-";"alain.haldi@bbzsogr.ch";"1";"1";"PME16A";"VWB18A"
 "samuel.haller";"";"gibsso293662";"Haller";"Samuel";"1999-03-04";"m";"-";"samuel.haller@bbzsogr.ch";"1";"1";"REF16A";
-"fabian.haenzi";"";"gibsso305067";"Hänzi";"Fabian";"2000-01-20";"m";"-";"fabian.haenzi@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
+"fabian.haenzi";"";"gibsso305067";"HÃ¤nzi";"Fabian";"2000-01-20";"m";"-";"fabian.haenzi@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
 "annina.hardmeier";"";"gibsso313020";"Hardmeier";"Annina";"2000-02-12";"w";"-";"annina.hardmeier@bbzsogr.ch";"1";"1";"WTG16A";
 "filmawit.hasho";"";"gibsso317972";"Hasho";"Filmawit";"2000-10-31";"w";"-";"filmawit.hasho@bbzsogr.ch";"1";"1";"IJBV18C";
 "nema.hassen";"";"gibsso309391";"Hassen";"Nema";"1995-02-01";"w";"-";"nema.hassen@bbzsogr.ch";"1";"1";"KUA17A";
@@ -245,17 +245,17 @@
 "nico.herrmann";"";"gibsso312076";"Herrmann";"Nico";"2000-06-24";"m";"-";"nico.herrmann@bbzsogr.ch";"1";"1";"INF16S";
 "jason.herzig";"";"gibsso304483";"Herzig";"Jason";"1999-10-19";"m";"-";"jason.herzig@bbzsogr.ch";"1";"1";"PRM16A";
 "luana.herzog";"";"gibsso313498";"Herzog";"Luana";"2000-07-28";"w";"-";"luana.herzog@bbzsogr.ch";"1";"1";"INF16S";
-"leon.hesse";"";"gibsso304324";"Hesse";"Léon";"1999-04-23";"m";"-";"leon.hesse@bbzsogr.ch";"1";"1";"DRO15A";
+"leon.hesse";"";"gibsso304324";"Hesse";"LÃ©on";"1999-04-23";"m";"-";"leon.hesse@bbzsogr.ch";"1";"1";"DRO15A";
 "jeremyluca.hirschi";"";"gibsso314024";"Hirschi";"Jeremy Luca";"2000-03-01";"m";"-";"jeremyluca.hirschi@bbzsogr.ch";"1";"1";"PMG16A";
 "lorenz.hubler";"";"gibsso311585";"Hubler";"Lorenz";"2001-01-07";"m";"-";"lorenz.hubler@bbzsogr.ch";"1";"1";"PKE16A";"VWB18A"
-"jill.huegli";"";"gibsso315553";"Hügli";"Jill";"2001-03-07";"w";"-";"jill.huegli@bbzsogr.ch";"1";"1";"WTG16A";
+"jill.huegli";"";"gibsso315553";"HÃ¼gli";"Jill";"2001-03-07";"w";"-";"jill.huegli@bbzsogr.ch";"1";"1";"WTG16A";
 "tom.huguenin";"";"gibsso312174";"Huguenin";"Tom";"1999-11-03";"m";"-";"tom.huguenin@bbzsogr.ch";"1";"1";"PRM16A";
 "joris.hummel";"";"gibsso311520";"Hummel";"Joris";"2001-01-16";"m";"-";"joris.hummel@bbzsogr.ch";"1";"1";"PME16A";"VWB18C"
 "janis.huser";"";"gibsso311947";"Huser";"Janis";"2001-02-05";"m";"-";"janis.huser@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16A"
 "mensur.ibrahim";"";"gibsso317938";"Ibrahim";"Mensur";"1995-01-01";"m";"-";"mensur.ibrahim@bbzsogr.ch";"1";"1";"KUA18A";
 "elias.ingold2";"";"gibsso316974";"Ingold";"Elias";"2000-01-16";"m";"-";"elias.ingold2@bbzsogr.ch";"1";"1";"INF16A";"BM1_TE16B"
 "selman.isovic";"";"gibsso311618";"Isovic";"Selman";"2000-07-11";"m";"-";"selman.isovic@bbzsogr.ch";"1";"1";"PRM16A";
-"joel.jaeggi";"";"gibsso307232";"Jäggi";"Joel";"1998-09-17";"m";"-";"joel.jaeggi@bbzsogr.ch";"1";"1";"PKE15A";
+"joel.jaeggi";"";"gibsso307232";"JÃ¤ggi";"Joel";"1998-09-17";"m";"-";"joel.jaeggi@bbzsogr.ch";"1";"1";"PKE15A";
 "gian.jakob";"";"gibsso293528";"Jakob";"Gian";"1999-01-10";"m";"-";"gian.jakob@bbzsogr.ch";"1";"1";"AUM15A";
 "joel.javet";"";"gibsso311173";"Javet";"Joel";"1999-05-29";"m";"-";"joel.javet@bbzsogr.ch";"1";"1";"AUF16A";
 "luka.jedrinovic";"";"gibsso317609";"Jedrinovic";"Luka";"2000-05-14";"m";"-";"luka.jedrinovic@bbzsogr.ch";"1";"1";"PMG16A";
@@ -263,17 +263,17 @@
 "amanda.jeker";"";"gibsso312517";"Jeker";"Amanda";"1999-12-14";"w";"-";"amanda.jeker@bbzsogr.ch";"1";"1";"DRO16A";
 "patric.jeker";"";"gibsso309102";"Jeker";"Patric";"1998-12-15";"m";"-";"patric.jeker@bbzsogr.ch";"1";"1";"INF15S";
 "michael.jetzer";"";"gibsso303908";"Jetzer";"Michael";"1999-11-10";"m";"-";"michael.jetzer@bbzsogr.ch";"1";"1";"PMG15B";
-"nicola.joehr";"";"gibsso314772";"Jöhr";"Nicola";"1997-08-03";"m";"-";"nicola.joehr@bbzsogr.ch";"1";"1";"PRM16C";
+"nicola.joehr";"";"gibsso314772";"JÃ¶hr";"Nicola";"1997-08-03";"m";"-";"nicola.joehr@bbzsogr.ch";"1";"1";"PRM16C";
 "ruben.jordi";"";"gibsso311287";"Jordi";"Ruben";"2000-08-02";"m";"-";"ruben.jordi@bbzsogr.ch";"1";"1";"KOE16B";
-"samuel.joeri";"";"gibsso306332";"Jöri";"Samuel";"2000-03-04";"m";"-";"samuel.joeri@bbzsogr.ch";"1";"1";"PKE15A";
+"samuel.joeri";"";"gibsso306332";"JÃ¶ri";"Samuel";"2000-03-04";"m";"-";"samuel.joeri@bbzsogr.ch";"1";"1";"PKE15A";
 "tom.jost";"";"gibsso316511";"Jost";"Tom";"1995-02-17";"m";"-";"tom.jost@bbzsogr.ch";"1";"1";"KOE16B";
 "stefan.jovanovic";"";"gibsso311392";"Jovanovic";"Stefan";"1999-09-15";"m";"-";"stefan.jovanovic@bbzsogr.ch";"1";"1";"PMG16A";
 "ivana.jozic";"";"gibsso315007";"Jozic";"Ivana";"2000-11-13";"w";"-";"ivana.jozic@bbzsogr.ch";"1";"1";"REF16A";
 "fahir.jusufi";"";"gibsso314028";"Jusufi";"Fahir";"1999-11-20";"m";"-";"fahir.jusufi@bbzsogr.ch";"1";"1";"PME16A";"VWB18B"
-"neiljan.juettner";"";"gibsso312036";"Jüttner";"Neil Jan";"2000-09-13";"m";"-";"neiljan.juettner@bbzsogr.ch";"1";"1";"AUM16A";
+"neiljan.juettner";"";"gibsso312036";"JÃ¼ttner";"Neil Jan";"2000-09-13";"m";"-";"neiljan.juettner@bbzsogr.ch";"1";"1";"AUM16A";
 "christian.kahlert";"";"gibsso315112";"Kahlert";"Christian";"2001-02-13";"m";"-";"christian.kahlert@bbzsogr.ch";"1";"1";"PMG16A";
 "iris.kaiser";"";"gibsso293238";"Kaiser";"Iris";"1999-01-08";"w";"-";"iris.kaiser@bbzsogr.ch";"1";"1";"DRO15A";
-"chiara.kaeppeli";"";"gibsso312346";"Käppeli";"Chiara";"2000-03-12";"w";"-";"chiara.kaeppeli@bbzsogr.ch";"1";"1";"DRO16A";
+"chiara.kaeppeli";"";"gibsso312346";"KÃ¤ppeli";"Chiara";"2000-03-12";"w";"-";"chiara.kaeppeli@bbzsogr.ch";"1";"1";"DRO16A";
 "laura.kappler";"";"gibsso304535";"Kappler";"Laura";"1999-09-24";"w";"-";"laura.kappler@bbzsogr.ch";"1";"1";"REF16A";
 "aykut.karabas";"";"gibsso311649";"Karabas";"Aykut";"2000-06-13";"m";"-";"aykut.karabas@bbzsogr.ch";"1";"1";"PRM16B";
 "benjamin.karabasic";"";"gibsso317610";"Karabasic";"Benjamin";"2000-09-05";"m";"-";"benjamin.karabasic@bbzsogr.ch";"1";"1";"PMG16A";
@@ -297,13 +297,13 @@
 "kaltrina.kqira";"";"gibsso315680";"Kqira";"Kaltrina";"1999-10-27";"w";"-";"kaltrina.kqira@bbzsogr.ch";"1";"1";"REF16A";
 "pascal.kradolfer";"";"gibsso303065";"Kradolfer";"Pascal";"2000-03-23";"m";"-";"pascal.kradolfer@bbzsogr.ch";"1";"1";"PMG15A";"VWB17A"
 "gabriel.kuhn";"";"gibsso311093";"Kuhn";"Gabriel";"1999-07-17";"m";"-";"gabriel.kuhn@bbzsogr.ch";"1";"1";"INF16S";
-"cedric.kuenzi2";"";"gibsso305060";"Künzi";"Cédric";"2000-03-04";"m";"-";"cedric.kuenzi2@bbzsogr.ch";"1";"1";"BM1_TE15B";
+"cedric.kuenzi2";"";"gibsso305060";"KÃ¼nzi";"CÃ©dric";"2000-03-04";"m";"-";"cedric.kuenzi2@bbzsogr.ch";"1";"1";"BM1_TE15B";
 "chris.kureth";"";"gibsso303789";"Kureth";"Chris";"1987-05-15";"m";"-";"chris.kureth@bbzsogr.ch";"1";"1";"PKE15A";
 "janick.kurth";"";"gibsso318074";"Kurth";"Janick";"1998-04-30";"m";"-";"janick.kurth@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"janick.laeng";"";"gibsso311669";"Läng";"Janick";"2000-09-01";"m";"-";"janick.laeng@bbzsogr.ch";"1";"1";"INF16B";
+"janick.laeng";"";"gibsso311669";"LÃ¤ng";"Janick";"2000-09-01";"m";"-";"janick.laeng@bbzsogr.ch";"1";"1";"INF16B";
 "nehemiah.lankanesan";"";"gibsso315727";"Lankanesan";"Nehemiah";"2000-10-02";"m";"-";"nehemiah.lankanesan@bbzsogr.ch";"1";"1";"PRM16A";
 "franco.lanz";"";"gibsso311308";"Lanz";"Franco";"1999-07-21";"m";"-";"franco.lanz@bbzsogr.ch";"1";"1";"AUM16A";
-"yvesandre.lanz";"";"gibsso314021";"Lanz";"Yves André";"1999-05-01";"m";"-";"yvesandre.lanz@bbzsogr.ch";"1";"1";"PRM16C";
+"yvesandre.lanz";"";"gibsso314021";"Lanz";"Yves AndrÃ©";"1999-05-01";"m";"-";"yvesandre.lanz@bbzsogr.ch";"1";"1";"PRM16C";
 "christof.lauber";"";"gibsso313446";"Lauber";"Christof";"2000-05-30";"m";"-";"christof.lauber@bbzsogr.ch";"1";"1";"KOE16C";
 "tamara.lehmann";"";"gibsso304681";"Lehmann";"Tamara";"1999-04-28";"w";"-";"tamara.lehmann@bbzsogr.ch";"1";"1";"DRO15A";
 "julian.leu";"";"gibsso303196";"Leu";"Julian";"1999-09-09";"m";"-";"julian.leu@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
@@ -319,13 +319,13 @@
 "christian.loseni";"";"gibsso310673";"Loseni";"Christian";"1986-05-02";"m";"-";"christian.loseni@bbzsogr.ch";"1";"1";"KOE16B";
 "hasnae.louridi";"";"gibsso323702";"Louridi";"Hasnae";"1997-10-07";"w";"-";"hasnae.louridi@bbzsogr.ch";"1";"1";"KOE17A";
 "jasper.lovedoreal";"";"gibsso315008";"Lovedoreal";"Jasper";"2000-09-30";"m";"-";"jasper.lovedoreal@bbzsogr.ch";"1";"1";"PRM16A";"VWB17B"
-"sonja.ludaescher";"";"gibsso306873";"Ludäscher";"Sonja";"1998-10-09";"w";"-";"sonja.ludaescher@bbzsogr.ch";"1";"1";"DRO15A";
-"leandra.luescher";"";"gibsso315681";"Lüscher";"Leandra";"2000-01-23";"w";"-";"leandra.luescher@bbzsogr.ch";"1";"1";"DRO16A";"VWB18C"
+"sonja.ludaescher";"";"gibsso306873";"LudÃ¤scher";"Sonja";"1998-10-09";"w";"-";"sonja.ludaescher@bbzsogr.ch";"1";"1";"DRO15A";
+"leandra.luescher";"";"gibsso315681";"LÃ¼scher";"Leandra";"2000-01-23";"w";"-";"leandra.luescher@bbzsogr.ch";"1";"1";"DRO16A";"VWB18C"
 "shkelqim.lushaj";"";"gibsso317767";"Lushaj";"Shkelqim";"1998-03-19";"m";"-";"shkelqim.lushaj@bbzsogr.ch";"1";"1";"PRM16C";
 "fiona.luterbacher";"";"gibsso314037";"Luterbacher";"Fiona";"1999-11-26";"w";"-";"fiona.luterbacher@bbzsogr.ch";"1";"1";"DRO16A";
-"kevin.luethi";"";"gibsso313411";"Lüthi";"Kevin";"2000-08-19";"m";"-";"kevin.luethi@bbzsogr.ch";"1";"1";"AUF16B";
-"mike.luethi";"";"gibsso315111";"Lüthi";"Mike";"1999-04-23";"m";"-";"mike.luethi@bbzsogr.ch";"1";"1";"PMG16A";"VWB18A"
-"patrick.luethi";"";"gibsso298922";"Lüthi";"Patrick";"1991-05-22";"m";"-";"patrick.luethi@bbzsogr.ch";"1";"1";"KOE16A";
+"kevin.luethi";"";"gibsso313411";"LÃ¼thi";"Kevin";"2000-08-19";"m";"-";"kevin.luethi@bbzsogr.ch";"1";"1";"AUF16B";
+"mike.luethi";"";"gibsso315111";"LÃ¼thi";"Mike";"1999-04-23";"m";"-";"mike.luethi@bbzsogr.ch";"1";"1";"PMG16A";"VWB18A"
+"patrick.luethi";"";"gibsso298922";"LÃ¼thi";"Patrick";"1991-05-22";"m";"-";"patrick.luethi@bbzsogr.ch";"1";"1";"KOE16A";
 "adem.mahmuti";"";"gibsso315729";"Mahmuti";"Adem";"2000-06-13";"m";"-";"adem.mahmuti@bbzsogr.ch";"1";"1";"PRM16B";
 "aleksandar.markovic";"";"gibsso305695";"Markovic";"Aleksandar";"1998-09-29";"m";"-";"aleksandar.markovic@bbzsogr.ch";"1";"1";"PKE15A";"VWB17B"
 "dragan.markovic";"";"gibsso315445";"Markovic";"Dragan";"2000-03-25";"m";"-";"dragan.markovic@bbzsogr.ch";"1";"1";"AUF16B";
@@ -333,10 +333,10 @@
 "luca.marrer";"";"gibsso308014";"Marrer";"Luca";"2000-03-20";"m";"-";"luca.marrer@bbzsogr.ch";"1";"1";"INF15S";
 "robin.marti";"";"gibsso317400";"Marti";"Robin";"2000-06-30";"m";"-";"robin.marti@bbzsogr.ch";"1";"1";"AUM16A";"VWB18A"
 "simon.marti";"";"gibsso304622";"Marti";"Simon";"1999-11-13";"m";"-";"simon.marti@bbzsogr.ch";"1";"1";"INF15S";
-"sandra.martinez";"";"gibsso308147";"Martinez Cobeñas";"Sandra";"1999-02-16";"w";"-";"sandra.martinez@bbzsogr.ch";"1";"1";"REF17A";
+"sandra.martinez";"";"gibsso308147";"Martinez CobeÃ±as";"Sandra";"1999-02-16";"w";"-";"sandra.martinez@bbzsogr.ch";"1";"1";"REF17A";
 "klaudia.matic";"";"gibsso246522";"Matic";"Klaudia";"1994-12-17";"w";"-";"klaudia.matic@bbzsogr.ch";"1";"1";"PMG15B";
 "kahase.mebrahtom";"";"gibsso317974";"Mebrahtom";"Kahase";"1995-08-02";"m";"-";"kahase.mebrahtom@bbzsogr.ch";"1";"1";"IJBV18C";
-"celine.meier";"";"gibsso304479";"Meier";"Céline";"1999-10-24";"w";"-";"celine.meier@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
+"celine.meier";"";"gibsso304479";"Meier";"CÃ©line";"1999-10-24";"w";"-";"celine.meier@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
 "jocelyn.meier";"";"gibsso310115";"Meier";"Jocelyn";"1995-11-21";"w";"-";"jocelyn.meier@bbzsogr.ch";"1";"1";"WTG16A";
 "justin.meier";"";"gibsso258166";"Meier";"Justin";"1996-12-29";"m";"-";"justin.meier@bbzsogr.ch";"1";"1";"AUM16A";
 "manuel.meister";"";"gibsso306619";"Meister";"Manuel";"1995-03-15";"m";"-";"manuel.meister@bbzsogr.ch";"1";"1";"PKE15A";
@@ -348,11 +348,11 @@
 "medina.morina";"";"gibsso305115";"Morina";"Medina";"1999-10-04";"w";"-";"medina.morina@bbzsogr.ch";"1";"1";"KOE17B";
 "aron.moser";"";"gibsso309371";"Moser";"Aron";"1997-06-09";"m";"-";"aron.moser@bbzsogr.ch";"1";"1";"KOE16C";
 "daniel.moser";"";"gibsso302067";"Moser";"Daniel";"1999-05-28";"m";"-";"daniel.moser@bbzsogr.ch";"1";"1";"ELT15A";"BM1_TE15B"
-"dominique.muehlheim";"";"gibsso304410";"Mühlheim";"Dominique";"1999-02-09";"m";"-";"dominique.muehlheim@bbzsogr.ch";"1";"1";"PRM16C";
-"alina.mueller";"";"gibsso283034";"Müller";"Alina";"1997-04-26";"w";"-";"alina.mueller@bbzsogr.ch";"1";"1";"AUM15A";
-"philiphans.mueller";"";"gibsso314025";"Müller";"Philip Hans";"2000-08-10";"m";"-";"philiphans.mueller@bbzsogr.ch";"1";"1";"PMG16A";
-"timon.mueller";"";"gibsso313413";"Müller";"Timon";"2000-11-29";"m";"-";"timon.mueller@bbzsogr.ch";"1";"1";"AUM16A";
-"michelle.muenger";"";"gibsso304326";"Münger";"Michelle";"2000-03-23";"w";"-";"michelle.muenger@bbzsogr.ch";"1";"1";"DRO15A";
+"dominique.muehlheim";"";"gibsso304410";"MÃ¼hlheim";"Dominique";"1999-02-09";"m";"-";"dominique.muehlheim@bbzsogr.ch";"1";"1";"PRM16C";
+"alina.mueller";"";"gibsso283034";"MÃ¼ller";"Alina";"1997-04-26";"w";"-";"alina.mueller@bbzsogr.ch";"1";"1";"AUM15A";
+"philiphans.mueller";"";"gibsso314025";"MÃ¼ller";"Philip Hans";"2000-08-10";"m";"-";"philiphans.mueller@bbzsogr.ch";"1";"1";"PMG16A";
+"timon.mueller";"";"gibsso313413";"MÃ¼ller";"Timon";"2000-11-29";"m";"-";"timon.mueller@bbzsogr.ch";"1";"1";"AUM16A";
+"michelle.muenger";"";"gibsso304326";"MÃ¼nger";"Michelle";"2000-03-23";"w";"-";"michelle.muenger@bbzsogr.ch";"1";"1";"DRO15A";
 "gentrit.musiqi";"";"gibsso311387";"Musiqi";"Gentrit";"2000-03-28";"m";"-";"gentrit.musiqi@bbzsogr.ch";"1";"1";"PRM16B";
 "ahmed.mustafa";"";"gibsso295959";"Mustafa";"Ahmed";"1998-07-13";"m";"-";"ahmed.mustafa@bbzsogr.ch";"1";"1";"BM2_TE18B";
 "deniz.mustafa";"";"gibsso312272";"Mustafa";"Deniz";"1999-12-01";"m";"-";"deniz.mustafa@bbzsogr.ch";"1";"1";"PMG16B";
@@ -360,7 +360,7 @@
 "lisa.naue";"";"gibsso306100";"Naue";"Lisa";"1999-01-11";"w";"-";"lisa.naue@bbzsogr.ch";"1";"1";"DRO15A";
 "sabrinanadja.neukomm";"";"gibsso312421";"Neukomm";"Sabrina Nadja";"1999-07-02";"w";"-";"sabrinanadja.neukomm@bbzsogr.ch";"1";"1";"DRO16A";
 "melissa.niederberger";"";"gibsso312171";"Niederberger";"Melissa";"2000-09-06";"w";"-";"melissa.niederberger@bbzsogr.ch";"1";"1";"DRO16A";
-"jonathan.niemelae";"";"gibsso303130";"Niemelä";"Jonathan";"2000-03-14";"m";"-";"jonathan.niemelae@bbzsogr.ch";"1";"1";"INF15S";"BM1_TE15B"
+"jonathan.niemelae";"";"gibsso303130";"NiemelÃ¤";"Jonathan";"2000-03-14";"m";"-";"jonathan.niemelae@bbzsogr.ch";"1";"1";"INF15S";"BM1_TE15B"
 "elias.nobs";"";"gibsso313210";"Nobs";"Elias";"1995-06-19";"m";"-";"elias.nobs@bbzsogr.ch";"1";"1";"PRM16C";
 "til.nordmann";"";"gibsso312400";"Nordmann";"Til";"2000-07-20";"m";"-";"til.nordmann@bbzsogr.ch";"1";"1";"KOE16C";
 "larissa.nussbaumer";"";"gibsso311082";"Nussbaumer";"Larissa";"1999-10-16";"w";"-";"larissa.nussbaumer@bbzsogr.ch";"1";"1";"REF16A";
@@ -383,11 +383,11 @@
 "michael.pearson";"";"gibsso314016";"Pearson";"Michael";"1997-02-14";"m";"-";"michael.pearson@bbzsogr.ch";"1";"1";"PME16A";
 "leonie.peier";"";"gibsso311067";"Peier";"Leonie";"2000-06-05";"w";"-";"leonie.peier@bbzsogr.ch";"1";"1";"DRO16A";
 "jirawat.penthai";"";"gibsso308738";"Penthai";"Jirawat";"1998-05-15";"m";"-";"jirawat.penthai@bbzsogr.ch";"1";"1";"KOE17B";
-"salome.peter";"";"gibsso313899";"Niffenegger";"Salomé";"1999-09-09";"w";"-";"salome.peter@bbzsogr.ch";"1";"1";"WTG16A";
+"salome.peter";"";"gibsso313899";"Niffenegger";"SalomÃ©";"1999-09-09";"w";"-";"salome.peter@bbzsogr.ch";"1";"1";"WTG16A";
 "alex.peterhans";"";"gibsso311902";"Peterhans";"Alex";"2000-09-08";"m";"-";"alex.peterhans@bbzsogr.ch";"1";"1";"AUF16B";
 "adrian.pfeiffer";"";"gibsso311524";"Pfeiffer";"Adrian German Andreas";"2000-10-27";"m";"-";"adrian.pfeiffer@bbzsogr.ch";"1";"1";"PKB16A";"BM1_TE16B"
 "dario.pieber";"";"gibsso316999";"Pieber";"Dario";"1995-09-09";"m";"-";"dario.pieber@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"dzenis.poljak";"";"gibsso303165";"Poljak";"Dzènis";"2000-01-31";"m";"-";"dzenis.poljak@bbzsogr.ch";"1";"1";"INF15S";
+"dzenis.poljak";"";"gibsso303165";"Poljak";"DzÃ¨nis";"2000-01-31";"m";"-";"dzenis.poljak@bbzsogr.ch";"1";"1";"INF15S";
 "nina.probst";"";"gibsso312170";"Probst";"Nina";"2001-04-06";"w";"-";"nina.probst@bbzsogr.ch";"1";"1";"KOE16C";
 "yannick.probst";"";"gibsso314837";"Probst";"Yannick";"1999-12-21";"m";"-";"yannick.probst@bbzsogr.ch";"1";"1";"AUF16A";
 "shukri.prushi";"";"gibsso315004";"Prushi";"Shukri";"2001-02-24";"m";"-";"shukri.prushi@bbzsogr.ch";"1";"1";"MPR17A";
@@ -406,13 +406,13 @@
 "joel.rindlisbacher";"";"gibsso311620";"Rindlisbacher";"Joel";"2000-12-12";"m";"-";"joel.rindlisbacher@bbzsogr.ch";"1";"1";"PKB16A";"BM1_TE16A"
 "jan.rohde";"";"gibsso303001";"Rohde";"Jan";"2000-04-22";"m";"-";"jan.rohde@bbzsogr.ch";"1";"1";"AUM16A";
 "sascha.rohner";"";"gibsso303942";"Rohner";"Sascha";"1999-08-31";"m";"-";"sascha.rohner@bbzsogr.ch";"1";"1";"INF15S";
-"mike.roeoesli";"";"gibsso313596";"Röösli";"Mike";"1994-05-13";"m";"-";"mike.roeoesli@bbzsogr.ch";"1";"1";"KOE16C";
+"mike.roeoesli";"";"gibsso313596";"RÃ¶Ã¶sli";"Mike";"1994-05-13";"m";"-";"mike.roeoesli@bbzsogr.ch";"1";"1";"KOE16C";
 "lukas.roschi";"";"gibsso312474";"Roschi";"Lukas";"2001-03-28";"m";"-";"lukas.roschi@bbzsogr.ch";"1";"1";"PRM17B";
 "luca.roth";"";"gibsso312386";"Roth";"Luca";"1999-11-04";"m";"-";"luca.roth@bbzsogr.ch";"1";"1";"AUM16A";
-"christoph.roetheli";"";"gibsso313158";"Rötheli";"Christoph";"2000-07-17";"m";"-";"christoph.roetheli@bbzsogr.ch";"1";"1";"PMG16B";
+"christoph.roetheli";"";"gibsso313158";"RÃ¶theli";"Christoph";"2000-07-17";"m";"-";"christoph.roetheli@bbzsogr.ch";"1";"1";"PMG16B";
 "leon.rothermann";"";"gibsso312173";"Rothermann";"Leon";"1998-12-11";"m";"-";"leon.rothermann@bbzsogr.ch";"1";"1";"PME16A";
 "gianluca.rubino";"";"gibsso311960";"Rubino";"Gianluca";"2000-02-29";"m";"-";"gianluca.rubino@bbzsogr.ch";"1";"1";"PRM16B";"VWB17C"
-"noemilaura.ruef";"";"gibsso312226";"Ruef";"Noëmi Laura";"2000-10-25";"w";"-";"noemilaura.ruef@bbzsogr.ch";"1";"1";"REF16B";
+"noemilaura.ruef";"";"gibsso312226";"Ruef";"NoÃ«mi Laura";"2000-10-25";"w";"-";"noemilaura.ruef@bbzsogr.ch";"1";"1";"REF16B";
 "emir.rustemi";"";"gibsso314781";"Rustemi";"Emir";"1999-09-11";"m";"-";"emir.rustemi@bbzsogr.ch";"1";"1";"PRM16C";
 "alexandra.rytz";"";"gibsso311569";"Rytz";"Alexandra";"2000-04-21";"w";"-";"alexandra.rytz@bbzsogr.ch";"1";"1";"REF16B";
 "amer.sabotic";"";"gibsso314785";"Sabotic";"Amer";"2000-06-06";"m";"-";"amer.sabotic@bbzsogr.ch";"1";"1";"PRM16C";
@@ -424,9 +424,9 @@
 "kaancan.sari";"";"gibsso304108";"Sari";"Kaan Can";"1999-04-25";"m";"-";"kaancan.sari@bbzsogr.ch";"1";"1";"PMG15A";
 "justina.satkunam";"";"gibsso297606";"Satkunam";"Justina";"1996-06-21";"w";"-";"justina.satkunam@bbzsogr.ch";"1";"1";"KOE16B";
 "yannis.schaad";"";"gibsso311385";"Schaad";"Yannis";"2000-05-25";"m";"-";"yannis.schaad@bbzsogr.ch";"1";"1";"PRM16B";
-"ericrene.schaller";"";"gibsso313410";"Schaller";"Eric René";"2000-04-10";"m";"-";"ericrene.schaller@bbzsogr.ch";"1";"1";"AUM16A";"VWB18B"
+"ericrene.schaller";"";"gibsso313410";"Schaller";"Eric RenÃ©";"2000-04-10";"m";"-";"ericrene.schaller@bbzsogr.ch";"1";"1";"AUM16A";"VWB18B"
 "miguel.schaller";"";"gibsso303231";"Schaller";"Miguel";"1999-11-01";"m";"-";"miguel.schaller@bbzsogr.ch";"1";"1";"INF15B";"VWB17B"
-"robin.schaerer";"";"gibsso302327";"Schärer";"Robin";"1998-08-18";"m";"-";"robin.schaerer@bbzsogr.ch";"1";"1";"PMG15B";
+"robin.schaerer";"";"gibsso302327";"SchÃ¤rer";"Robin";"1998-08-18";"m";"-";"robin.schaerer@bbzsogr.ch";"1";"1";"PMG15B";
 "raphael.schenk";"";"gibsso311622";"Schenk";"Raphael";"2000-07-27";"m";"-";"raphael.schenk@bbzsogr.ch";"1";"1";"PMG16A";
 "david.schild";"";"gibsso311089";"Schild";"David";"2001-04-09";"m";"-";"david.schild@bbzsogr.ch";"1";"1";"PKB16A";"BM1_TE16B"
 "sarah.schluep";"";"gibsso311090";"Schluep";"Sarah";"2000-06-28";"w";"-";"sarah.schluep@bbzsogr.ch";"1";"1";"KOE16B";
@@ -436,13 +436,13 @@
 "ronny.schneeberger";"";"gibsso307711";"Schneeberger";"Ronny";"2000-06-21";"m";"-";"ronny.schneeberger@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
 "kevin.schneider2";"";"gibsso311386";"Schneider";"Kevin";"2000-09-09";"m";"-";"kevin.schneider2@bbzsogr.ch";"1";"1";"PME16A";"VWB18C"
 "patrick.scholl";"";"gibsso303347";"Scholl";"Patrick";"1999-12-10";"m";"-";"patrick.scholl@bbzsogr.ch";"1";"1";"PMG15A";"VWB17B"
-"nico.schoenbaechler";"";"gibsso303232";"Schönbächler";"Nico";"2000-06-01";"m";"-";"nico.schoenbaechler@bbzsogr.ch";"1";"1";"INF15B";
-"claudio.schoenmann";"";"gibsso307659";"Schönmann";"Claudio";"1998-09-09";"m";"-";"claudio.schoenmann@bbzsogr.ch";"1";"1";"KOE16A";
-"anja.schoepfer";"";"gibsso315682";"Schöpfer";"Anja";"1998-02-09";"w";"-";"anja.schoepfer@bbzsogr.ch";"1";"1";"Ex";
-"mischa.schuepbach";"";"gibsso286940";"Schüpbach";"Mischa";"1995-12-02";"m";"-";"mischa.schuepbach@bbzsogr.ch";"1";"1";"KOE16B";
+"nico.schoenbaechler";"";"gibsso303232";"SchÃ¶nbÃ¤chler";"Nico";"2000-06-01";"m";"-";"nico.schoenbaechler@bbzsogr.ch";"1";"1";"INF15B";
+"claudio.schoenmann";"";"gibsso307659";"SchÃ¶nmann";"Claudio";"1998-09-09";"m";"-";"claudio.schoenmann@bbzsogr.ch";"1";"1";"KOE16A";
+"anja.schoepfer";"";"gibsso315682";"SchÃ¶pfer";"Anja";"1998-02-09";"w";"-";"anja.schoepfer@bbzsogr.ch";"1";"1";"Ex";
+"mischa.schuepbach";"";"gibsso286940";"SchÃ¼pbach";"Mischa";"1995-12-02";"m";"-";"mischa.schuepbach@bbzsogr.ch";"1";"1";"KOE16B";
 "justin.schuricht";"";"gibsso304930";"Schuricht";"Justin";"1999-06-23";"m";"-";"justin.schuricht@bbzsogr.ch";"1";"1";"AUM15A";
 "tim.schurtenberger";"";"gibsso303234";"Schurtenberger";"Tim";"1999-10-19";"m";"-";"tim.schurtenberger@bbzsogr.ch";"1";"1";"INF15B";"BM1_TE15A"
-"mario.schuetz";"";"gibsso305696";"Schütz";"Mario";"1999-04-06";"m";"-";"mario.schuetz@bbzsogr.ch";"1";"1";"PKE15A";"VWB17C"
+"mario.schuetz";"";"gibsso305696";"SchÃ¼tz";"Mario";"1999-04-06";"m";"-";"mario.schuetz@bbzsogr.ch";"1";"1";"PKE15A";"VWB17C"
 "robin.schwaller";"";"gibsso311522";"Schwaller";"Robin";"2000-09-09";"m";"-";"robin.schwaller@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16B"
 "jannick.schwarzentru";"";"gibsso312473";"Schwarzentrub";"Jannick";"2000-10-17";"m";"-";"jannick.schwarzentrub@bbzsogr.ch";"1";"1";"KOE16C";
 "alican.selen";"";"gibsso314780";"Selen";"Alican";"1998-09-27";"m";"-";"alican.selen@bbzsogr.ch";"1";"1";"PRM16C";
@@ -460,7 +460,7 @@
 "sofia.soares";"";"gibsso312401";"Soares";"Sofia";"2000-05-01";"w";"-";"sofia.soares@bbzsogr.ch";"1";"1";"DRO16A";
 "julian.solanella";"";"gibsso312130";"Solanella";"Julian";"2001-01-05";"m";"-";"julian.solanella@bbzsogr.ch";"1";"1";"KOE16B";
 "barbara.soledade";"";"gibsso315197";"Soledade";"Barbara";"2000-04-07";"w";"-";"barbara.soledade@bbzsogr.ch";"1";"1";"DRO16A";
-"leon.spaeni";"";"gibsso312784";"Späni";"Leon";"1999-07-28";"m";"-";"leon.spaeni@bbzsogr.ch";"1";"1";"INF16A";
+"leon.spaeni";"";"gibsso312784";"SpÃ¤ni";"Leon";"1999-07-28";"m";"-";"leon.spaeni@bbzsogr.ch";"1";"1";"INF16A";
 "dominique.spoya";"";"gibsso304425";"Spoya";"Dominique";"1999-11-04";"m";"-";"dominique.spoya@bbzsogr.ch";"1";"1";"INF15A";"BM1_TE15B"
 "jalasan.srijanagakum";"";"gibsso314775";"Srijanagakumar";"Jalasan";"2000-07-06";"m";"-";"jalasan.srijanagakum@bbzsogr.ch";"1";"1";"PMG16B";
 "janis.stalder";"";"gibsso311817";"Stalder";"Janis";"2000-06-13";"m";"-";"janis.stalder@bbzsogr.ch";"1";"1";"AUF16A";
@@ -470,10 +470,10 @@
 "nick.steiner";"";"gibsso312348";"Steiner";"Nick";"2000-10-08";"m";"-";"nick.steiner@bbzsogr.ch";"1";"1";"INF16S";
 "jan.steinlechner";"";"gibsso313211";"Steinlechner";"Jan";"1999-09-20";"m";"-";"jan.steinlechner@bbzsogr.ch";"1";"1";"PRM17B";
 "anita.stjepanovic";"";"gibsso309081";"Stjepanovic";"Anita";"1990-12-21";"w";"-";"anita.stjepanovic@bbzsogr.ch";"1";"1";"KOE16A";
-"axel.stoeckli";"";"gibsso311613";"Stöckli Malavé";"Axel Sebastian";"2000-06-13";"m";"-";"axel.stoeckli@bbzsogr.ch";"1";"1";"PME16A";"VWB18A"
+"axel.stoeckli";"";"gibsso311613";"StÃ¶ckli MalavÃ©";"Axel Sebastian";"2000-06-13";"m";"-";"axel.stoeckli@bbzsogr.ch";"1";"1";"PME16A";"VWB18A"
 "roman.straumann";"";"gibsso303069";"Straumann";"Roman";"1999-06-04";"m";"-";"roman.straumann@bbzsogr.ch";"1";"1";"PMG15A";"VWB17B"
 "niels.strebel";"";"gibsso315960";"Strebel";"Niels";"1998-12-10";"m";"-";"niels.strebel@bbzsogr.ch";"1";"1";"PRM18B";
-"cedricjoel.streuli";"";"gibsso316973";"Streuli";"Cedric Joël";"1998-09-20";"m";"-";"cedricjoel.streuli@bbzsogr.ch";"1";"1";"AUF16A";
+"cedricjoel.streuli";"";"gibsso316973";"Streuli";"Cedric JoÃ«l";"1998-09-20";"m";"-";"cedricjoel.streuli@bbzsogr.ch";"1";"1";"AUF16A";
 "michelle.stuber";"";"gibsso311615";"Stuber";"Michelle";"2000-10-07";"w";"-";"michelle.stuber@bbzsogr.ch";"1";"1";"DRO16A";"VWB18C"
 "aaron.studer";"";"gibsso303391";"Studer";"Aaron";"1999-10-02";"m";"-";"aaron.studer@bbzsogr.ch";"1";"1";"INF15A";"VWB17B"
 "benjamin.studer";"";"gibsso312037";"Studer";"Benjamin";"1998-12-04";"m";"-";"benjamin.studer@bbzsogr.ch";"1";"1";"KOE16A";
@@ -486,7 +486,7 @@
 "kristian.tasic";"";"gibsso308284";"Tasic";"Kristian";"1997-07-17";"m";"-";"kristian.tasic@bbzsogr.ch";"1";"1";"AUF16B";
 "meron.tesfai";"";"gibsso311389";"Tesfai";"Meron";"1998-07-27";"m";"-";"meron.tesfai@bbzsogr.ch";"1";"1";"PMG16B";
 "venujan.thavakumar";"";"gibsso303513";"Thavakumar";"Venujan";"1998-03-12";"m";"-";"venujan.thavakumar@bbzsogr.ch";"1";"1";"PMG15B";
-"cedric.theiler";"";"gibsso311084";"Theiler";"Cédric";"2000-07-25";"m";"-";"cedric.theiler@bbzsogr.ch";"1";"1";"KOE16B";
+"cedric.theiler";"";"gibsso311084";"Theiler";"CÃ©dric";"2000-07-25";"m";"-";"cedric.theiler@bbzsogr.ch";"1";"1";"KOE16B";
 "waixing.thi";"";"gibsso314778";"Thi";"Wai Xing";"2000-07-09";"m";"-";"waixing.thi@bbzsogr.ch";"1";"1";"PMG16B";
 "waikin.thi";"";"gibsso292953";"Thi";"Wai-Kin";"1997-07-13";"m";"-";"waikin.thi@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "elias.tonini";"";"gibsso303233";"Tonini";"Elias";"1999-06-30";"m";"-";"elias.tonini@bbzsogr.ch";"1";"1";"INF15B";
@@ -501,7 +501,7 @@
 "niklas.urosevic";"";"gibsso309599";"Urosevic";"Niklas";"1999-03-23";"m";"-";"niklas.urosevic@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
 "ajet.usejni";"";"gibsso315496";"Usejni";"Ajet";"2001-04-21";"m";"-";"ajet.usejni@bbzsogr.ch";"1";"1";"PRM16B";
 "vijuran.vadivelu";"";"gibsso308287";"Vadivelu";"Vijuran";"1999-04-02";"m";"-";"vijuran.vadivelu@bbzsogr.ch";"1";"1";"AUF17A";
-"joeme.vandermeulen";"";"gibsso312783";"Van der Meulen";"Joème";"2001-04-25";"m";"-";"joeme.vandermeulen@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16B"
+"joeme.vandermeulen";"";"gibsso312783";"Van der Meulen";"JoÃ¨me";"2001-04-25";"m";"-";"joeme.vandermeulen@bbzsogr.ch";"1";"1";"INF16S";"BM1_TE16B"
 "luca.vangeene";"";"gibsso306184";"van Geene";"Luca";"1998-10-08";"m";"-";"luca.vangeene@bbzsogr.ch";"1";"1";"PMG15A";
 "anushan.vasanthakuma";"";"gibsso311650";"Vasanthakumar";"Anushan";"2000-10-18";"m";"-";"anushan.vasanthakumar@bbzsogr.ch";"1";"1";"PRM16B";
 "kristina.veljancic";"";"gibsso314843";"Veljancic";"Kristina";"1993-03-13";"w";"-";"kristina.veljancic@bbzsogr.ch";"1";"1";"REF16A";
@@ -517,24 +517,24 @@
 "lukas.vonarx";"";"gibsso315005";"von Arx";"Lukas";"2000-03-05";"m";"-";"lukas.vonarx@bbzsogr.ch";"1";"1";"PRM17A";
 "reto.vonballmoos";"";"gibsso312961";"von Ballmoos";"Reto";"2000-05-30";"m";"-";"reto.vonballmoos@bbzsogr.ch";"1";"1";"PME16A";"VWB18C"
 "manuel.vonburg";"";"gibsso312968";"von Burg";"Manuel";"1997-09-12";"m";"-";"manuel.vonburg@bbzsogr.ch";"1";"1";"PKE16A";"VWB18A"
-"corina.vondaeniken";"";"gibsso306060";"von Däniken";"Corina";"1998-07-11";"w";"-";"corina.vondaeniken@bbzsogr.ch";"1";"1";"AUM15A";"BM1_TE15A"
+"corina.vondaeniken";"";"gibsso306060";"von DÃ¤niken";"Corina";"1998-07-11";"w";"-";"corina.vondaeniken@bbzsogr.ch";"1";"1";"AUM15A";"BM1_TE15A"
 "melissa.vongunten";"";"gibsso312223";"von Gunten";"Melissa";"1999-12-21";"w";"-";"melissa.vongunten@bbzsogr.ch";"1";"1";"WTG16A";
-"thomas.waefler";"";"gibsso311782";"Wäfler";"Thomas";"2000-03-18";"m";"-";"thomas.waefler@bbzsogr.ch";"1";"1";"AUF16B";
+"thomas.waefler";"";"gibsso311782";"WÃ¤fler";"Thomas";"2000-03-18";"m";"-";"thomas.waefler@bbzsogr.ch";"1";"1";"AUF16B";
 "adrian.wanner";"";"gibsso303483";"Wanner";"Adrian";"2000-04-04";"m";"-";"adrian.wanner@bbzsogr.ch";"1";"1";"PMG15A";
 "andreas-weber";"";"gibsso307399";"Weber";"Andreas";"1996-09-23";"m";"-";"andreas-weber@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15A"
 "cedric.weber";"";"gibsso313412";"Weber";"Cedric";"1999-07-17";"m";"-";"cedric.weber@bbzsogr.ch";"1";"1";"AUF16A";
 "diana.weber";"";"gibsso312540";"Weber";"Diana";"1997-11-15";"w";"-";"diana.weber@bbzsogr.ch";"1";"1";"REF17A";
 "jannik.weber";"";"gibsso314777";"Weber";"Jannik";"2000-12-16";"m";"-";"jannik.weber@bbzsogr.ch";"1";"1";"PMG16B";
-"nicole.wegmueller";"";"gibsso312347";"Wegmüller";"Nicole";"2001-04-13";"w";"-";"nicole.wegmueller@bbzsogr.ch";"1";"1";"AUF16A";
+"nicole.wegmueller";"";"gibsso312347";"WegmÃ¼ller";"Nicole";"2001-04-13";"w";"-";"nicole.wegmueller@bbzsogr.ch";"1";"1";"AUF16A";
 "denis.wethli";"";"gibsso318031";"Wethli";"Denis";"1999-01-12";"m";"-";"denis.wethli@bbzsogr.ch";"1";"1";"AUF16B";
 "silvan.wick";"";"gibsso303909";"Wick";"Silvan";"2000-04-07";"m";"-";"silvan.wick@bbzsogr.ch";"1";"1";"PKE15A";
 "daniel.wiesmann";"";"gibsso316038";"Wiesmann";"Daniel";"2001-02-19";"m";"-";"daniel.wiesmann@bbzsogr.ch";"1";"1";"KOE16B";
-"fabian.winistoerfer";"";"gibsso303515";"Winistörfer";"Fabian";"1993-10-01";"m";"-";"fabian.winistoerfer@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
-"nina.winistoerfer";"";"gibsso313265";"Winistörfer";"Nina";"2000-07-18";"w";"-";"nina.winistoerfer@bbzsogr.ch";"1";"1";"DRO16A";
+"fabian.winistoerfer";"";"gibsso303515";"WinistÃ¶rfer";"Fabian";"1993-10-01";"m";"-";"fabian.winistoerfer@bbzsogr.ch";"1";"1";"PKB15A";"BM1_TE15B"
+"nina.winistoerfer";"";"gibsso313265";"WinistÃ¶rfer";"Nina";"2000-07-18";"w";"-";"nina.winistoerfer@bbzsogr.ch";"1";"1";"DRO16A";
 "alexander.wirz";"";"gibsso313625";"Wirz";"Alexander";"2000-05-08";"m";"-";"alexander.wirz@bbzsogr.ch";"1";"1";"PKB16A";"BM1_TE16B"
 "sharon.wirz";"";"gibsso305610";"Wirz";"Sharon";"2000-01-27";"w";"-";"sharon.wirz@bbzsogr.ch";"1";"1";"DRO15A";
 "livia.wittwer";"";"gibsso315658";"Wittwer";"Livia";"2000-06-26";"w";"-";"livia.wittwer@bbzsogr.ch";"1";"1";"AUF16B";"VWB17C"
-"luca.wueest";"";"gibsso307106";"Wüest";"Luca";"1999-10-18";"m";"-";"luca.wueest@bbzsogr.ch";"1";"1";"PMG15A";
+"luca.wueest";"";"gibsso307106";"WÃ¼est";"Luca";"1999-10-18";"m";"-";"luca.wueest@bbzsogr.ch";"1";"1";"PMG15A";
 "emanuel.wyss";"";"gibsso315819";"Wyss";"Emanuel";"2001-04-21";"m";"-";"emanuel.wyss@bbzsogr.ch";"1";"1";"PMG16A";
 "joelyn.wyss";"";"gibsso316863";"Wyss";"Joelyn";"2000-09-08";"w";"-";"joelyn.wyss@bbzsogr.ch";"1";"1";"WTG16A";
 "julian.wyss3";"";"gibsso305172";"Wyss";"Julian";"1998-02-11";"m";"-";"julian.wyss3@bbzsogr.ch";"1";"1";"PMG15A";
@@ -556,29 +556,29 @@
 "joel.zumtaugwald";"";"gibsso313994";"Zumtaugwald";"Joel";"1999-06-14";"m";"-";"joel.zumtaugwald@bbzsogr.ch";"1";"1";"PKE16A";
 "wieland.werlen";"";"gibsso502518";"Werlen";"Wieland";"2002-09-23";"m";"-";"wieland.werlen@bbzsogr.ch";"1";"1";"BM1_TE17A";
 "leon.markwalder";"";"gibsso502215";"Markwalder";"Leon";"2001-03-15";"m";"-";"leon.markwalder@bbzsogr.ch";"1";"1";"BM1_TE17A";
-"jonas.knoerr";"";"gibsso500147";"Knörr";"Jonas";"1998-06-07";"m";"-";"jonas.knoerr@bbzsogr.ch";"1";"1";"AUF18A";
+"jonas.knoerr";"";"gibsso500147";"KnÃ¶rr";"Jonas";"1998-06-07";"m";"-";"jonas.knoerr@bbzsogr.ch";"1";"1";"AUF18A";
 "cemal.cayir";"";"gibsso500102";"Cayir";"Cemal";"1987-01-18";"m";"-";"cemal.cayir@bbzsogr.ch";"1";"1";"NPR17A";
 "luca.bertonazzi";"";"gibsso500164";"Bertonazzi";"Luca";"2001-08-15";"m";"-";"luca.bertonazzi@bbzsogr.ch";"1";"1";"INF17A";"BM1_TE17A"
-"dominik.kaempfer";"";"gibsso500115";"Kämpfer";"Dominik";"2001-08-11";"m";"-";"dominik.kaempfer@bbzsogr.ch";"1";"1";"AUF17A";
+"dominik.kaempfer";"";"gibsso500115";"KÃ¤mpfer";"Dominik";"2001-08-11";"m";"-";"dominik.kaempfer@bbzsogr.ch";"1";"1";"AUF17A";
 "eric.ackermann";"";"gibsso500119";"Ackermann";"Eric Jan";"2001-10-24";"m";"-";"eric.ackermann@bbzsogr.ch";"1";"1";"AUM17A";
 "simon.antener";"";"gibsso500204";"Antener";"Simon";"2002-03-16";"m";"-";"simon.antener@bbzsogr.ch";"1";"1";"PKE17A";
 "michelle.friedli";"";"gibsso500175";"Friedli";"Michelle";"2001-07-13";"w";"-";"michelle.friedli@bbzsogr.ch";"1";"1";"DRO17A";
 "michael.ziegler";"";"gibsso500173";"Ziegler";"Michael";"2001-04-30";"m";"-";"michael.ziegler@bbzsogr.ch";"1";"1";"AUF17A";
 "jeremy.temmel";"";"gibsso500143";"Temmel";"Jeremy";"2000-12-11";"m";"-";"jeremy.temmel@bbzsogr.ch";"1";"1";"PMG17B";
-"dimitri.raess";"";"gibsso500112";"Räss";"Dimitri";"2001-08-27";"m";"-";"dimitri.raess@bbzsogr.ch";"1";"1";"INF17A";
+"dimitri.raess";"";"gibsso500112";"RÃ¤ss";"Dimitri";"2001-08-27";"m";"-";"dimitri.raess@bbzsogr.ch";"1";"1";"INF17A";
 "gabriele.ierano";"";"gibsso500128";"Ierano";"Gabriele";"1999-12-26";"m";"-";"gabriele.ierano@bbzsogr.ch";"1";"1";"INF17A";
 "jan.niederhauser";"";"gibsso500139";"Niederhauser";"Jan";"2001-07-20";"m";"-";"jan.niederhauser@bbzsogr.ch";"1";"1";"INF17S";
 "jakkrapat.sae-wang";"";"gibsso500137";"Sae-Wang";"Jakkrapat";"2001-11-25";"m";"-";"jakkrapat.sae-wang@bbzsogr.ch";"1";"1";"PMG17A";
 "joel.winterberg";"";"gibsso500145";"Winterberg";"Joel";"2002-01-31";"m";"-";"joel.winterberg@bbzsogr.ch";"1";"1";"PME17A";
 "loris.vicari";"";"gibsso500163";"Vicari";"Loris";"2001-12-28";"m";"-";"loris.vicari@bbzsogr.ch";"1";"1";"MPR17A";
 "ramon.moser";"";"gibsso500193";"Moser";"Ramon";"2000-10-22";"m";"-";"ramon.moser@bbzsogr.ch";"1";"1";"PRM17A";
-"sandro.koelliker";"";"gibsso500198";"Kölliker";"Sandro";"2001-10-02";"m";"-";"sandro.koelliker@bbzsogr.ch";"1";"1";"AUF17A";
+"sandro.koelliker";"";"gibsso500198";"KÃ¶lliker";"Sandro";"2001-10-02";"m";"-";"sandro.koelliker@bbzsogr.ch";"1";"1";"AUF17A";
 "furkan.eren";"";"gibsso500127";"Eren";"Furkan";"2001-06-30";"m";"-";"furkan.eren@bbzsogr.ch";"1";"1";"PME17A";
 "ramon.gust";"";"gibsso500192";"Gust";"Ramon";"2000-07-13";"m";"-";"ramon.gust@bbzsogr.ch";"1";"1";"PKE17A";
 "jenny.steinegger";"";"gibsso500142";"Steinegger";"Jenny";"1996-08-16";"w";"-";"jenny.steinegger@bbzsogr.ch";"1";"1";"REF16A";
 "natalie.bruschi";"";"gibsso500181";"Bruschi";"Natalie";"2001-05-26";"w";"-";"natalie.bruschi@bbzsogr.ch";"1";"1";"KOE17B";
-"yanik.ambuehl";"";"gibsso500214";"Ambühl";"Yanik";"2000-02-22";"m";"-";"yanik.ambuehl@bbzsogr.ch";"1";"1";"PME17A";
-"matthias.rueegsegger";"";"gibsso500172";"Rüegsegger";"Matthias";"2002-03-01";"m";"-";"matthias.rueegsegger@bbzsogr.ch";"1";"1";"PMG17A";
+"yanik.ambuehl";"";"gibsso500214";"AmbÃ¼hl";"Yanik";"2000-02-22";"m";"-";"yanik.ambuehl@bbzsogr.ch";"1";"1";"PME17A";
+"matthias.rueegsegger";"";"gibsso500172";"RÃ¼egsegger";"Matthias";"2002-03-01";"m";"-";"matthias.rueegsegger@bbzsogr.ch";"1";"1";"PMG17A";
 "samuel.signer";"";"gibsso500197";"Signer";"Samuel";"2000-06-22";"m";"-";"samuel.signer@bbzsogr.ch";"1";"1";"INF17B";
 "christoftobias.weick";"";"gibsso500104";"Weickhardt";"Christof Tobias";"2000-12-23";"m";"-";"christoftobias.weickhardt@bbzsogr.ch";"1";"1";"INF17A";"BM1_TE17A"
 "danielle.roth";"";"gibsso500109";"Roth";"Danielle";"2000-08-17";"w";"-";"danielle.roth@bbzsogr.ch";"1";"1";"KOE17A";
@@ -608,13 +608,13 @@
 "anusha.ongarabalan";"";"gibsso501866";"Ongarabalan";"Anusha";"2000-06-02";"w";"-";"anusha.ongarabalan@bbzsogr.ch";"1";"1";"DRO17A";
 "marc.holliger";"";"gibsso501867";"Holliger";"Marc";"2001-08-21";"m";"-";"marc.holliger@bbzsogr.ch";"1";"1";"PKE17A";
 "luca.glauser";"";"gibsso501870";"Glauser";"Luca";"2000-07-10";"m";"-";"luca.glauser@bbzsogr.ch";"1";"1";"AUM17A";
-"lukas.jaeggi2";"";"gibsso501872";"Jäggi";"Lukas";"1999-07-29";"m";"-";"lukas.jaeggi2@bbzsogr.ch";"1";"1";"Ex";"Ex"
-"noah.braendle";"";"gibsso501873";"Brändle";"Noah";"2001-01-23";"m";"-";"noah.braendle@bbzsogr.ch";"1";"1";"INF17S";
+"lukas.jaeggi2";"";"gibsso501872";"JÃ¤ggi";"Lukas";"1999-07-29";"m";"-";"lukas.jaeggi2@bbzsogr.ch";"1";"1";"Ex";"Ex"
+"noah.braendle";"";"gibsso501873";"BrÃ¤ndle";"Noah";"2001-01-23";"m";"-";"noah.braendle@bbzsogr.ch";"1";"1";"INF17S";
 "lars.krebs";"";"gibsso501875";"Krebs";"Lars";"2002-02-16";"m";"-";"lars.krebs@bbzsogr.ch";"1";"1";"PKE17A";
 "manuel.kasser";"";"gibsso501876";"Kasser";"Manuel";"2001-03-12";"m";"-";"manuel.kasser@bbzsogr.ch";"1";"1";"PKE17A";
 "sven.dobler";"";"gibsso501877";"Dobler";"Sven";"2001-12-17";"m";"-";"sven.dobler@bbzsogr.ch";"1";"1";"KOE17A";
 "aleksandar.petrovic";"";"gibsso501878";"Petrovic";"Aleksandar";"2001-01-18";"m";"-";"aleksandar.petrovic@bbzsogr.ch";"1";"1";"PME17A";
-"micha.schoepfer";"";"gibsso501879";"Schöpfer";"Micha";"2001-11-28";"m";"-";"micha.schoepfer@bbzsogr.ch";"1";"1";"PME17A";
+"micha.schoepfer";"";"gibsso501879";"SchÃ¶pfer";"Micha";"2001-11-28";"m";"-";"micha.schoepfer@bbzsogr.ch";"1";"1";"PME17A";
 "alessio.scire";"";"gibsso501880";"Scire";"Alessio";"2000-05-20";"m";"-";"alessio.scire@bbzsogr.ch";"1";"1";"PRM17B";
 "soraya.pulfer";"";"gibsso501910";"Pulfer";"Soraya";"2002-02-21";"w";"-";"soraya.pulfer@bbzsogr.ch";"1";"1";"REF17A";
 "teo.simic";"";"gibsso501911";"Simic";"Teo";"2002-04-13";"m";"-";"teo.simic@bbzsogr.ch";"1";"1";"PMG17B";
@@ -622,7 +622,7 @@
 "ilayda.kozlu";"TMK3CTVC2D";"gibsso501918";"Kozlu";"Ilayda";"2000-03-20";"w";"-";"ilayda.kozlu@bbzsogr.ch";"1";"1";"INF17S";
 "joeldavid.vuille";"";"gibsso501919";"Vuille";"Joel David";"2001-12-20";"m";"-";"joeldavid.vuille@bbzsogr.ch";"1";"1";"INF17S";
 "naim.ferati";"";"gibsso501920";"Ferati";"Naim";"2001-12-20";"m";"-";"naim.ferati@bbzsogr.ch";"1";"1";"PRM17A";
-"jonas.mueller";"";"gibsso501921";"Müller";"Jonas";"2001-11-05";"m";"-";"jonas.mueller@bbzsogr.ch";"1";"1";"PKE17A";
+"jonas.mueller";"";"gibsso501921";"MÃ¼ller";"Jonas";"2001-11-05";"m";"-";"jonas.mueller@bbzsogr.ch";"1";"1";"PKE17A";
 "mike.kaufmann";"";"gibsso501922";"Kaufmann";"Mike";"2001-11-22";"m";"-";"mike.kaufmann@bbzsogr.ch";"1";"1";"PKE17A";
 "lars.mollet";"";"gibsso501923";"Mollet";"Lars";"2002-04-23";"m";"-";"lars.mollet@bbzsogr.ch";"1";"1";"PRM17A";
 "alicia.rothermann";"";"gibsso501924";"Rothermann";"Alicia";"1996-04-19";"w";"-";"alicia.rothermann@bbzsogr.ch";"1";"1";"PME17A";
@@ -632,12 +632,12 @@
 "mara.hagmann";"";"gibsso501940";"Hagmann";"Mara";"2002-01-24";"w";"-";"mara.hagmann@bbzsogr.ch";"1";"1";"KOE17A";
 "veton.cani";"";"gibsso501942";"Cani";"Veton";"2001-12-26";"m";"-";"veton.cani@bbzsogr.ch";"1";"1";"PME17A";
 "kabilan.kantheeban";"";"gibsso501943";"Kantheeban";"Kabilan";"2001-05-06";"m";"-";"kabilan.kantheeban@bbzsogr.ch";"1";"1";"PRM17B";
-"selim.oenal";"";"gibsso501944";"Önal";"Selim";"2001-03-31";"m";"-";"selim.oenal@bbzsogr.ch";"1";"1";"PRM17B";
+"selim.oenal";"";"gibsso501944";"Ã–nal";"Selim";"2001-03-31";"m";"-";"selim.oenal@bbzsogr.ch";"1";"1";"PRM17B";
 "daniel.kasanga";"";"gibsso501945";"Kasanga";"Daniel";"2001-02-27";"m";"-";"daniel.kasanga@bbzsogr.ch";"1";"1";"PME17A";
 "hendrik.cansu";"";"gibsso501946";"Cansu";"Hendrik";"2001-01-26";"m";"-";"hendrik.cansu@bbzsogr.ch";"1";"1";"PMG17B";
 "janina.zumofen";"";"gibsso501947";"Zumofen";"Janina";"2002-01-22";"w";"-";"janina.zumofen@bbzsogr.ch";"1";"1";"AUM17A";
 "florian.leimer";"";"gibsso501948";"Leimer";"Florian";"2001-10-03";"m";"-";"florian.leimer@bbzsogr.ch";"1";"1";"INF17A";
-"ertugrul.kuecuek";"";"gibsso501949";"Kücük";"Ertugrul";"2002-01-23";"m";"-";"ertugrul.kuecuek@bbzsogr.ch";"1";"1";"PRM17B";
+"ertugrul.kuecuek";"";"gibsso501949";"KÃ¼cÃ¼k";"Ertugrul";"2002-01-23";"m";"-";"ertugrul.kuecuek@bbzsogr.ch";"1";"1";"PRM17B";
 "alex.serratore";"";"gibsso501950";"Serratore";"Alex";"2000-12-26";"m";"-";"alex.serratore@bbzsogr.ch";"1";"1";"PME17A";
 "pietro.cascio";"";"gibsso501951";"Cascio";"Pietro";"2001-11-06";"m";"-";"pietro.cascio@bbzsogr.ch";"1";"1";"PRM17A";
 "mattia.palermo";"";"gibsso501952";"Palermo";"Mattia";"2000-08-17";"m";"-";"mattia.palermo@bbzsogr.ch";"1";"1";"PRM17B";
@@ -656,8 +656,8 @@
 "silas.zbinden";"";"gibsso501995";"Zbinden";"Silas";"2001-06-04";"m";"-";"silas.zbinden@bbzsogr.ch";"1";"1";"REF17A";
 "jessica.gfeller";"";"gibsso501996";"Gfeller";"Jessica";"2001-12-07";"w";"-";"jessica.gfeller@bbzsogr.ch";"1";"1";"DRO17A";
 "thomas.brudermann";"";"gibsso501997";"Brudermann";"Thomas";"2001-09-21";"m";"-";"thomas.brudermann@bbzsogr.ch";"1";"1";"AUM17A";
-"eliecer.wernle";"";"gibsso501998";"Wernle";"Eliécer";"1999-07-13";"m";"-";"eliecer.wernle@bbzsogr.ch";"1";"1";"AUM17A";
-"fabrice.saegesser";"";"gibsso501999";"Sägesser";"Fabrice";"2001-08-24";"m";"-";"fabrice.saegesser@bbzsogr.ch";"1";"1";"AUF17A";
+"eliecer.wernle";"";"gibsso501998";"Wernle";"EliÃ©cer";"1999-07-13";"m";"-";"eliecer.wernle@bbzsogr.ch";"1";"1";"AUM17A";
+"fabrice.saegesser";"";"gibsso501999";"SÃ¤gesser";"Fabrice";"2001-08-24";"m";"-";"fabrice.saegesser@bbzsogr.ch";"1";"1";"AUF17A";
 "lars.flury";"";"gibsso502000";"Flury";"Lars";"2001-05-07";"m";"-";"lars.flury@bbzsogr.ch";"1";"1";"INF17A";
 "kirusaath.thamilselv";"";"gibsso502001";"Thamilselvan";"Kirusaath";"2000-09-20";"m";"-";"kirusaath.thamilselvan@bbzsogr.ch";"1";"1";"PRM17B";
 "yakob.boukhris";"";"gibsso502002";"Boukhris";"Yakob";"2000-10-17";"m";"-";"yakob.boukhris@bbzsogr.ch";"1";"1";"PMG17B";
@@ -677,23 +677,23 @@
 "gianluca.nica";"";"gibsso502056";"Nica";"Gian Luca";"2002-01-16";"m";"-";"gianluca.nica@bbzsogr.ch";"1";"1";"INF17S";
 "laura.amorosi";"";"gibsso502356";"Amorosi";"Laura";"1999-10-10";"w";"-";"laura.amorosi@bbzsogr.ch";"1";"1";"VWB17A";
 "selina.anton";"";"gibsso503584";"Anton";"Selina";"1999-01-02";"w";"-";"selina.anton@bbzsogr.ch";"1";"1";"REF18A";
-"laura.baerlocher";"";"gibsso502439";"Bärlocher";"Laura";"2001-04-06";"w";"-";"laura.baerlocher@bbzsogr.ch";"1";"1";"VWB17B";
+"laura.baerlocher";"";"gibsso502439";"BÃ¤rlocher";"Laura";"2001-04-06";"w";"-";"laura.baerlocher@bbzsogr.ch";"1";"1";"VWB17B";
 "sandro.dipietro";"";"gibsso502602";"Di Pietro";"Sandro";"2000-06-27";"m";"-";"sandro.dipietro@bbzsogr.ch";"1";"1";"VWB17B";
 "ramona.fedeli";"";"gibsso502436";"Fedeli";"Ramona";"1998-09-23";"w";"-";"ramona.fedeli@bbzsogr.ch";"1";"0";"VWB17B";
 "luisa.lehmann";"";"gibsso502445";"Lehmann";"Luisa";"1999-05-11";"w";"-";"luisa.lehmann@bbzsogr.ch";"1";"1";"VWB17A";
 "andrea.maurer";"";"gibsso502562";"Maurer";"Andrea";"1998-07-21";"w";"-";"andrea.maurer@bbzsogr.ch";"1";"1";"VWB17B";
 "chiara.ochsenbein";"";"gibsso502437";"Ochsenbein";"Chiara";"2001-03-13";"w";"-";"chiara.ochsenbein@bbzsogr.ch";"1";"1";"VWB17C";
 "marina.ryf";"";"gibsso502449";"Ryf";"Marina";"2000-07-18";"w";"-";"marina.ryf@bbzsogr.ch";"1";"1";"VWB17A";
-"martina.schlaefli";"";"gibsso502462";"Schläfli";"Martina";"2001-01-27";"w";"-";"martina.schlaefli@bbzsogr.ch";"1";"1";"VWB17A";
-"denise.schraemmli";"";"gibsso502625";"Schrämmli";"Denise";"2000-10-10";"w";"-";"denise.schraemmli@bbzsogr.ch";"1";"1";"VWB17C";
+"martina.schlaefli";"";"gibsso502462";"SchlÃ¤fli";"Martina";"2001-01-27";"w";"-";"martina.schlaefli@bbzsogr.ch";"1";"1";"VWB17A";
+"denise.schraemmli";"";"gibsso502625";"SchrÃ¤mmli";"Denise";"2000-10-10";"w";"-";"denise.schraemmli@bbzsogr.ch";"1";"1";"VWB17C";
 "romy.stampfli";"";"gibsso502629";"Stampfli";"Romy";"1999-09-28";"w";"-";"romy.stampfli@bbzsogr.ch";"1";"1";"VWB17C";
 "laura.stankovic";"";"gibsso502466";"Stankovic";"Laura";"1999-10-24";"w";"-";"laura.stankovic@bbzsogr.ch";"1";"1";"VWB17B";
 "noemi.zanin";"";"gibsso502464";"Zanin";"Noemi";"1999-11-14";"w";"-";"noemi.zanin@bbzsogr.ch";"1";"1";"VWB17A";
 "beteal.demos";"";"gibsso503423";"Demos";"Beteal";"1999-09-24";"w";"-";"beteal.demos@bbzsogr.ch";"1";"1";"REA18A";
-"nina.staehli";"";"gibsso503415";"Stähli";"Nina Elena";"1999-04-27";"w";"-";"nina.staehli@bbzsogr.ch";"1";"1";"REF18A";
+"nina.staehli";"";"gibsso503415";"StÃ¤hli";"Nina Elena";"1999-04-27";"w";"-";"nina.staehli@bbzsogr.ch";"1";"1";"REF18A";
 "petar.sudic";"";"gibsso503732";"Sudic";"Petar";"2000-06-30";"m";"-";"petar.sudic@bbzsogr.ch";"1";"1";"AUF18B";
 "aman.tesfamichael";"";"gibsso502066";"Tesfamichael";"Aman";"2000-06-03";"m";"-";"aman.tesfamichael@bbzsogr.ch";"1";"1";"IJBV18B";
-"onur.dueguenyurdu";"";"gibsso502069";"Dügünyurdu";"Onur";"2000-10-16";"m";"-";"onur.dueguenyurdu@bbzsogr.ch";"1";"1";"PME17A";
+"onur.dueguenyurdu";"";"gibsso502069";"DÃ¼gÃ¼nyurdu";"Onur";"2000-10-16";"m";"-";"onur.dueguenyurdu@bbzsogr.ch";"1";"1";"PME17A";
 "argjent.haxhimehti";"";"gibsso502070";"Haxhimehmeti";"Argjent";"2001-08-17";"m";"-";"argjent.haxhimehti@bbzsogr.ch";"1";"1";"PMG17B";
 "fabienne.baumann";"";"gibsso502071";"Baumann";"Fabienne";"2002-04-30";"w";"-";"fabienne.baumann@bbzsogr.ch";"1";"1";"DRO17A";
 "jonathan.kohler";"";"gibsso502072";"Kohler";"Jonathan";"2001-06-11";"m";"-";"jonathan.kohler@bbzsogr.ch";"1";"1";"AUF17A";
@@ -704,31 +704,31 @@
 "jan.barrer";"";"gibsso502077";"Barrer";"Jan";"2001-12-17";"m";"-";"jan.barrer@bbzsogr.ch";"1";"1";"PMG17B";
 "varunan.murugalingam";"";"gibsso502078";"Murugalingam";"Varunan";"1999-06-15";"m";"-";"varunan.murugalingam@bbzsogr.ch";"1";"1";"MPR17A";
 "patrik.kaqinari";"";"gibsso502116";"Kaqinari";"Patrik";"1997-02-06";"m";"-";"patrik.kaqinari@bbzsogr.ch";"1";"1";"PRM16B";
-"alena.yoerek";"";"gibsso502117";"Yörek";"Alena";"2002-01-25";"w";"-";"alena.yoerek@bbzsogr.ch";"1";"1";"INF17B";
+"alena.yoerek";"";"gibsso502117";"YÃ¶rek";"Alena";"2002-01-25";"w";"-";"alena.yoerek@bbzsogr.ch";"1";"1";"INF17B";
 "duan.aliu";"";"gibsso502118";"Aliu";"Duan";"2002-03-17";"m";"-";"duan.aliu@bbzsogr.ch";"1";"1";"PRM17B";
 "luca.klafsky";"";"gibsso502119";"Klafsky";"Luca";"2000-05-24";"m";"-";"luca.klafsky@bbzsogr.ch";"1";"1";"AUM17A";
 "manuel.mariotto";"";"gibsso503491";"Mariotto";"Manuel";"1997-05-17";"m";"-";"manuel.mariotto@bbzsogr.ch";"1";"1";"REF18A";
-"gioia.zuercher";"";"gibsso503757";"Zürcher";"Gioia";"2001-10-26";"w";"-";"gioia.zuercher@bbzsogr.ch";"1";"1";"SPE";
+"gioia.zuercher";"";"gibsso503757";"ZÃ¼rcher";"Gioia";"2001-10-26";"w";"-";"gioia.zuercher@bbzsogr.ch";"1";"1";"SPE";
 "serhat.yigit";"";"gibsso502127";"Yigit";"Serhat";"2001-04-18";"m";"-";"serhat.yigit@bbzsogr.ch";"1";"1";"PMG17B";
 "elfat.olomani";"";"gibsso502128";"Olomani";"Elfat";"2000-07-21";"m";"-";"elfat.olomani@bbzsogr.ch";"1";"1";"PRM17A";
 "evenezer.zaid";"";"gibsso502129";"Zaid";"Evenezer";"1999-01-18";"m";"-";"evenezer.zaid@bbzsogr.ch";"1";"1";"PKB17A";"BM1_TE17A"
 "denisan.rasalingam";"";"gibsso502774";"Rasalingam";"Denisan";"1998-06-02";"m";"-";"denisan.rasalingam@bbzsogr.ch";"1";"1";"REF17A";
 "jasmin.winzer";"";"gibsso502138";"Winzer";"Jasmin";"2001-01-16";"w";"-";"jasmin.winzer@bbzsogr.ch";"1";"1";"AUM17A";
-"kilian.baechler";"";"gibsso502139";"Bächler";"Kilian";"2000-06-26";"m";"-";"kilian.baechler@bbzsogr.ch";"1";"1";"AUM17A";
+"kilian.baechler";"";"gibsso502139";"BÃ¤chler";"Kilian";"2000-06-26";"m";"-";"kilian.baechler@bbzsogr.ch";"1";"1";"AUM17A";
 "fitim.saciri";"";"gibsso502140";"Saciri";"Fitim";"2001-11-19";"m";"-";"fitim.saciri@bbzsogr.ch";"1";"1";"AUF17A";"VWB18B"
 "ninotorsten.suber";"";"gibsso502141";"Suber";"Nino Torsten";"1990-07-12";"m";"-";"ninotorsten.suber@bbzsogr.ch";"1";"1";"PRM17B";
 "soraya.neuenschwande";"";"gibsso502149";"Neuenschwander";"Soraya";"2002-01-12";"w";"-";"soraya.neuenschwander@bbzsogr.ch";"1";"1";"REF17A";
 "abishan.jegatheswara";"";"gibsso502150";"Jegatheswaran";"Abishan";"2002-02-19";"m";"-";"abishan.jegatheswaran@bbzsogr.ch";"1";"1";"PMG17A";
 "giulia.alviano";"";"gibsso502151";"Alviano";"Giulia";"2001-09-27";"w";"-";"giulia.alviano@bbzsogr.ch";"1";"1";"DRO17A";
-"henrik.flueckiger";"";"gibsso502152";"Flückiger";"Henrik";"2001-01-04";"m";"-";"henrik.flueckiger@bbzsogr.ch";"1";"1";"KOE17A";
+"henrik.flueckiger";"";"gibsso502152";"FlÃ¼ckiger";"Henrik";"2001-01-04";"m";"-";"henrik.flueckiger@bbzsogr.ch";"1";"1";"KOE17A";
 "markus.lisser";"";"gibsso502160";"Lisser";"Markus";"1994-04-15";"m";"-";"markus.lisser@bbzsogr.ch";"1";"1";"AUM17A";
 "simon.stauber";"";"gibsso502989";"Stauber";"Simon";"2002-11-11";"m";"-";"simon.stauber@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18B"
-"bjoern.blaser";"";"gibsso502165";"Blaser";"Björn";"2000-12-07";"m";"-";"bjoern.blaser@bbzsogr.ch";"1";"1";"AUF17A";
+"bjoern.blaser";"";"gibsso502165";"Blaser";"BjÃ¶rn";"2000-12-07";"m";"-";"bjoern.blaser@bbzsogr.ch";"1";"1";"AUF17A";
 "raphaelandrea.gamba";"";"gibsso502166";"Gamba";"Raphael Andrea";"1988-09-02";"m";"-";"raphaelandrea.gamba@bbzsogr.ch";"1";"1";"INF17S";
 "albrim.kabashi";"";"gibsso502167";"Kabashi";"Albrim";"2001-08-25";"m";"-";"albrim.kabashi@bbzsogr.ch";"1";"1";"PRM17B";
 "gianandri.wyss";"";"gibsso502168";"Wyss";"Gian Andri";"2001-11-02";"m";"-";"gianandri.wyss@bbzsogr.ch";"1";"1";"PMG17A";
 "simon.schwenter";"L25RCNVE36";"gibsso502169";"Schwenter";"Simon";"2001-08-13";"m";"-";"simon.schwenter@bbzsogr.ch";"1";"1";"PMG17A";
-"joel.haenggi";"";"gibsso502170";"Hänggi";"Joël Nicolas";"2001-01-16";"m";"-";"joel.haenggi@bbzsogr.ch";"1";"1";"PRM17A";
+"joel.haenggi";"";"gibsso502170";"HÃ¤nggi";"JoÃ«l Nicolas";"2001-01-16";"m";"-";"joel.haenggi@bbzsogr.ch";"1";"1";"PRM17A";
 "albin.duraku";"";"gibsso502171";"Duraku";"Albin";"2001-05-22";"m";"-";"albin.duraku@bbzsogr.ch";"1";"1";"PMG17A";
 "endrit.sadiku";"";"gibsso502172";"Sadiku";"Endrit";"2001-06-28";"m";"-";"endrit.sadiku@bbzsogr.ch";"1";"1";"PRM17A";
 "nadine.oesch";"";"gibsso502173";"Oesch";"Nadine";"2001-08-17";"w";"-";"nadine.oesch@bbzsogr.ch";"1";"1";"KOE17B";
@@ -736,14 +736,14 @@
 "leon.pochelon";"J9QGZSX3VM";"gibsso502175";"Pochelon";"Leon";"2001-12-13";"m";"-";"leon.pochelon@bbzsogr.ch";"1";"1";"PMG17A";
 "samira.weber";"";"gibsso502176";"Weber";"Samira";"2001-03-15";"w";"-";"samira.weber@bbzsogr.ch";"1";"1";"AUF17A";
 "luca.berger";"";"gibsso502177";"Berger";"Luca";"2001-12-23";"m";"-";"luca.berger@bbzsogr.ch";"1";"1";"AUA17A";
-"sabrina.rueegg";"";"gibsso502199";"Rüegg";"Sabrina";"1996-09-16";"w";"-";"sabrina.rueegg@bbzsogr.ch";"1";"1";"WTG16A";
+"sabrina.rueegg";"";"gibsso502199";"RÃ¼egg";"Sabrina";"1996-09-16";"w";"-";"sabrina.rueegg@bbzsogr.ch";"1";"1";"WTG16A";
 "alina.duncan";"";"gibsso502200";"Duncan";"Alina";"2001-05-09";"w";"-";"alina.duncan@bbzsogr.ch";"1";"1";"WTG17A";
 "judith.joss";"";"gibsso502202";"Joss";"Judith";"1964-10-12";"w";"-";"judith.joss@bbzsogr.ch";"1";"1";"REF16A";
 "mike.mosimann";"";"gibsso502203";"Mosimann";"Mike";"1991-12-27";"m";"-";"mike.mosimann@bbzsogr.ch";"1";"1";"AUF16B";
 "mirjam.leuenberger";"";"gibsso502207";"Leuenberger";"Mirjam";"2000-04-30";"w";"-";"mirjam.leuenberger@bbzsogr.ch";"1";"1";"VWB17A";
-"emilie.fluekiger";"";"gibsso502210";"Flükiger";"Emilie";"2000-04-01";"w";"-";"emilie.fluekiger@bbzsogr.ch";"1";"1";"VWB17A";
+"emilie.fluekiger";"";"gibsso502210";"FlÃ¼kiger";"Emilie";"2000-04-01";"w";"-";"emilie.fluekiger@bbzsogr.ch";"1";"1";"VWB17A";
 "burim.sulejmani";"";"gibsso502229";"Sulejmani";"Burim";"1997-12-11";"m";"-";"burim.sulejmani@bbzsogr.ch";"1";"1";"BM2_TE18A";
-"manuel.thuering";"";"gibsso502230";"Thüring";"Manuel";"1994-01-09";"m";"-";"manuel.thuering@bbzsogr.ch";"1";"1";"BM2_TE18B";
+"manuel.thuering";"";"gibsso502230";"ThÃ¼ring";"Manuel";"1994-01-09";"m";"-";"manuel.thuering@bbzsogr.ch";"1";"1";"BM2_TE18B";
 "gianni.mattiello";"";"gibsso502235";"Mattiello";"Gianni";"2000-09-07";"m";"-";"gianni.mattiello@bbzsogr.ch";"1";"1";"KOE17A";
 "bleon.qorrolli";"";"gibsso502240";"Qorrolli";"Bleon";"2001-12-25";"m";"-";"bleon.qorrolli@bbzsogr.ch";"1";"1";"PRM17A";
 "edmond.shatrolli";"";"gibsso502241";"Shatrolli";"Edmond";"2001-10-03";"m";"-";"edmond.shatrolli@bbzsogr.ch";"1";"1";"MPR17A";
@@ -751,7 +751,7 @@
 "khandro.anga";"";"gibsso502243";"Anga";"Khandro";"1994-11-20";"w";"-";"khandro.anga@bbzsogr.ch";"1";"1";"REA17A";
 "sven.eng";"";"gibsso502244";"Eng";"Sven";"1987-11-19";"m";"-";"sven.eng@bbzsogr.ch";"1";"1";"PRM17A";
 "patrick.dornbierer";"";"gibsso502245";"Dornbierer";"Patrick";"1999-06-23";"m";"-";"patrick.dornbierer@bbzsogr.ch";"1";"1";"PME17A";
-"tanja.jaeggi";"";"gibsso502246";"Jäggi";"Tanja";"2002-01-24";"w";"-";"tanja.jaeggi@bbzsogr.ch";"1";"1";"DRO17A";
+"tanja.jaeggi";"";"gibsso502246";"JÃ¤ggi";"Tanja";"2002-01-24";"w";"-";"tanja.jaeggi@bbzsogr.ch";"1";"1";"DRO17A";
 "noel.schmid";"";"gibsso502254";"Schmid";"Noel";"1999-08-04";"m";"-";"noel.schmid@bbzsogr.ch";"1";"1";"VWB18C";
 "severyus.demirkaya";"";"gibsso502257";"Demirkaya";"Severyus";"1996-02-05";"m";"-";"severyus.demirkaya@bbzsogr.ch";"1";"1";"Ex";
 "shayannavaid.shah";"";"gibsso502258";"Shah";"Shayan Navaid";"1997-08-13";"m";"-";"shayannavaid.shah@bbzsogr.ch";"1";"1";"AUA17A";
@@ -778,30 +778,30 @@
 "felix.bruderer";"";"gibsso502307";"Bruderer";"Felix";"1988-12-21";"m";"-";"felix.bruderer@bbzsogr.ch";"1";"1";"BM2_TE18A";
 "simon.rippstein";"";"gibsso502316";"Rippstein";"Simon";"2001-07-13";"m";"-";"simon.rippstein@bbzsogr.ch";"1";"1";"AUF17A";
 "erjon.krasniqi";"";"gibsso502317";"Krasniqi";"Erjon";"2002-04-20";"m";"-";"erjon.krasniqi@bbzsogr.ch";"1";"1";"PRM17A";
-"max.buechel";"";"gibsso502318";"Büchel";"Max";"2001-02-15";"m";"-";"max.buechel@bbzsogr.ch";"1";"1";"PME17A";
+"max.buechel";"";"gibsso502318";"BÃ¼chel";"Max";"2001-02-15";"m";"-";"max.buechel@bbzsogr.ch";"1";"1";"PME17A";
 "gabriel.hirschi";"";"gibsso502319";"Hirschi";"Gabriel";"2001-06-03";"m";"-";"gabriel.hirschi@bbzsogr.ch";"1";"1";"PME17A";
 "emanueljona.cankalp";"";"gibsso502320";"Cankalp";"Emanuel Jona";"2000-09-03";"m";"-";"emanueljona.cankalp@bbzsogr.ch";"1";"1";"PRM17A";
 "bashkim.kadrija";"";"gibsso502321";"Kadrija";"Bashkim";"2001-12-04";"m";"-";"bashkim.kadrija@bbzsogr.ch";"1";"1";"AUF18B";
 "botan.bozat";"";"gibsso502322";"Bozat";"Botan";"2001-11-17";"m";"-";"botan.bozat@bbzsogr.ch";"1";"1";"PRM17A";
 "severintimon.sigrist";"";"gibsso502323";"Sigrist";"Severin Timon";"1999-12-27";"m";"-";"severintimon.sigrist@bbzsogr.ch";"1";"1";"PRM16A";
-"joel.carazzai";"";"gibsso502324";"Carazzai";"Joël";"1998-05-02";"m";"-";"joel.carazzai@bbzsogr.ch";"1";"1";"KOE16C";
+"joel.carazzai";"";"gibsso502324";"Carazzai";"JoÃ«l";"1998-05-02";"m";"-";"joel.carazzai@bbzsogr.ch";"1";"1";"KOE16C";
 "montree.thipprasoet";"";"gibsso502325";"Thipprasoet";"Montree";"2001-03-15";"m";"-";"montree.thipprasoet@bbzsogr.ch";"1";"1";"PRM17B";
 "asan.fejzuli";"";"gibsso502326";"Fejzuli";"Asan";"2001-06-26";"m";"-";"asan.fejzuli@bbzsogr.ch";"1";"1";"PRM17B";
 "gabriele.rebollo";"";"gibsso502327";"Rebollo";"Gabriele";"2000-07-23";"m";"-";"gabriele.rebollo@bbzsogr.ch";"1";"1";"AUA17A";
 "kaltrin.fejzuli";"";"gibsso502328";"Fejzuli";"Kaltrin";"1999-08-03";"m";"-";"kaltrin.fejzuli@bbzsogr.ch";"1";"1";"PKE17A";
 "adriana.faraci";"";"gibsso502329";"Faraci";"Adriana";"1999-09-05";"w";"-";"adriana.faraci@bbzsogr.ch";"1";"1";"INF17A";
 "saseetharan.navaratn";"";"gibsso502330";"Navaratnam";"Saseetharan";"1987-06-21";"m";"-";"saseetharan.navaratnam@bbzsogr.ch";"1";"1";"KOE17A";
-"jannik.luethi";"";"gibsso502331";"Lüthi";"Jannik";"2002-02-21";"m";"-";"jannik.luethi@bbzsogr.ch";"1";"1";"PME17A";
+"jannik.luethi";"";"gibsso502331";"LÃ¼thi";"Jannik";"2002-02-21";"m";"-";"jannik.luethi@bbzsogr.ch";"1";"1";"PME17A";
 "mouhamed.yussef";"";"gibsso502332";"Yussef";"Mouhamed";"2000-08-04";"m";"-";"mouhamed.yussef@bbzsogr.ch";"1";"1";"AUA17A";
 "lorik.elshani";"";"gibsso502333";"Elshani";"Lorik";"2001-07-13";"m";"-";"lorik.elshani@bbzsogr.ch";"1";"1";"AUM17A";"BM1_TE17A"
-"alexander.schuerch";"";"gibsso502358";"Schürch";"Alexander";"2002-04-26";"m";"-";"alexander.schuerch@bbzsogr.ch";"1";"1";"PKE17A";
+"alexander.schuerch";"";"gibsso502358";"SchÃ¼rch";"Alexander";"2002-04-26";"m";"-";"alexander.schuerch@bbzsogr.ch";"1";"1";"PKE17A";
 "nikola.savic";"";"gibsso502359";"Savic";"Nikola";"2001-10-03";"m";"-";"nikola.savic@bbzsogr.ch";"1";"1";"PMG17A";
 "daniel.schnabel";"";"gibsso502362";"Schnabel";"Daniel";"2000-04-25";"m";"-";"daniel.schnabel@bbzsogr.ch";"1";"1";"KOE17B";
 "mirja.vonrohr";"";"gibsso502363";"von Rohr";"Mirja";"1996-01-22";"w";"-";"mirja.vonrohr@bbzsogr.ch";"1";"1";"DRO17A";
 "kim.wyss";"";"gibsso502364";"Wyss";"Kim";"2000-03-08";"m";"-";"kim.wyss@bbzsogr.ch";"1";"1";"KUA17A";
 "sandro.felber";"";"gibsso502365";"Felber";"Sandro";"1997-08-24";"m";"-";"sandro.felber@bbzsogr.ch";"1";"1";"AUM16A";"VWB18C"
 "michelle.meyer";"";"gibsso502367";"Meyer";"Michelle";"2001-10-19";"w";"-";"michelle.meyer@bbzsogr.ch";"1";"1";"DRO17A";
-"julian.vonniederhaeu";"";"gibsso502368";"von Niederhäusern";"Julian";"2001-10-28";"m";"-";"julian.vonniederhaeusern@bbzsogr.ch";"1";"1";"PME17A";
+"julian.vonniederhaeu";"";"gibsso502368";"von NiederhÃ¤usern";"Julian";"2001-10-28";"m";"-";"julian.vonniederhaeusern@bbzsogr.ch";"1";"1";"PME17A";
 "hammas.safari";"";"gibsso502376";"Safari";"Hammas";"1998-01-01";"m";"-";"hammas.safari@bbzsogr.ch";"1";"1";"AUA17A";
 "rasslanjonas.ulayyan";"";"gibsso502379";"Ulayyan";"Rasslan Jonas";"2000-03-09";"m";"-";"rasslanjonas.ulayyan@bbzsogr.ch";"1";"1";"PRM17B";
 "dominic.gass";"";"gibsso502380";"Gass";"Dominic";"1995-03-31";"m";"-";"dominic.gass@bbzsogr.ch";"1";"1";"PRM17B";
@@ -828,8 +828,8 @@
 "benita.wernli";"";"gibsso502476";"Wernli";"Benita";"1995-11-30";"w";"-";"benita.wernli@bbzsogr.ch";"1";"1";"KOE16C";
 "metin.sen";"";"gibsso502477";"Sen";"Metin";"1973-10-29";"m";"-";"metin.sen@bbzsogr.ch";"1";"1";"NPR16A";
 "janik.baltisberger";"";"gibsso502478";"Baltisberger";"Janik";"1996-06-18";"m";"-";"janik.baltisberger@bbzsogr.ch";"1";"1";"AUM17A";
-"christophe.maegli";"";"gibsso502479";"Mägli";"Christophe";"2000-11-08";"m";"-";"christophe.maegli@bbzsogr.ch";"1";"1";"PKE17A";
-"noel.kalbermatter";"";"gibsso502487";"Kalbermatter";"Noël";"2001-05-06";"m";"-";"noel.kalbermatter@bbzsogr.ch";"1";"1";"AUF17A";
+"christophe.maegli";"";"gibsso502479";"MÃ¤gli";"Christophe";"2000-11-08";"m";"-";"christophe.maegli@bbzsogr.ch";"1";"1";"PKE17A";
+"noel.kalbermatter";"";"gibsso502487";"Kalbermatter";"NoÃ«l";"2001-05-06";"m";"-";"noel.kalbermatter@bbzsogr.ch";"1";"1";"AUF17A";
 "julia.peruzzini";"";"gibsso502489";"Peruzzini";"Julia";"1993-09-10";"w";"-";"julia.peruzzini@bbzsogr.ch";"1";"1";"DBA17A";
 "christian.galarosa";"";"gibsso502492";"Galarosa";"Christian";"1983-05-30";"m";"-";"christian.galarosa@bbzsogr.ch";"1";"1";"REA17A";
 "anamaria.cioanca";"";"gibsso502493";"Cioanca";"Ana Maria";"1993-08-11";"w";"-";"anamaria.cioanca@bbzsogr.ch";"1";"1";"REF17A";
@@ -837,502 +837,10 @@
 "cyrill.kaiser";"";"gibsso502497";"Kaiser";"Cyrill";"1984-09-11";"m";"-";"cyrill.kaiser@bbzsogr.ch";"1";"1";"NPR16A";
 "oliver.pejic";"";"gibsso502498";"Pejic";"Oliver";"1999-05-19";"m";"-";"oliver.pejic@bbzsogr.ch";"1";"1";"PKE17A";
 "alexandrumarian.dumi";"";"gibsso502499";"Dumitru";"Alexandru Marian";"1998-09-25";"m";"-";"alexandrumarian.dumitru@bbzsogr.ch";"1";"1";"REF17A";
-"vilma.nemeth";"";"gibsso502500";"Németh";"Vilma";"1991-09-19";"w";"-";"vilma.nemeth@bbzsogr.ch";"1";"1";"WTG16A";
+"vilma.nemeth";"";"gibsso502500";"NÃ©meth";"Vilma";"1991-09-19";"w";"-";"vilma.nemeth@bbzsogr.ch";"1";"1";"WTG16A";
 "danijel.stanojevic";"";"gibsso502501";"Stanojevic";"Danijel";"1999-08-21";"m";"-";"danijel.stanojevic@bbzsogr.ch";"1";"1";"AUA17A";
 "mekonen.mehari";"";"gibsso502504";"Mehari";"Mekonen";"1998-04-05";"m";"-";"mekonen.mehari@bbzsogr.ch";"1";"1";"IJBV18B";
 "semira.andebrhan";"";"gibsso502505";"Andebrhan";"Semira";"1999-02-24";"w";"-";"semira.andebrhan@bbzsogr.ch";"1";"1";"IJBV18A";
 "dahir.mohamudhared";"";"gibsso502506";"Mohamud Hared";"Dahir";"1998-01-01";"m";"-";"dahir.mohamudhared@bbzsogr.ch";"1";"1";"IJBV18B";
 "okbit.habtom";"";"gibsso502507";"Habtom";"Okbit";"1999-01-01";"m";"-";"okbit.habtom@bbzsogr.ch";"1";"1";"IJBV18C";
 "kesete.tsegay";"";"gibsso502508";"Tsegay";"Kesete";"1998-04-01";"m";"-";"kesete.tsegay@bbzsogr.ch";"1";"1";"IJO18B";
-"sirak.fitsum";"";"gibsso502509";"Fitsum";"Sirak";"1998-10-12";"m";"-";"sirak.fitsum@bbzsogr.ch";"1";"1";"IJBV18C";
-"tesfaghiorgis.welday";"";"gibsso502511";"Welday";"Tesfaghiorgis";"2001-05-28";"m";"-";"tesfaghiorgis.welday@bbzsogr.ch";"1";"1";"IJBV18A";
-"nahom.tsegay";"";"gibsso502512";"Tsegay";"Nahom";"1998-02-02";"m";"-";"nahom.tsegay@bbzsogr.ch";"1";"1";"IJBV18B";
-"abdirahman.ahmed";"";"gibsso502514";"Ahmed";"Abdirahman";"1997-01-01";"m";"-";"abdirahman.ahmed@bbzsogr.ch";"1";"1";"IJBV18A";
-"shekib.heydari";"";"gibsso502515";"Heydari";"Shekib";"1997-01-01";"m";"-";"shekib.heydari@bbzsogr.ch";"1";"1";"IJBV18A";
-"million.fessehaye";"";"gibsso502516";"Fessehaye";"Million";"2001-01-05";"w";"-";"million.fessehaye@bbzsogr.ch";"1";"1";"IJBV18C";
-"mayooran.mahendran";"";"gibsso502517";"Mahendran";"Mayooran";"1999-08-08";"m";"-";"mayooran.mahendran@bbzsogr.ch";"1";"1";"IJO18B";
-"nicole.zangger";"";"gibsso502524";"Zangger";"Nicole";"1981-04-05";"w";"-";"nicole.zangger@bbzsogr.ch";"1";"1";"NPR16A";
-"sebastian.tirez";"";"gibsso502525";"Tirez";"Sebastian";"1995-06-25";"m";"-";"sebastian.tirez@bbzsogr.ch";"1";"1";"REF17A";
-"patricia.steffen";"";"gibsso502526";"Steffen";"Patricia";"2000-03-02";"w";"-";"patricia.steffen@bbzsogr.ch";"1";"1";"PRM17A";
-"sabine.jermann";"46V3U2HNDT";"gibsso502527";"Jermann";"Sabine";"1972-04-05";"w";"-";"sabine.jermann@bbzsogr.ch";"1";"1";"KOE17B";
-"huliparfaite.nyiraka";"";"gibsso502528";"Nyirakanyana";"Huli Parfaite";"1988-05-15";"w";"-";"huliparfaite.nyirakanyana@bbzsogr.ch";"1";"1";"KUA17A";
-"muhaser.dalipi";"";"gibsso502537";"Dalipi";"Muhaser";"1998-09-08";"m";"-";"muhaser.dalipi@bbzsogr.ch";"1";"1";"IJBV18C";
-"oumar.kaba";"";"gibsso502541";"Kaba";"Oumar";"2000-12-15";"m";"-";"oumar.kaba@bbzsogr.ch";"1";"1";"IJBV18B";
-"cemal.karalar";"";"gibsso502543";"Karalar";"Cemal";"1999-04-09";"m";"-";"cemal.karalar@bbzsogr.ch";"1";"1";"IJO18B";
-"sciamyra.molino";"";"gibsso502547";"Molino";"Sciamyra";"2001-01-25";"w";"-";"sciamyra.molino@bbzsogr.ch";"1";"1";"IJBV18A";
-"pirathap.paramanatha";"";"gibsso502553";"Paramanathan";"Pirathap";"1999-09-19";"m";"-";"pirathap.paramanathan@bbzsogr.ch";"1";"1";"IJBV18A";
-"alexander.penarincon";"";"gibsso502555";"Peña Rincon";"Alexander";"2000-09-01";"m";"-";"alexander.penarincon@bbzsogr.ch";"1";"1";"IJBV18B";
-"muzit.yakob";"";"gibsso502559";"Yakob";"Muzit";"2000-07-05";"w";"-";"muzit.yakob@bbzsogr.ch";"1";"1";"KUA17A";
-"dario.mazziotti";"";"gibsso503299";"Mazziotti";"Dario";"2000-08-18";"m";"-";"dario.mazziotti@bbzsogr.ch";"1";"1";"MPR18A";
-"sascha.ritter";"";"gibsso503217";"Ritter";"Sascha";"1996-06-13";"";"-";"sascha.ritter@bbzsogr.ch";"1";"1";"BM2_TE18A";
-"jan.vandenheuvel";"";"gibsso503528";"van den Heuvel";"Jan";"1998-08-28";"m";"-";"jan.vandenheuvel@bbzsogr.ch";"1";"1";"INF18A";
-"kaansalih.dogan";"";"gibsso502564";"Dogan";"Kaan Salih";"2000-09-19";"m";"-";"kaansalih.dogan@bbzsogr.ch";"1";"1";"PRM17A";
-"nicolassven.mueller";"";"gibsso502565";"Müller";"Nicolas Sven";"2000-07-19";"m";"-";"nicolassven.mueller@bbzsogr.ch";"1";"1";"PKB17A";"BM1_TE17A"
-"timon.kindler";"";"gibsso502567";"Kindler";"Timon";"2001-10-01";"m";"-";"timon.kindler@bbzsogr.ch";"1";"1";"INF17A";
-"fabian.steiner";"";"gibsso502568";"Steiner";"Fabian";"2002-04-25";"m";"-";"fabian.steiner@bbzsogr.ch";"1";"1";"KOE17A";
-"alexandernicolas.pas";"";"gibsso502578";"Pascual";"Alexander Nicolas";"1995-06-23";"m";"-";"alexandernicolas.pascual@bbzsogr.ch";"1";"1";"RPR17A";
-"till.estermann";"";"gibsso503152";"Estermann";"Till";"1996-12-08";"m";"-";"till.estermann@bbzsogr.ch";"1";"1";"BM2_TE18A";
-"lino.ziltener";"";"gibsso503204";"Ziltener";"Lino";"1996-07-17";"m";"-";"lino.ziltener@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"amanda.mathys";"";"gibsso502580";"Mathys";"Amanda";"1998-06-15";"w";"-";"amanda.mathys@bbzsogr.ch";"1";"1";"VWB17C";
-"eren.polat";"";"gibsso502581";"Polat";"Eren";"2000-11-02";"m";"-";"eren.polat@bbzsogr.ch";"1";"1";"PRM17A";
-"philip.kock";"";"gibsso502582";"Kock";"Philip";"2002-07-13";"m";"-";"philip.kock@bbzsogr.ch";"1";"1";"REF17A";
-"damiano.depascali";"";"gibsso502584";"De Pascali";"Damiano";"1999-01-23";"m";"-";"damiano.depascali@bbzsogr.ch";"1";"1";"AUF17A";
-"giulia.attanasio";"";"gibsso502585";"Attanasio";"Giulia";"2000-11-30";"w";"-";"giulia.attanasio@bbzsogr.ch";"1";"1";"REF17A";"VWB18C"
-"flamur.xhema";"";"gibsso502586";"Xhema";"Flamur";"2001-11-28";"m";"-";"flamur.xhema@bbzsogr.ch";"1";"1";"AUF17A";
-"sara.jakupovic";"";"gibsso502599";"Jakupovic";"Sara";"2001-02-12";"w";"-";"sara.jakupovic@bbzsogr.ch";"1";"1";"VWB17B";
-"josefine.schaefer";"";"gibsso502603";"Schäfer";"Josefine";"2000-12-23";"w";"-";"josefine.schaefer@bbzsogr.ch";"1";"1";"VWB17A";
-"edita.idrizi";"";"gibsso502608";"Idrizi";"Edita";"1999-08-22";"w";"-";"edita.idrizi@bbzsogr.ch";"1";"1";"VWB17B";
-"ruemeysa.polat";"";"gibsso502615";"Polat";"Rümeysa";"1999-03-03";"w";"-";"ruemeysa.polat@bbzsogr.ch";"1";"1";"WTG17A";
-"milenko.knezevic";"";"gibsso502619";"Knezevic";"Milenko";"1987-01-28";"m";"-";"milenko.knezevic@bbzsogr.ch";"1";"1";"KUA17A";
-"adrian.willi";"";"gibsso502626";"Willi";"Adrian";"2000-04-10";"m";"-";"adrian.willi@bbzsogr.ch";"1";"1";"VWB17C";
-"roman.grogg";"";"gibsso502630";"Grogg";"Roman Alexander";"1999-12-02";"m";"-";"roman.grogg@bbzsogr.ch";"1";"1";"MPR18A";
-"maxime.schlittler";"";"gibsso503512";"Schlittler";"Maxime";"2001-04-02";"w";"-";"maxime.schlittler@bbzsogr.ch";"1";"1";"KUA18A";
-"alan.luethy";"";"gibsso502632";"Lüthy";"Alan";"2001-08-12";"m";"-";"alan.luethy@bbzsogr.ch";"1";"1";"PMG17A";
-"nathan.loerner";"";"gibsso502634";"Lörner";"Nathan";"1999-11-20";"m";"-";"nathan.loerner@bbzsogr.ch";"1";"1";"Ex";
-"abel.zera";"";"gibsso502635";"Zera";"Abel";"1998-12-12";"m";"-";"abel.zera@bbzsogr.ch";"1";"1";"RPR17A";
-"domenik.gegaj";"";"gibsso502636";"Gegaj";"Domenik";"1999-02-15";"m";"-";"domenik.gegaj@bbzsogr.ch";"1";"1";"AUA17A";
-"blerti.berisha";"";"gibsso502637";"Berisha";"Blerti";"2000-02-22";"m";"-";"blerti.berisha@bbzsogr.ch";"1";"1";"INF17B";"BM1_TE17A"
-"tony.russo";"";"gibsso502638";"Russo";"Tony";"1999-07-13";"m";"-";"tony.russo@bbzsogr.ch";"1";"1";"PME16A";"VWB18B"
-"tugrul.parlak";"";"gibsso502639";"Parlak";"Tugrul";"1999-09-14";"m";"-";"tugrul.parlak@bbzsogr.ch";"1";"1";"AUF17A";
-"mohammad.abdulsammad";"";"gibsso503687";"Abdulsammad";"Mohammad";"1997-01-01";"m";"-";"mohammad.abdulsammad@bbzsogr.ch";"1";"1";"IJBV18C";
-"niklas.winistoerfer";"";"gibsso502651";"Winistörfer";"Niklas";"1998-10-06";"m";"-";"niklas.winistoerfer@bbzsogr.ch";"1";"1";"VWB17C";
-"johnloic.lebus-ritte";"";"gibsso502653";"Lebus-Ritter";"John Loic";"1999-09-15";"m";"-";"johnloic.lebus-ritter@bbzsogr.ch";"1";"1";"Ex";
-"alessio.paci";"";"gibsso502656";"Paci";"Alessio";"1998-10-30";"m";"-";"alessio.paci@bbzsogr.ch";"1";"1";"RPR17A";
-"anurathan.ramachandr";"";"gibsso502657";"Ramachandran";"Anurathan";"2000-03-11";"m";"-";"anurathan.ramachandran@bbzsogr.ch";"1";"1";"MPR17A";
-"mehdi.huber";"";"gibsso502658";"Huber";"Mehdi";"1993-05-23";"m";"-";"mehdi.huber@bbzsogr.ch";"1";"1";"MPR17A";
-"safaa.jabarin";"";"gibsso502669";"Jabarin";"Safaa";"1999-01-01";"w";"-";"safaa.jabarin@bbzsogr.ch";"1";"1";"INVOL18B";
-"merhawi.kahsay";"";"gibsso502670";"Kahsay";"Merhawi";"1999-06-22";"m";"-";"merhawi.kahsay@bbzsogr.ch";"1";"1";"INVOL18A";
-"yeabyo.kaleb";"";"gibsso502671";"Yeabyo";"Kaleb";"1997-11-23";"m";"-";"yeabyo.kaleb@bbzsogr.ch";"1";"1";"INVOL18B";
-"anastasia.walter";"";"gibsso503529";"Walter";"Anastasia";"2001-05-22";"w";"-";"anastasia.walter@bbzsogr.ch";"1";"1";"KOE18B";
-"muslim.dawlatzada";"";"gibsso502674";"Dawlatzada";"Muslim";"1998-01-01";"m";"-";"muslim.dawlatzada@bbzsogr.ch";"1";"1";"INVOL18A";
-"aleksa.markovic";"";"gibsso502680";"Markovic";"Aleksa";"2002-01-31";"m";"-";"aleksa.markovic@bbzsogr.ch";"1";"1";"KOE17A";
-"svenja.casari";"";"gibsso502681";"Casari";"Svenja";"2001-02-15";"w";"-";"svenja.casari@bbzsogr.ch";"1";"1";"KUA17A";
-"massimo.gelsi";"";"gibsso502682";"Gelsi";"Massimo";"1981-01-02";"m";"-";"massimo.gelsi@bbzsogr.ch";"1";"1";"NPR16A";
-"simona.kosanovic";"";"gibsso502683";"Kosanovic";"Simona";"1996-08-01";"w";"-";"simona.kosanovic@bbzsogr.ch";"1";"1";"KOE16C";
-"dominik.filliger";"";"gibsso502684";"Filliger";"Dominik";"2000-12-01";"m";"-";"dominik.filliger@bbzsogr.ch";"1";"1";"INF17A";
-"remo.vonfelten";"";"gibsso502685";"von Felten";"Remo";"2001-03-26";"m";"-";"remo.vonfelten@bbzsogr.ch";"1";"1";"AUM17A";
-"jasmin.wagner";"";"gibsso502686";"Wagner";"Jasmin";"2000-10-07";"w";"-";"jasmin.wagner@bbzsogr.ch";"1";"1";"PME17A";
-"baran.eker";"";"gibsso502687";"Eker";"Baran";"2000-09-20";"m";"-";"baran.eker@bbzsogr.ch";"1";"1";"AUF17A";
-"semhar.tesfaslassie";"";"gibsso503553";"Tesfaslassie";"Semhar";"1999-07-23";"w";"-";"semhar.tesfaslassie@bbzsogr.ch";"1";"1";"KUA18A";
-"sham.solomon";"";"gibsso503683";"Solomon";"Sham";"2001-11-08";"m";"-";"sham.solomon@bbzsogr.ch";"1";"1";"IJBV18B";
-"labinot.shabanaj";"";"gibsso502720";"Shabanaj";"Labinot";"1993-03-28";"m";"-";"labinot.shabanaj@bbzsogr.ch";"1";"1";"NPR16A";
-"burim.raimi";"934HKTKDXB";"gibsso502723";"Raimi";"Burim";"1995-04-28";"m";"-";"burim.raimi@bbzsogr.ch";"1";"1";"NPR16A";
-"florian.bastug";"";"gibsso502724";"Bastug";"Florian";"2000-11-04";"m";"-";"florian.bastug@bbzsogr.ch";"1";"1";"AUA17A";
-"mamadououry.diallo";"";"gibsso502725";"Diallo";"Mamadou Oury";"1998-06-14";"m";"-";"mamadououry.diallo@bbzsogr.ch";"1";"1";"KUA17A";
-"yasser.elkoudsi";"";"gibsso502726";"El Koudsi";"Yasser";"2002-02-04";"m";"-";"yasser.elkoudsi@bbzsogr.ch";"1";"1";"PME17A";
-"fabienne.kuenzli";"";"gibsso502732";"Künzli";"Fabienne";"1998-04-01";"w";"-";"fabienne.kuenzli@bbzsogr.ch";"1";"1";"KOE17B";
-"bodo.friedli";"";"gibsso502733";"Friedli";"Bodo";"2001-02-24";"m";"-";"bodo.friedli@bbzsogr.ch";"1";"1";"PME17A";
-"melanie.vogler";"";"gibsso502738";"Vogler";"Melanie";"2001-08-02";"w";"-";"melanie.vogler@bbzsogr.ch";"1";"1";"DRO17A";
-"ratsawadee.krasae";"";"gibsso502742";"Krasae";"Ratsawadee";"1999-06-18";"w";"-";"ratsawadee.krasae@bbzsogr.ch";"1";"1";"REF17A";
-"timo.friedli";"EUTEHNS8V8";"gibsso502749";"Friedli";"Timo";"1991-03-05";"m";"-";"timo.friedli@bbzsogr.ch";"1";"1";"PKB16A";
-"alischa.ramseier";"";"gibsso503112";"Ramseier";"Alischa";"2000-10-04";"w";"-";"alischa.ramseier@bbzsogr.ch";"1";"1";"REF18A";
-"romina.ruffinatto";"";"gibsso502751";"Ruffinatto";"Romina";"1997-09-28";"w";"-";"romina.ruffinatto@bbzsogr.ch";"1";"1";"REA17A";
-"ronaldivan.vogel";"";"gibsso502753";"Vogel";"Ronald Ivan";"1979-03-28";"m";"-";"ronaldivan.vogel@bbzsogr.ch";"1";"1";"KOE17B";
-"nikola.petkovic";"";"gibsso502754";"Petkovic";"Nikola";"1998-08-27";"m";"-";"nikola.petkovic@bbzsogr.ch";"1";"1";"KOE17A";
-"goekhan.soenmez";"";"gibsso502755";"Sönmez";"Gökhan";"1990-05-13";"m";"-";"goekhan.soenmez@bbzsogr.ch";"1";"1";"RPR17A";
-"carmenalessia.wyss";"";"gibsso502756";"Wyss";"Carmen Alessia";"1993-08-19";"w";"-";"carmenalessia.wyss@bbzsogr.ch";"1";"1";"REF17A";
-"deniz.zekiri";"";"gibsso502757";"Zekiri";"Deniz";"1992-10-26";"m";"-";"deniz.zekiri@bbzsogr.ch";"1";"1";"REF17A";
-"jahed.forugh";"";"gibsso502764";"Forugh";"Jahed";"1987-01-01";"m";"-";"jahed.forugh@bbzsogr.ch";"1";"1";"REF17A";
-"zaman.gholami";"";"gibsso502769";"Gholami";"Zaman";"2000-04-20";"m";"-";"zaman.gholami@bbzsogr.ch";"1";"1";"IJBV18C";
-"kushtrim.ismaili";"";"gibsso502786";"Ismaili";"Kushtrim";"2000-10-26";"m";"-";"kushtrim.ismaili@bbzsogr.ch";"1";"1";"REA17A";
-"arianna.bozinovski";"";"gibsso503330";"Bozinovski";"Arianna";"2002-05-19";"w";"-";"arianna.bozinovski@bbzsogr.ch";"1";"1";"REF18A";
-"thomas.meister";"";"gibsso502975";"Meister";"Thomas";"2000-07-24";"m";"-";"thomas.meister@bbzsogr.ch";"1";"1";"KOE18B";
-"mohammad.rahimi";"";"gibsso503156";"Rahimi";"Mohammad Hosein";"1994-11-28";"m";"-";"mohammad.rahimi@bbzsogr.ch";"1";"1";"PMG18C";
-"fabio.loettgen";"";"gibsso502791";"Löttgen";"Fabio";"2001-06-07";"m";"-";"fabio.loettgen@bbzsogr.ch";"1";"1";"KOE17A";
-"jan.portenier";"";"gibsso502799";"Portenier";"Jan";"1999-07-31";"m";"-";"jan.portenier@bbzsogr.ch";"1";"1";"AUA17A";
-"dean.ruettimann";"";"gibsso502810";"Rüttimann";"Dean";"1999-03-13";"m";"-";"dean.ruettimann@bbzsogr.ch";"1";"1";"KOE16A";
-"gianfranco.muramati";"";"gibsso502826";"Mauramati";"Gianfranco";"1998-06-06";"m";"-";"gianfranco.muramati@bbzsogr.ch";"1";"1";"REA17A";
-"fabio.haefelin";"";"gibsso502827";"Haefelin";"Fabio";"2002-10-18";"m";"-";"fabio.haefelin@bbzsogr.ch";"1";"1";"KOE18B";
-"josemiguel.camuendou";"";"gibsso502828";"Camuendo Urcuango";"José Miguel";"1977-10-27";"m";"-";"josemiguel.camuendourcuango@bbzsogr.ch";"1";"1";"KOE17B";
-"noah.kaeser";"";"gibsso502829";"Käser";"Noah";"2001-10-25";"m";"-";"noah.kaeser@bbzsogr.ch";"1";"1";"AUF18A";
-"michelle.kohler";"";"gibsso502830";"Kohler";"Michelle";"2002-06-24";"w";"-";"michelle.kohler@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18B"
-"florian.luescher2";"";"gibsso502831";"Lüscher";"Florian";"2001-01-22";"m";"-";"florian.luescher2@bbzsogr.ch";"1";"1";"DRO18A";
-"eliane.fankhauser";"";"gibsso502832";"Fankhauser";"Eliane";"2001-12-08";"w";"-";"eliane.fankhauser@bbzsogr.ch";"1";"1";"KOE18A";
-"lea.suter2";"";"gibsso502833";"Suter";"Lea";"2002-12-16";"w";"-";"lea.suter2@bbzsogr.ch";"1";"1";"KOE18B";
-"marco.stuedeli";"";"gibsso502834";"Stüdeli";"Marco";"2002-08-16";"m";"-";"marco.stuedeli@bbzsogr.ch";"1";"1";"PRM18B";
-"faredin.hetemi";"";"gibsso502835";"Hetemi";"Faredin";"2001-12-10";"m";"-";"faredin.hetemi@bbzsogr.ch";"1";"1";"PMG18B";
-"louis.geser";"";"gibsso502836";"Geser";"Louis";"2002-08-01";"m";"-";"louis.geser@bbzsogr.ch";"1";"1";"KOE18A";
-"lukas.eng";"";"gibsso502837";"Eng";"Lukas";"2002-10-26";"m";"-";"lukas.eng@bbzsogr.ch";"1";"1";"PMG18C";
-"joel.marugg";"";"gibsso502838";"Marugg";"Joël";"2002-04-06";"m";"-";"joel.marugg@bbzsogr.ch";"1";"1";"PMG18A";
-"sven.erhard";"";"gibsso502839";"Erhard";"Sven";"2002-08-24";"m";"-";"sven.erhard@bbzsogr.ch";"1";"1";"PMG18C";
-"noah.flury2";"";"gibsso502840";"Flury";"Noah";"2002-10-17";"m";"-";"noah.flury2@bbzsogr.ch";"1";"1";"AUF18A";
-"luca.nana";"";"gibsso502841";"Nana";"Luca";"2003-03-19";"m";"-";"luca.nana@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18A"
-"seanpatrice.kessi";"";"gibsso502866";"Kessi";"Sean Patrice";"2002-10-03";"m";"-";"seanpatrice.kessi@bbzsogr.ch";"1";"1";"INF18A";
-"amelie.probst";"";"gibsso502867";"Probst";"Amélie";"2002-03-26";"w";"-";"amelie.probst@bbzsogr.ch";"1";"1";"DRO18A";
-"kyra.vonarx";"";"gibsso502871";"von Arx";"Kyra";"1995-03-14";"w";"-";"kyra.vonarx@bbzsogr.ch";"1";"1";"KOE17A";
-"fabio.sutter";"";"gibsso502872";"Sutter";"Fabio";"2002-04-02";"m";"-";"fabio.sutter@bbzsogr.ch";"1";"1";"KOE18A";
-"gian.parpan";"";"gibsso502873";"Parpan";"Gian";"2003-02-13";"m";"-";"gian.parpan@bbzsogr.ch";"1";"1";"PRM18C";
-"ewen.jenni";"";"gibsso502874";"Jenni";"Ewen";"2002-04-06";"m";"-";"ewen.jenni@bbzsogr.ch";"1";"1";"PRM18A";
-"julian.styner";"";"gibsso502875";"Styner";"Julian";"2002-07-29";"m";"-";"julian.styner@bbzsogr.ch";"1";"1";"PMG18C";
-"aurelio.gunzinger";"";"gibsso502881";"Gunzinger";"Aurelio";"2002-08-20";"m";"-";"aurelio.gunzinger@bbzsogr.ch";"1";"1";"INF18B";
-"sebastian.lehmann";"";"gibsso502882";"Lehmann";"Sebastian";"2002-06-25";"m";"-";"sebastian.lehmann@bbzsogr.ch";"1";"1";"KOE18A";
-"ennio.donofrio";"";"gibsso502883";"D'Onofrio";"Ennio";"2002-09-10";"m";"-";"ennio.donofrio@bbzsogr.ch";"1";"1";"PRM18B";
-"youssef.mouhim";"";"gibsso502884";"Mouhim";"Youssef";"2002-07-22";"m";"-";"youssef.mouhim@bbzsogr.ch";"1";"1";"PRM18B";
-"dominik.pereiraalves";"";"gibsso502885";"Pereira Alves";"Dominik";"2001-08-11";"m";"-";"dominik.pereiraalves@bbzsogr.ch";"1";"1";"AUF18A";
-"michel.niederhaeuser";"";"gibsso502886";"Niederhäuser";"Michel";"2003-03-13";"m";"-";"michel.niederhaeuser@bbzsogr.ch";"1";"1";"PKE18A";
-"silas.staufer";"";"gibsso502887";"Staufer";"Silas";"2002-10-20";"m";"-";"silas.staufer@bbzsogr.ch";"1";"1";"PKE18A";
-"julianleonardo.boegl";"";"gibsso502888";"Bögli";"Julian Leonardo";"2003-03-19";"m";"-";"julianleonardo.boegli@bbzsogr.ch";"1";"1";"PMG18B";
-"giannirenato.fux";"";"gibsso502889";"Fux";"Gianni Renato";"2003-04-04";"m";"-";"giannirenato.fux@bbzsogr.ch";"1";"1";"PMG18B";
-"marco.allemann2";"";"gibsso502907";"Allemann";"Marco";"2002-07-22";"m";"-";"marco.allemann2@bbzsogr.ch";"1";"1";"KOE18A";
-"biniam.ghebrehiwet";"";"gibsso502908";"Ghebrehiwet";"Biniam";"1999-04-29";"m";"-";"biniam.ghebrehiwet@bbzsogr.ch";"1";"1";"INF18A";
-"lucaalessandro.nazza";"";"gibsso502909";"Nazzaro";"Luca Alessandro";"2002-06-25";"m";"-";"lucaalessandro.nazzaro@bbzsogr.ch";"1";"1";"AUM18A";
-"bruno.brandao";"";"gibsso502910";"Brandao";"Bruno";"2002-04-14";"m";"-";"bruno.brandao@bbzsogr.ch";"1";"1";"AUF18A";
-"noemi.wuersten";"";"gibsso502911";"Würsten";"Noemi";"2002-07-25";"w";"-";"noemi.wuersten@bbzsogr.ch";"1";"1";"DRO18A";
-"jana.jossi";"";"gibsso502912";"Jossi";"Jana";"2002-06-30";"w";"-";"jana.jossi@bbzsogr.ch";"1";"1";"KOE18A";
-"alron.krasniqi";"";"gibsso502913";"Krasniqi";"Alron";"2002-07-31";"m";"-";"alron.krasniqi@bbzsogr.ch";"1";"1";"AUF18A";
-"selina.studer3";"";"gibsso503267";"Studer";"Selina";"1998-05-24";"w";"-";"selina.studer3@bbzsogr.ch";"1";"1";"KUA18A";
-"alex.huerlimann";"";"gibsso502922";"Hürlimann";"Alex";"2002-03-02";"m";"-";"alex.huerlimann@bbzsogr.ch";"1";"1";"PMG18C";
-"nikita.wolf";"";"gibsso502923";"Wolf";"Nikita";"2002-06-18";"w";"-";"nikita.wolf@bbzsogr.ch";"1";"1";"PMG18C";
-"mentor.kastrati";"";"gibsso502924";"Kastrati";"Mentor";"2002-02-01";"m";"-";"mentor.kastrati@bbzsogr.ch";"1";"1";"PMG18C";
-"thanan.kirupakaran";"";"gibsso502925";"Kirupakaran";"Thanan";"2002-06-01";"m";"-";"thanan.kirupakaran@bbzsogr.ch";"1";"1";"PMG18C";
-"celina.klauenboesch";"";"gibsso502926";"Klauenbösch";"Celina";"2002-07-10";"w";"-";"celina.klauenboesch@bbzsogr.ch";"1";"1";"DRO18A";
-"selina.aloisi";"";"gibsso502936";"Aloisi";"Selina";"2001-11-25";"w";"-";"selina.aloisi@bbzsogr.ch";"1";"1";"KOE18B";
-"rilind.arifi";"";"gibsso502937";"Arifi";"Rilind";"2002-03-26";"m";"-";"rilind.arifi@bbzsogr.ch";"1";"1";"PRM18B";
-"benet.hasani";"";"gibsso502938";"Hasani";"Benet";"2002-06-20";"m";"-";"benet.hasani@bbzsogr.ch";"1";"1";"PRM18B";
-"lars.knoerr";"";"gibsso502939";"Knörr";"Lars";"2002-03-30";"m";"-";"lars.knoerr@bbzsogr.ch";"1";"1";"PRM18B";
-"muhamed.beciri";"";"gibsso502940";"Beciri";"Muhamed";"2002-08-24";"m";"-";"muhamed.beciri@bbzsogr.ch";"1";"1";"PMG18B";
-"kushtrim.rexhepi";"";"gibsso502941";"Rexhepi";"Kushtrim";"2002-08-29";"m";"-";"kushtrim.rexhepi@bbzsogr.ch";"1";"1";"PMG18A";
-"valentin.jakaj";"";"gibsso502942";"Jakaj";"Valentin";"2002-01-06";"m";"-";"valentin.jakaj@bbzsogr.ch";"1";"1";"PRM18A";
-"patrik.matosevic";"";"gibsso502943";"Matosevic";"Patrick";"2003-04-10";"m";"-";"patrik.matosevic@bbzsogr.ch";"1";"1";"PMG18A";
-"daniel.ibantorrijos";"";"gibsso502944";"Iban Torrijos";"Daniel";"2002-01-19";"m";"-";"daniel.ibantorrijos@bbzsogr.ch";"1";"1";"MPR18A";
-"manuel.sorsche";"";"gibsso502956";"Sorsche";"Manuel";"2003-02-19";"m";"-";"manuel.sorsche@bbzsogr.ch";"1";"1";"KOE18A";
-"suleikacheyenne.erne";"";"gibsso502957";"Erne";"Suleika Cheyenne";"2002-04-20";"w";"-";"suleikacheyenne.erne@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18B"
-"maximilian.scheuber";"";"gibsso502958";"Scheuber";"Maximilian";"2003-03-26";"m";"-";"maximilian.scheuber@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18B"
-"emanuele.pintarelli";"";"gibsso502959";"Pintarelli";"Emanuele";"2002-11-09";"m";"-";"emanuele.pintarelli@bbzsogr.ch";"1";"1";"INF18A";
-"michael.simic";"";"gibsso502960";"Simic";"Michael";"2003-03-10";"m";"-";"michael.simic@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
-"oliver.meier";"";"gibsso502961";"Meier";"Oliver";"2003-07-13";"m";"-";"oliver.meier@bbzsogr.ch";"1";"1";"AUF18A";
-"fabian.ameti";"";"gibsso502962";"Ameti";"Fabian";"1999-03-26";"m";"-";"fabian.ameti@bbzsogr.ch";"1";"1";"PRM18B";
-"nico.spycher";"";"gibsso502963";"Spycher";"Nico";"2002-08-27";"m";"-";"nico.spycher@bbzsogr.ch";"1";"1";"AUM18A";
-"aleksandar.stankovic";"";"gibsso502964";"Stankovic";"Aleksandar";"2002-07-27";"m";"-";"aleksandar.stankovic@bbzsogr.ch";"1";"1";"PMG18B";
-"elia.delfrate";"";"gibsso502976";"Del Frate";"Elia";"2002-09-06";"m";"-";"elia.delfrate@bbzsogr.ch";"1";"1";"PKE18A";
-"benjamin.mueller4";"";"gibsso502977";"Müller";"Benjamin";"2002-02-05";"m";"-";"benjamin.mueller4@bbzsogr.ch";"1";"1";"REF18A";
-"stefan.jelaca";"";"gibsso502978";"Jelaca";"Stefan";"2002-06-01";"m";"-";"stefan.jelaca@bbzsogr.ch";"1";"1";"PKE18A";
-"chantal.laederach";"";"gibsso502985";"Läderach";"Chantal";"2001-05-31";"w";"-";"chantal.laederach@bbzsogr.ch";"1";"1";"WTG18A";
-"andrinsimon.walser";"";"gibsso502990";"Walser";"Andrin Simon";"2002-08-01";"m";"-";"andrinsimon.walser@bbzsogr.ch";"1";"1";"INF18A";
-"manuel.jedrinovic";"";"gibsso502991";"Jedrinovic";"Manuel";"2002-11-22";"m";"-";"manuel.jedrinovic@bbzsogr.ch";"1";"1";"PRM18C";
-"linard.baerel";"";"gibsso502992";"Baerel";"Linard";"2002-06-15";"m";"-";"linard.baerel@bbzsogr.ch";"1";"1";"PMG18A";
-"tim.aebi2";"";"gibsso502993";"Aebi";"Tim";"2002-11-09";"m";"-";"tim.aebi2@bbzsogr.ch";"1";"1";"PMG18A";
-"jaleshan.selvabalan";"";"gibsso502994";"Selvabalan";"Jaleshan";"2003-02-27";"m";"-";"jaleshan.selvabalan@bbzsogr.ch";"1";"1";"PMG18A";
-"maurice.spaeni";"";"gibsso502995";"Späni";"Maurice";"2002-11-07";"m";"-";"maurice.spaeni@bbzsogr.ch";"1";"1";"KOE18A";
-"anna.knuchel2";"";"gibsso502996";"Knuchel";"Anna";"2001-12-10";"w";"-";"anna.knuchel2@bbzsogr.ch";"1";"1";"REF18A";
-"annamaria.kunz";"";"gibsso502997";"Kunz";"Annamaria";"1998-06-16";"w";"-";"annamaria.kunz@bbzsogr.ch";"1";"1";"KOE17B";
-"sara.schmeisser";"";"gibsso502998";"Schmeisser";"Sara";"2002-06-25";"w";"-";"sara.schmeisser@bbzsogr.ch";"1";"1";"PKE18A";
-"joel.mueller2";"";"gibsso502999";"Müller";"Joel";"2003-04-20";"m";"-";"joel.mueller2@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
-"simon.berni";"";"gibsso503000";"Berni";"Simon";"2003-02-16";"m";"-";"simon.berni@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
-"david.achermann";"";"gibsso503001";"Achermann";"David";"2002-06-16";"m";"-";"david.achermann@bbzsogr.ch";"1";"1";"AUM18A";
-"cedric.buettiker";"";"gibsso503002";"Büttiker";"Cédric";"2003-03-31";"m";"-";"cedric.buettiker@bbzsogr.ch";"1";"1";"PKE18A";
-"fabio.schmuki";"";"gibsso503003";"Schmuki";"Fabio";"2002-12-16";"m";"-";"fabio.schmuki@bbzsogr.ch";"1";"1";"AUF18A";
-"zamir.dauti";"";"gibsso503004";"Dauti";"Zamir";"2000-10-17";"m";"-";"zamir.dauti@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18A"
-"altin.dakaj";"";"gibsso503005";"Dakaj";"Altin";"2002-06-12";"m";"-";"altin.dakaj@bbzsogr.ch";"1";"1";"PRM18B";
-"ionut-mirel.simbetea";"";"gibsso503006";"Simbeteanu";"Ionut-Mirel";"2002-02-21";"m";"-";"ionut-mirel.simbeteanu@bbzsogr.ch";"1";"1";"PRM18C";
-"zahra.hoseyni";"";"gibsso503008";"Hoseyni";"Zahra";"1995-10-18";"w";"-";"zahra.hoseyni@bbzsogr.ch";"1";"1";"KOE18B";
-"simone.aiello";"";"gibsso503009";"Aiello";"Simone";"2002-03-27";"m";"-";"simone.aiello@bbzsogr.ch";"1";"1";"AUF18A";
-"enrika.zullufi";"";"gibsso503010";"Zullufi";"Enrika";"2002-04-16";"w";"-";"enrika.zullufi@bbzsogr.ch";"1";"1";"DRO18A";
-"domenik.pervorfi";"";"gibsso503011";"Pervorfi";"Domenik";"2002-04-07";"m";"-";"domenik.pervorfi@bbzsogr.ch";"1";"1";"PRM18B";
-"dilet.million";"";"gibsso503012";"Million";"Dilet";"2001-10-13";"m";"-";"dilet.million@bbzsogr.ch";"1";"1";"PMG18B";
-"lindit.ramadani";"";"gibsso503013";"Ramadani";"Lindit";"2002-02-15";"m";"-";"lindit.ramadani@bbzsogr.ch";"1";"1";"PRM18A";
-"urannik.rufati";"";"gibsso503014";"Rufati";"Urannik";"2002-09-01";"m";"-";"urannik.rufati@bbzsogr.ch";"1";"1";"PRM18A";
-"abubakar.abdi";"";"gibsso503045";"Abdi";"Abubakar";"2000-01-01";"m";"-";"abubakar.abdi@bbzsogr.ch";"1";"1";"IJJF18A";
-"samiel.afewerki";"";"gibsso503046";"Afewerki";"Samiel";"2001-03-06";"m";"-";"samiel.afewerki@bbzsogr.ch";"1";"1";"IJJF18A";
-"bahram.andeberhan";"";"gibsso503047";"Andeberhan";"Bahram";"2000-01-09";"m";"-";"bahram.andeberhan@bbzsogr.ch";"1";"1";"IJJF18A";
-"belinda.flury";"";"gibsso503048";"Flury";"Belinda";"1996-06-20";"w";"-";"belinda.flury@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"joel.guiborat";"";"gibsso503049";"Guiborat";"Joël";"1996-12-20";"m";"-";"joel.guiborat@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"zakaria.bamba";"";"gibsso503050";"Bamba";"Zakaria";"2001-06-01";"m";"-";"zakaria.bamba@bbzsogr.ch";"1";"1";"IJJF18A";
-"filimon.efrem";"";"gibsso503051";"Efrem";"Filimon";"1998-03-18";"m";"-";"filimon.efrem@bbzsogr.ch";"1";"1";"IJJF18A";
-"filimon.fekre";"";"gibsso503052";"Fekre";"Flimon";"2000-01-10";"m";"-";"filimon.fekre@bbzsogr.ch";"1";"1";"IJJF18A";
-"abdullah.habibi";"";"gibsso503054";"Habibi";"Abdullah";"1998-02-13";"m";"-";"abdullah.habibi@bbzsogr.ch";"1";"1";"IJJF18A";
-"babaker.hamed";"";"gibsso503057";"Hamed";"Babaker";"2000-01-01";"m";"-";"babaker.hamed@bbzsogr.ch";"1";"1";"IJJF18A";
-"liaqatali.jusofi";"";"gibsso503058";"Jusofi";"Liaqat Ali";"1998-01-01";"m";"-";"liaqatali.jusofi@bbzsogr.ch";"1";"1";"IJJF18A";
-"mustafe.mahdicise";"";"gibsso503059";"Mahdi Cise";"Mustafe";"1999-01-01";"m";"-";"mustafe.mahdicise@bbzsogr.ch";"1";"1";"IJJF18A";
-"abdulfatah.mohamed";"";"gibsso503060";"Mohamed";"Abdulfatah";"1999-09-15";"m";"-";"abdulfatah.mohamed@bbzsogr.ch";"1";"1";"IJJF18A";
-"khalid.mohammed";"";"gibsso503061";"Mohammed";"Khalid";"2000-01-01";"m";"-";"khalid.mohammed@bbzsogr.ch";"1";"1";"IJJF18A";
-"ahmad.nattouf";"";"gibsso503063";"Nattouf";"Ahmad Shehada";"1999-01-01";"m";"-";"ahmad.nattouf@bbzsogr.ch";"1";"1";"IJJF18A";
-"robel.tesfay";"";"gibsso503064";"Tesfay";"Robel";"1999-08-10";"m";"-";"robel.tesfay@bbzsogr.ch";"1";"1";"IJJF18A";
-"erjasara.rothen";"";"gibsso503065";"Rothen";"Erja Sara";"2001-08-25";"w";"-";"erjasara.rothen@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18B"
-"augustin.scuric";"";"gibsso503066";"Scuric";"Augustin";"2002-06-26";"m";"-";"augustin.scuric@bbzsogr.ch";"1";"1";"PKE18A";
-"andrin.sarbach";"";"gibsso503067";"Sarbach";"Andrin";"2002-05-24";"m";"-";"andrin.sarbach@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18A"
-"jonathan.orlandi";"";"gibsso503068";"Orlandi";"Jonathan";"2002-02-19";"m";"-";"jonathan.orlandi@bbzsogr.ch";"1";"1";"KUA18B";
-"seline.grossenbacher";"";"gibsso503069";"Grossenbacher";"Seline";"2001-03-28";"w";"-";"seline.grossenbacher@bbzsogr.ch";"1";"1";"KOE18B";
-"mike.sandmeier";"";"gibsso503070";"Sandmeier";"Mike";"2001-06-13";"m";"-";"mike.sandmeier@bbzsogr.ch";"1";"1";"AUA18A";
-"carina.christ";"";"gibsso503071";"Christ";"Carina";"2002-11-27";"w";"-";"carina.christ@bbzsogr.ch";"1";"1";"KOE18A";
-"francesco.cannizzo";"";"gibsso503072";"Cannizzo";"Francesco";"2002-07-08";"m";"-";"francesco.cannizzo@bbzsogr.ch";"1";"1";"INF18B";
-"lavdrim.musliev";"";"gibsso503073";"Musliev";"Lavdrim";"2002-01-02";"m";"-";"lavdrim.musliev@bbzsogr.ch";"1";"1";"PRM18B";
-"hakan.cenik";"";"gibsso503074";"Cenik";"Hakan";"1998-11-30";"m";"-";"hakan.cenik@bbzsogr.ch";"1";"1";"PRM18B";
-"albin.krasniqi";"";"gibsso503075";"Krasniqi";"Albin";"2003-04-06";"m";"-";"albin.krasniqi@bbzsogr.ch";"1";"1";"PRM18B";
-"edon.aslani";"";"gibsso503076";"Aslani";"Edon";"2002-06-22";"m";"-";"edon.aslani@bbzsogr.ch";"1";"1";"PMG18B";
-"ben.wespi";"";"gibsso503077";"Wespi";"Ben";"2003-01-10";"m";"-";"ben.wespi@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18B"
-"tobias.studer3";"";"gibsso503078";"Studer";"Tobias";"2002-02-25";"m";"-";"tobias.studer3@bbzsogr.ch";"1";"1";"AUA18A";
-"lenasantinaelizabeth";"";"gibsso503079";"van Raaijen";"Lena Santina Elizabeth";"2002-06-14";"w";"-";"lenasantinaelizabeth.vanraaijen@bbzsogr.ch";"1";"1";"KUA18A";
-"davidgideon.rufer";"";"gibsso503096";"Rufer";"David Gideon";"2001-12-24";"w";"-";"davidgideon.rufer@bbzsogr.ch";"1";"1";"PRM18B";
-"jansamuel.jost";"";"gibsso503097";"Jost";"Jan Samuel";"2000-01-04";"m";"-";"jansamuel.jost@bbzsogr.ch";"1";"1";"KOE18B";
-"stephanie.nyffenegge";"";"gibsso503098";"Nyffenegger";"Stephanie";"2001-12-21";"w";"-";"stephanie.nyffenegger@bbzsogr.ch";"1";"1";"KUA18A";
-"anavictoria.strehler";"";"gibsso503113";"Strehler";"Ana Victoria";"2001-06-24";"w";"-";"anavictoria.strehler@bbzsogr.ch";"1";"1";"KOE18B";
-"saskia.stebler";"";"gibsso503114";"Stebler";"Saskia";"2003-06-07";"w";"-";"saskia.stebler@bbzsogr.ch";"1";"1";"KOE18A";
-"yunusemre.keles";"";"gibsso503115";"Keles";"Yunus Emre";"2002-11-04";"m";"-";"yunusemre.keles@bbzsogr.ch";"1";"1";"PMG18C";
-"tatjana.coelhodamota";"";"gibsso503116";"Coelho da Mota";"Tatjana";"1999-09-27";"w";"-";"tatjana.coelhodamota@bbzsogr.ch";"1";"1";"REF18A";
-"yannis.goering";"";"gibsso503117";"Göring";"Yannis";"2003-02-11";"m";"-";"yannis.goering@bbzsogr.ch";"1";"1";"KOE18B";
-"michelle.erni";"";"gibsso503118";"Erni";"Michelle";"2001-06-30";"w";"-";"michelle.erni@bbzsogr.ch";"1";"1";"DRO18A";
-"degol.yakob";"";"gibsso503119";"Yakob";"Degol";"1999-09-28";"m";"-";"degol.yakob@bbzsogr.ch";"1";"1";"PRM18A";
-"dejan.cosic";"";"gibsso503120";"Cosic";"Dejan";"2002-08-05";"m";"-";"dejan.cosic@bbzsogr.ch";"1";"1";"PMG18B";
-"leajessica.dawes";"";"gibsso503121";"Dawes";"Lea Jessica";"2002-07-22";"w";"-";"leajessica.dawes@bbzsogr.ch";"1";"1";"DRO18A";
-"raphael.mollet";"";"gibsso503122";"Mollet";"Raphael";"2003-03-18";"m";"-";"raphael.mollet@bbzsogr.ch";"1";"1";"PMG18A";
-"linus.kofmel";"";"gibsso503123";"Kofmel";"Linus";"2002-12-03";"m";"-";"linus.kofmel@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18B"
-"elia.richichi";"";"gibsso503124";"Richichi";"Elia";"2002-02-27";"m";"-";"elia.richichi@bbzsogr.ch";"1";"1";"PRM18A";
-"noel.allemann";"";"gibsso503125";"Allemann";"Noel";"2003-03-15";"m";"-";"noel.allemann@bbzsogr.ch";"1";"1";"PRM18A";
-"manuela.haefliger";"";"gibsso503126";"Häfliger";"Manuela";"2002-02-12";"w";"-";"manuela.haefliger@bbzsogr.ch";"1";"1";"REF18A";
-"salman.soezuegen";"";"gibsso503127";"Sözügen";"Salman";"2002-11-03";"m";"-";"salman.soezuegen@bbzsogr.ch";"1";"1";"PRM18B";
-"rahel.arnold";"";"gibsso503128";"Arnold";"Rahel";"2002-11-08";"w";"-";"rahel.arnold@bbzsogr.ch";"1";"1";"DRO18A";
-"cony.willi";"";"gibsso503146";"Willi";"Cony";"1997-02-11";"w";"-";"cony.willi@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"cyrill.schwaller";"";"gibsso503147";"Schwaller";"Cyrill";"1997-03-25";"m";"-";"cyrill.schwaller@bbzsogr.ch";"1";"1";"BM2_TE18A";
-"kevin.steiner3";"";"gibsso503157";"Steiner";"Kevin";"2002-05-19";"m";"-";"kevin.steiner3@bbzsogr.ch";"1";"1";"KOE18B";
-"david.lado";"";"gibsso503158";"Lado";"David";"2002-02-05";"m";"-";"david.lado@bbzsogr.ch";"1";"1";"PMG18A";
-"lukas.krieg";"";"gibsso503159";"Krieg";"Lukas";"2002-07-30";"m";"-";"lukas.krieg@bbzsogr.ch";"1";"1";"KOE18B";
-"kevin.weber2";"";"gibsso503160";"Weber";"Kevin";"2002-03-28";"m";"-";"kevin.weber2@bbzsogr.ch";"1";"1";"AUM18A";
-"raffaele.burgo";"";"gibsso503161";"Burgo";"Raffaele";"2002-05-28";"m";"-";"raffaele.burgo@bbzsogr.ch";"1";"1";"PRM18A";
-"ramin.jafari";"";"gibsso503162";"Jafari";"Ramin";"2000-05-06";"m";"-";"ramin.jafari@bbzsogr.ch";"1";"1";"PMG18B";
-"alessia.azizi";"";"gibsso503163";"Azizi";"Alessia";"2002-05-04";"w";"-";"alessia.azizi@bbzsogr.ch";"1";"1";"KOE18A";
-"thivijanga.thiviatha";"";"gibsso503164";"Thiviathasan";"Thivijanga";"2001-10-17";"w";"-";"thivijanga.thiviathasan@bbzsogr.ch";"1";"1";"INF18B";
-"nils.rindlisbacher";"";"gibsso503165";"Rindlisbacher";"Nils";"2001-10-13";"m";"-";"nils.rindlisbacher@bbzsogr.ch";"1";"1";"INF18A";
-"szilvia.rostas";"";"gibsso503166";"Rostás";"Szilvia";"1990-10-18";"w";"-";"szilvia.rostas@bbzsogr.ch";"1";"1";"KOE18B";
-"rohat.er";"";"gibsso503167";"Er";"Rohat";"2003-04-26";"m";"-";"rohat.er@bbzsogr.ch";"1";"1";"PRM18B";
-"dide.kocyigit";"";"gibsso503168";"Kocyigit";"Dide";"2002-06-09";"w";"-";"dide.kocyigit@bbzsogr.ch";"1";"1";"KOE18A";
-"julian.seiler";"";"gibsso503169";"Seiler";"Julian";"2002-09-16";"m";"-";"julian.seiler@bbzsogr.ch";"1";"1";"AUM18A";
-"rahat.haeusler";"";"gibsso503170";"Häusler";"Rahat";"2002-04-22";"m";"-";"rahat.haeusler@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18A"
-"lorenz.christen";"";"gibsso503513";"Christen";"Lorenz";"2003-01-31";"m";"-";"lorenz.christen@bbzsogr.ch";"1";"1";"INF18B";
-"jan.zuercher";"";"gibsso503191";"Zürcher";"Jan";"1995-10-18";"m";"-";"jan.zuercher@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"anna.kalt";"";"gibsso503193";"Kalt";"Anna";"2002-05-20";"w";"-";"anna.kalt@bbzsogr.ch";"1";"1";"WTG18A";
-"vanessa.stich";"";"gibsso503196";"Stich";"Vanessa";"1995-10-01";"w";"-";"vanessa.stich@bbzsogr.ch";"1";"1";"KOE16A";
-"roman.vescovi";"";"gibsso503197";"Vescovi";"Roman";"2001-11-23";"m";"-";"roman.vescovi@bbzsogr.ch";"1";"1";"AUF18A";
-"mischa.nyffenegger";"";"gibsso503198";"Nyffenegger";"Mischa";"2000-08-30";"m";"-";"mischa.nyffenegger@bbzsogr.ch";"1";"1";"PRM18B";
-"fabian.bader3";"";"gibsso503208";"Bader";"Fabian";"2002-09-13";"m";"-";"fabian.bader3@bbzsogr.ch";"1";"1";"BM1_TE18B";
-"erva.yamac";"";"gibsso503209";"Yamaç";"Erva";"2002-11-06";"w";"-";"erva.yamac@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18B"
-"max.mariotto";"";"gibsso503210";"Mariotto";"Max";"2002-12-21";"m";"-";"max.mariotto@bbzsogr.ch";"1";"1";"PKB18A";"BM1_TE18A"
-"noah.schoch";"";"gibsso503211";"Schoch";"Noah";"2002-10-26";"m";"-";"noah.schoch@bbzsogr.ch";"1";"1";"BM1_TE18B";
-"vantom.to";"";"gibsso503212";"To";"Van Tom Thong";"1998-05-16";"m";"-";"vantom.to@bbzsogr.ch";"1";"1";"INF18A";"BM1_TE18B"
-"lars.oeggerli";"";"gibsso503214";"Oeggerli";"Lars";"2002-05-31";"m";"-";"lars.oeggerli@bbzsogr.ch";"1";"1";"BM1_TE18A";
-"marcel.kasanga";"";"gibsso503219";"Kasanga";"Marcel";"2002-09-15";"m";"-";"marcel.kasanga@bbzsogr.ch";"1";"1";"PMG18A";
-"mara.fuhrer";"";"gibsso503492";"Fuhrer";"Mara";"1997-08-30";"w";"-";"mara.fuhrer@bbzsogr.ch";"1";"1";"KOE17B";
-"janine.kunz2";"";"gibsso503223";"Kunz";"Janine";"2002-09-18";"w";"-";"janine.kunz2@bbzsogr.ch";"1";"1";"DRO18A";
-"leonie.rueegg";"";"gibsso503224";"Rüegg";"Leonie";"2002-10-30";"w";"-";"leonie.rueegg@bbzsogr.ch";"1";"1";"DRO18A";
-"sabhitha.jeyakumar";"";"gibsso503225";"Jeyakumar";"Sabhitha";"2003-03-05";"w";"-";"sabhitha.jeyakumar@bbzsogr.ch";"1";"1";"DRO18A";
-"till.dreher";"";"gibsso503226";"Dreher";"Till";"2003-02-09";"m";"-";"till.dreher@bbzsogr.ch";"1";"1";"PMG18A";
-"jetmir.zairi";"";"gibsso503227";"Zairi";"Jetmir";"2003-01-10";"m";"-";"jetmir.zairi@bbzsogr.ch";"1";"1";"AUF18A";
-"delphine.flueeli";"";"gibsso503228";"Flüeli";"Delphine";"2002-03-22";"w";"-";"delphine.flueeli@bbzsogr.ch";"1";"1";"REF18A";
-"nemanja.vasiljevic";"";"gibsso503229";"Vasiljevic";"Nemanja";"2000-05-12";"m";"-";"nemanja.vasiljevic@bbzsogr.ch";"1";"1";"PRM18C";
-"simon.zahradnik";"";"gibsso503230";"Zahradnik";"Simon";"2002-07-13";"m";"-";"simon.zahradnik@bbzsogr.ch";"1";"1";"PRM18C";
-"bastian.kaiser";"";"gibsso503232";"Kaiser";"Bastian";"2002-10-01";"m";"-";"bastian.kaiser@bbzsogr.ch";"1";"1";"KOE18B";
-"lukas.froehlicher2";"";"gibsso503233";"Fröhlicher";"Lukas";"1998-07-14";"m";"-";"lukas.froehlicher2@bbzsogr.ch";"1";"1";"KOE17B";
-"efecan.sakal";"";"gibsso503234";"Sakal";"Efe Can";"2002-08-23";"m";"-";"efecan.sakal@bbzsogr.ch";"1";"1";"PRM18B";
-"jana.eberhard";"";"gibsso503251";"Eberhard";"Jana";"1999-09-05";"w";"-";"jana.eberhard@bbzsogr.ch";"1";"1";"VWB18A";
-"gloria.scheidegger";"";"gibsso503252";"Scheidegger";"Gloria";"2001-07-25";"w";"-";"gloria.scheidegger@bbzsogr.ch";"1";"1";"VWB18B";
-"aris.baltisberger";"";"gibsso503253";"Baltisberger";"Aris";"2000-01-08";"m";"-";"aris.baltisberger@bbzsogr.ch";"1";"1";"BM1_TE18B";
-"mischa.aeschlimann";"";"gibsso503254";"Aeschlimann";"Mischa Janick";"1988-04-14";"m";"-";"mischa.aeschlimann@bbzsogr.ch";"1";"1";"INF18A";
-"cedric.steiner";"";"gibsso503255";"Steiner";"Cédric";"2002-11-07";"m";"-";"cedric.steiner@bbzsogr.ch";"1";"1";"PKE18A";
-"hakki.kahraman";"";"gibsso503256";"Kahraman";"Hakki";"1992-02-10";"m";"-";"hakki.kahraman@bbzsogr.ch";"1";"1";"KUA18B";
-"dani.correialopes";"";"gibsso503259";"Correia Lopes";"Dani";"2003-03-15";"m";"-";"dani.correialopes@bbzsogr.ch";"1";"1";"PRM18C";
-"diana.jenzer";"";"gibsso503268";"Jenzer";"Diana";"1993-03-15";"w";"-";"diana.jenzer@bbzsogr.ch";"1";"1";"AUF18A";
-"andre.buettler";"";"gibsso503269";"Büttler";"André";"1997-01-01";"m";"-";"andre.buettler@bbzsogr.ch";"1";"1";"AUA18A";
-"tobias.kaddatz";"";"gibsso503270";"Kaddatz";"Tobias";"2001-07-03";"m";"-";"tobias.kaddatz@bbzsogr.ch";"1";"1";"PMG18C";
-"kaltrin.rraci";"";"gibsso503271";"Rraci";"Kaltrin";"2000-10-15";"m";"-";"kaltrin.rraci@bbzsogr.ch";"1";"1";"PRM18A";
-"simon.vogt";"";"gibsso503272";"Vogt";"Simon";"2002-09-11";"m";"-";"simon.vogt@bbzsogr.ch";"1";"1";"PMG18A";
-"cedric.jordi";"";"gibsso503280";"Jordi";"Cédric";"2000-02-18";"m";"-";"cedric.jordi@bbzsogr.ch";"1";"1";"VWB18C";
-"clarina.naef";"";"gibsso503281";"Naef";"Clarina";"2002-07-16";"w";"-";"clarina.naef@bbzsogr.ch";"1";"1";"WTG18A";
-"deniz.uenal";"";"gibsso503282";"Ünal";"Deniz";"2002-11-03";"m";"-";"deniz.uenal@bbzsogr.ch";"1";"1";"PRM18C";
-"nicknoah.rindlisbach";"";"gibsso503283";"Rindlisbacher";"Nick Noah";"2003-03-10";"m";"-";"nicknoah.rindlisbacher@bbzsogr.ch";"1";"1";"INF18B";"BM1_TE18A"
-"luca.palmieri";"";"gibsso503284";"Palmieri";"Luca";"2002-09-23";"m";"-";"luca.palmieri@bbzsogr.ch";"1";"1";"KOE18A";
-"janis.hasanow";"";"gibsso503285";"Hasanow";"Janis";"2002-02-24";"m";"-";"janis.hasanow@bbzsogr.ch";"1";"1";"AUF18A";
-"dominic.jost";"";"gibsso503286";"Jost";"Dominic";"1999-08-28";"m";"-";"dominic.jost@bbzsogr.ch";"1";"1";"AUF18B";
-"sascha.studer2";"";"gibsso503287";"Studer";"Sascha";"2002-11-22";"m";"-";"sascha.studer2@bbzsogr.ch";"1";"1";"PRM18C";
-"nemanja.mirkovic";"";"gibsso503300";"Mirkovic";"Nemanja";"2001-03-05";"m";"-";"nemanja.mirkovic@bbzsogr.ch";"1";"1";"INF18B";
-"marco.rytz";"";"gibsso503301";"Rytz";"Marco";"1998-09-23";"m";"-";"marco.rytz@bbzsogr.ch";"1";"1";"AUF18B";
-"kamil.chmielnicki";"";"gibsso503302";"Chmielnicki";"Kamil";"2001-07-18";"m";"-";"kamil.chmielnicki@bbzsogr.ch";"1";"1";"AUM18A";
-"joel.kummli";"";"gibsso503303";"Kummli";"Joel";"2002-03-14";"m";"-";"joel.kummli@bbzsogr.ch";"1";"1";"PRM18C";
-"leon.schmid";"";"gibsso503304";"Schmid";"Leon";"2003-01-12";"m";"-";"leon.schmid@bbzsogr.ch";"1";"1";"PMG18C";
-"joel.schwaegli";"";"gibsso503305";"Schwägli";"Joel";"2003-02-27";"m";"-";"joel.schwaegli@bbzsogr.ch";"1";"1";"MPR18A";
-"raphael.schwaller";"";"gibsso503306";"Schwaller";"Raphael";"2003-04-03";"m";"-";"raphael.schwaller@bbzsogr.ch";"1";"1";"PMG18C";
-"jan.spaeti";"";"gibsso503307";"Späti";"Jan";"2002-09-04";"m";"-";"jan.spaeti@bbzsogr.ch";"1";"1";"PMG18C";
-"julian.stauffer";"";"gibsso503308";"Stauffer";"Julian";"2002-07-11";"m";"-";"julian.stauffer@bbzsogr.ch";"1";"1";"PMG18C";
-"sven.syfrig";"";"gibsso503309";"Syfrig";"Sven";"2002-01-09";"m";"-";"sven.syfrig@bbzsogr.ch";"1";"1";"PMG18C";
-"valdrin.sefedini";"";"gibsso503310";"Sefedini";"Valdrin";"2002-03-16";"m";"-";"valdrin.sefedini@bbzsogr.ch";"1";"1";"PMG18A";
-"guillem.gelabertsune";"";"gibsso503331";"Gelabert Suñer";"Guillem";"1987-01-24";"m";"-";"guillem.gelabertsuner@bbzsogr.ch";"1";"1";"INF18B";
-"nicola.artho";"";"gibsso503332";"Artho";"Nicola";"2002-09-29";"m";"-";"nicola.artho@bbzsogr.ch";"1";"1";"PMG18B";
-"mathis.randegger";"";"gibsso503333";"Randegger";"Mathis";"2002-05-03";"m";"-";"mathis.randegger@bbzsogr.ch";"1";"1";"PMG18B";
-"david.froelicher";"";"gibsso503334";"Frölicher";"David";"2002-08-31";"m";"-";"david.froelicher@bbzsogr.ch";"1";"1";"PRM18A";
-"josephine.rickli";"";"gibsso503335";"Rickli";"Josephine";"2002-09-12";"w";"-";"josephine.rickli@bbzsogr.ch";"1";"1";"PMG18B";
-"djordja.dukic";"";"gibsso503336";"Dukic";"Djordja";"2001-07-29";"m";"-";"djordja.dukic@bbzsogr.ch";"1";"1";"PRM18A";
-"eric.gabriel";"";"gibsso503337";"Gabriel";"Eric";"2002-07-19";"m";"-";"eric.gabriel@bbzsogr.ch";"1";"1";"PRM18C";
-"ebenez.raveendran";"";"gibsso503338";"Raveendran";"Ebenez";"2001-08-07";"m";"-";"ebenez.raveendran@bbzsogr.ch";"1";"1";"PRM18C";
-"phiraphat.khamchu";"";"gibsso503339";"Khamchu";"Phiraphat";"2002-01-20";"m";"-";"phiraphat.khamchu@bbzsogr.ch";"1";"1";"PRM18A";
-"kevin.pfister";"";"gibsso503340";"Pfister";"Kevin";"2002-07-26";"m";"-";"kevin.pfister@bbzsogr.ch";"1";"1";"AUM18A";
-"bryan.andres";"";"gibsso503341";"Andres";"Bryan";"2002-07-02";"m";"-";"bryan.andres@bbzsogr.ch";"1";"1";"KOE18B";
-"natalia.jedrinovic";"";"gibsso503361";"Jedrinovic";"Natalia";"1998-12-03";"w";"-";"natalia.jedrinovic@bbzsogr.ch";"1";"1";"VWB18C";
-"lorena.meneguz";"";"gibsso503363";"Meneguz";"Lorena";"1993-11-30";"w";"-";"lorena.meneguz@bbzsogr.ch";"1";"1";"WTG18A";
-"alexandra.haggenmuel";"";"gibsso503364";"Haggenmüller";"Alexandra";"2002-04-23";"w";"-";"alexandra.haggenmueller@bbzsogr.ch";"1";"1";"WTG18A";
-"salih.berisha";"";"gibsso503365";"Berisha";"Salih";"2002-04-15";"m";"-";"salih.berisha@bbzsogr.ch";"1";"1";"PRM18C";
-"atschuten.sritharan";"";"gibsso503366";"Sritharan";"Atschuten";"2002-02-09";"m";"-";"atschuten.sritharan@bbzsogr.ch";"1";"1";"PRM18A";
-"loris.varadin";"";"gibsso503367";"Varadin";"Loris";"2003-03-18";"m";"-";"loris.varadin@bbzsogr.ch";"1";"1";"PRM18A";
-"martin.castro";"";"gibsso503368";"Castro";"Martin";"2002-12-01";"m";"-";"martin.castro@bbzsogr.ch";"1";"1";"PMG18B";
-"nico.geiser";"";"gibsso503369";"Geiser";"Nico";"2002-01-16";"m";"-";"nico.geiser@bbzsogr.ch";"1";"1";"PMG18B";
-"samuel.wiedemann";"";"gibsso503370";"Wiedemann";"Samuel";"2003-04-26";"m";"-";"samuel.wiedemann@bbzsogr.ch";"1";"1";"PMG18B";
-"jonas.ineichen";"";"gibsso503371";"Ineichen";"Jonas";"2002-11-24";"m";"-";"jonas.ineichen@bbzsogr.ch";"1";"1";"PMG18B";
-"leonardo.schepp";"";"gibsso503372";"Schepp";"Leonardo";"2001-12-23";"m";"-";"leonardo.schepp@bbzsogr.ch";"1";"1";"PKE18A";
-"alan.sabotic";"";"gibsso503373";"Sabotic";"Alan";"2002-07-14";"m";"-";"alan.sabotic@bbzsogr.ch";"1";"1";"PMG18A";
-"sebastian.arnold";"";"gibsso503374";"Arnold";"Sebastian";"2002-05-27";"m";"-";"sebastian.arnold@bbzsogr.ch";"1";"1";"PMG18A";
-"lars.gschwind";"";"gibsso503375";"Gschwind";"Lars";"2002-05-09";"m";"-";"lars.gschwind@bbzsogr.ch";"1";"1";"PMG18A";
-"ensar.zulfikjari";"";"gibsso503376";"Zulfikjari";"Ensar";"2002-01-31";"m";"-";"ensar.zulfikjari@bbzsogr.ch";"1";"1";"PRM18C";
-"elez.sejdini";"";"gibsso503377";"Sejdini";"Elez";"2000-10-03";"m";"-";"elez.sejdini@bbzsogr.ch";"1";"1";"PRM18C";
-"iuri.pinchuk";"";"gibsso503378";"Pinchuk";"Iuri";"2002-12-11";"m";"-";"iuri.pinchuk@bbzsogr.ch";"1";"1";"PRM18C";
-"luka.pupic";"";"gibsso503379";"Pupic";"Luka";"2003-01-30";"m";"-";"luka.pupic@bbzsogr.ch";"1";"1";"PRM18C";
-"jasmin.kreienbuehl";"";"gibsso503400";"Kreienbühl";"Jasmin";"2003-04-29";"w";"-";"jasmin.kreienbuehl@bbzsogr.ch";"1";"1";"KOE18B";
-"christian.fischer";"";"gibsso503401";"Fischer";"Christian";"2003-01-16";"m";"-";"christian.fischer@bbzsogr.ch";"1";"1";"AUM18A";
-"alihaydar.sikyuerek";"";"gibsso503402";"Sikyürek";"Alihaydar";"2002-06-15";"m";"-";"alihaydar.sikyuerek@bbzsogr.ch";"1";"1";"PRM18C";
-"danja.schaerer";"";"gibsso503416";"Schärer";"Danja";"2002-06-11";"w";"-";"danja.schaerer@bbzsogr.ch";"1";"1";"DRO18A";
-"leticia.cunhabarbosa";"";"gibsso503417";"Cunha Barbosa";"Leticia";"1999-02-05";"w";"-";"leticia.cunhabarbosa@bbzsogr.ch";"1";"1";"KUA18B";
-"zgjim.haziri";"";"gibsso503418";"Haziri";"Zgjim";"2002-09-03";"m";"-";"zgjim.haziri@bbzsogr.ch";"1";"1";"AUM18A";
-"damian.jackenkroll";"";"gibsso503425";"Jackenkroll";"Damian";"2002-02-17";"m";"-";"damian.jackenkroll@bbzsogr.ch";"1";"1";"KOE18B";
-"david.jedrinovic";"";"gibsso503426";"Jedrinovic";"David";"2002-04-12";"m";"-";"david.jedrinovic@bbzsogr.ch";"1";"1";"AUF18B";
-"elena.meyer";"";"gibsso503427";"Meyer";"Elena";"2001-04-11";"w";"-";"elena.meyer@bbzsogr.ch";"1";"1";"REF18A";
-"kevin.tomaszewski";"";"gibsso503428";"Tomaszewski";"Kevin";"2001-11-12";"m";"-";"kevin.tomaszewski@bbzsogr.ch";"1";"1";"RPR18A";
-"filmon.teklehaimanot";"";"gibsso503429";"Teklehaimanot";"Filmon";"1996-10-01";"m";"-";"filmon.teklehaimanot@bbzsogr.ch";"1";"1";"KUA18B";
-"tobiasalfred.poethke";"";"gibsso503430";"Poethke";"Tobias Alfred";"1996-03-16";"m";"-";"tobiasalfred.poethke@bbzsogr.ch";"1";"1";"PRM18A";
-"delvin.uthayakumaran";"";"gibsso503431";"Uthayakumaran";"Delvin";"1996-10-09";"m";"-";"delvin.uthayakumaran@bbzsogr.ch";"1";"1";"PRM18B";
-"liridon.gutaj";"";"gibsso503437";"Gutaj";"Liridon";"1991-11-20";"m";"-";"liridon.gutaj@bbzsogr.ch";"1";"1";"NPR17A";
-"dariojoel.puentener";"";"gibsso503445";"Püntener";"Dario Joel";"2001-02-11";"m";"-";"dariojoel.puentener@bbzsogr.ch";"1";"1";"KOE18A";
-"efrem.yosief";"";"gibsso503447";"Yosief";"Efrem";"1993-03-01";"m";"-";"efrem.yosief@bbzsogr.ch";"1";"1";"KUA18A";
-"eda.yilmaz";"";"gibsso503449";"Yilmaz";"Eda";"2001-10-11";"w";"-";"eda.yilmaz@bbzsogr.ch";"1";"1";"KUA18B";
-"nicola.lobsiger";"";"gibsso503450";"Lobsiger";"Nicola";"2002-01-28";"m";"-";"nicola.lobsiger@bbzsogr.ch";"1";"1";"AUF18B";
-"raphael.neff";"";"gibsso503451";"Neff";"Raphael";"2002-12-27";"m";"-";"raphael.neff@bbzsogr.ch";"1";"1";"PRM18A";
-"micha.lehner";"";"gibsso503452";"Lehner";"Micha";"2002-05-17";"m";"-";"micha.lehner@bbzsogr.ch";"1";"1";"PMG18C";
-"mario.marti";"";"gibsso503453";"Marti";"Mario";"2002-07-06";"m";"-";"mario.marti@bbzsogr.ch";"1";"1";"AUF18B";
-"ariannysmile.guzman";"";"gibsso503454";"Guzman";"Arianny Smile";"2001-11-05";"w";"-";"ariannysmile.guzman@bbzsogr.ch";"1";"1";"KUA18A";
-"rahwa.debas";"";"gibsso503455";"Debas";"Rahwa";"1998-05-13";"w";"-";"rahwa.debas@bbzsogr.ch";"1";"1";"KUA18B";
-"jan.tautschnig";"";"gibsso503456";"Tautschnig";"Jan";"1992-03-04";"m";"-";"jan.tautschnig@bbzsogr.ch";"1";"1";"KOE18A";
-"louisguido.fuhrmann";"";"gibsso503457";"Fuhrmann";"Louis Guido";"1998-09-19";"m";"-";"louisguido.fuhrmann@bbzsogr.ch";"1";"1";"KOE17B";
-"kim.landolt";"";"gibsso503471";"Landolt";"Kim";"2000-10-13";"w";"-";"kim.landolt@bbzsogr.ch";"1";"1";"WTG18A";
-"veenujan.sinnathurai";"";"gibsso503472";"Sinnathurai";"Veenujan";"1998-01-22";"m";"-";"veenujan.sinnathurai@bbzsogr.ch";"1";"1";"PMG17B";
-"vithurshan.gunasinga";"";"gibsso503473";"Gunasingam";"Vithurshan";"1997-09-03";"m";"-";"vithurshan.gunasingam@bbzsogr.ch";"1";"1";"PRM17B";
-"dino.rohrbach";"";"gibsso503474";"Rohrbach";"Dino";"2001-08-03";"m";"-";"dino.rohrbach@bbzsogr.ch";"1";"1";"KOE18A";
-"sebastian.staempfli";"";"gibsso503475";"Stämpfli";"Sebastian";"1993-02-28";"m";"-";"sebastian.staempfli@bbzsogr.ch";"1";"1";"RPR18A";
-"enis.dzeljilji";"";"gibsso503476";"Dzeljilji";"Enis";"2000-07-04";"m";"-";"enis.dzeljilji@bbzsogr.ch";"1";"1";"RPR18A";
-"mahtab.nazari";"";"gibsso503477";"Nazari";"Mahtab";"2001-03-05";"w";"-";"mahtab.nazari@bbzsogr.ch";"1";"1";"REA18A";
-"seyma.akbulut";"";"gibsso503478";"Akbulut";"Seyma";"1995-03-22";"w";"-";"seyma.akbulut@bbzsogr.ch";"1";"1";"KOE18B";
-"tabea.lagnaz";"";"gibsso503479";"Lagnaz";"Tabea";"2002-03-25";"w";"-";"tabea.lagnaz@bbzsogr.ch";"1";"1";"KUA18A";
-"lars.rust";"";"gibsso503480";"Rust";"Lars";"2000-07-04";"m";"-";"lars.rust@bbzsogr.ch";"1";"1";"KOE18B";
-"mihone.hasani";"";"gibsso503493";"Hasani";"Mihone";"2001-09-13";"w";"-";"mihone.hasani@bbzsogr.ch";"1";"1";"DBA18A";
-"stole.iliev";"";"gibsso503496";"Iliev";"Stole";"2001-07-26";"m";"-";"stole.iliev@bbzsogr.ch";"1";"1";"RPR18A";
-"gnanendran.rasu";"";"gibsso503497";"Rasu";"Gnanendran";"1970-12-09";"m";"-";"gnanendran.rasu@bbzsogr.ch";"1";"1";"KOE17A";
-"tatjana.kocher";"";"gibsso503498";"Kocher";"Tatjana";"2002-06-02";"w";"-";"tatjana.kocher@bbzsogr.ch";"1";"1";"REF18A";
-"fatlind.haziri";"";"gibsso503499";"Haziri";"Fatlind";"2001-12-10";"m";"-";"fatlind.haziri@bbzsogr.ch";"1";"1";"AUA18A";
-"nico.brunner";"";"gibsso503500";"Brunner";"Nico";"2002-06-03";"m";"-";"nico.brunner@bbzsogr.ch";"1";"1";"AUA18A";
-"jennifer.naef";"";"gibsso503509";"Naef";"Jennifer";"1991-05-27";"w";"-";"jennifer.naef@bbzsogr.ch";"1";"1";"DBA18A DBA18A";
-"fedi.slaimi";"";"gibsso503514";"Slaimi";"Fedi";"2002-06-18";"m";"-";"fedi.slaimi@bbzsogr.ch";"1";"1";"PRM18A";
-"yannick.boutellier";"";"gibsso503515";"Boutellier";"Yannick";"1995-11-28";"m";"-";"yannick.boutellier@bbzsogr.ch";"1";"1";"PMG18C";
-"lars.bernhard";"";"gibsso503516";"Bernhard";"Lars";"2003-01-08";"m";"-";"lars.bernhard@bbzsogr.ch";"1";"1";"AUF18B";
-"mattiacarmine.magurn";"";"gibsso503517";"Magurno";"Mattia Carmine";"2002-07-06";"m";"-";"mattiacarmine.magurno@bbzsogr.ch";"1";"1";"INF18A";
-"eren.cemali";"";"gibsso503518";"Cemali";"Eren";"1975-09-30";"m";"-";"eren.cemali@bbzsogr.ch";"1";"1";"NPR17A";
-"dominik.hunziker";"";"gibsso503530";"Hunziker";"Dominik";"1995-11-25";"m";"-";"dominik.hunziker@bbzsogr.ch";"1";"1";"KUA18B";
-"colin.rueegger";"";"gibsso503534";"Rüegger";"Colin";"1999-11-19";"m";"-";"colin.rueegger@bbzsogr.ch";"1";"1";"AUF17A";
-"denise.fahrer";"";"gibsso503535";"Fahrer";"Denise";"1979-12-28";"w";"-";"denise.fahrer@bbzsogr.ch";"1";"1";"KOE17B";
-"labiat.krasniqi";"";"gibsso503734";"Krasniqi";"Labiat";"2003-10-31";"m";"-";"labiat.krasniqi@bbzsogr.ch";"1";"1";"AUA18A";
-"marlonjonas.graber";"";"gibsso503536";"Graber";"Marlon Jonas";"2001-08-08";"m";"-";"marlonjonas.graber@bbzsogr.ch";"1";"1";"KUA18B";
-"cederic.mueller";"";"gibsso503537";"Müller";"Cederic";"2001-06-10";"m";"-";"cederic.mueller@bbzsogr.ch";"1";"1";"PRM18A";
-"eynollah.hassani";"";"gibsso503538";"Hassani";"Eynollah";"2000-01-01";"m";"-";"eynollah.hassani@bbzsogr.ch";"1";"1";"AUA18A";
-"christoph.roth3";"";"gibsso503539";"Roth";"Christoph";"2002-12-29";"m";"-";"christoph.roth3@bbzsogr.ch";"1";"1";"KOE18B";
-"mustafamert.oeztuerk";"";"gibsso503540";"Öztürk";"Mustafamert";"1989-10-13";"m";"-";"mustafamert.oeztuerk@bbzsogr.ch";"1";"1";"PKE18A";
-"arthee.misteli";"";"gibsso503541";"Misteli";"Arthee";"1983-01-25";"m";"-";"arthee.misteli@bbzsogr.ch";"1";"1";"NPR17A";
-"toni.krasniqi";"";"gibsso503542";"Krasniqi";"Toni";"2000-06-08";"m";"-";"toni.krasniqi@bbzsogr.ch";"1";"1";"MPR18A";
-"jade.duss";"";"gibsso503543";"Duss";"Jade";"2001-10-10";"m";"-";"jade.duss@bbzsogr.ch";"1";"1";"REF18A";
-"rubenfilipe.bragagra";"";"gibsso503554";"Braga Graca";"Ruben Filipe";"2002-03-30";"m";"-";"rubenfilipe.bragagraca@bbzsogr.ch";"1";"1";"REA18A";
-"dario.gambone";"";"gibsso503557";"Gambone";"Dario";"1995-04-20";"m";"-";"dario.gambone@bbzsogr.ch";"1";"1";"BM2_TE18B";
-"elias.gasser";"";"gibsso503560";"Gasser";"Elias";"2000-09-12";"m";"-";"elias.gasser@bbzsogr.ch";"1";"1";"VWB18B";
-"priyanka.krishnaraja";"";"gibsso503564";"Krishnarajah";"Priyanka";"2000-07-28";"w";"-";"priyanka.krishnarajah@bbzsogr.ch";"1";"1";"VWB18B";
-"carmen.hoehn";"";"gibsso503565";"Höhn";"Carmen";"2002-04-07";"w";"-";"carmen.hoehn@bbzsogr.ch";"1";"1";"VWB18B";
-"tamara.blaser";"";"gibsso503566";"Blaser";"Tamara";"1999-11-06";"w";"-";"tamara.blaser@bbzsogr.ch";"1";"1";"VWB18B";
-"jamil.cardinaux";"";"gibsso503567";"Cardinaux";"Jamil";"1999-11-16";"m";"-";"jamil.cardinaux@bbzsogr.ch";"1";"1";"VWB18A VWB18A";
-"anthea.jabou";"";"gibsso503568";"Jabou";"Anthea";"2001-05-30";"w";"-";"anthea.jabou@bbzsogr.ch";"1";"1";"REF18A";
-"morteza.sultani";"";"gibsso503569";"Sultani";"Morteza";"1988-03-30";"m";"-";"morteza.sultani@bbzsogr.ch";"1";"1";"INF18B";
-"sylvioreyes.niederha";"";"gibsso503570";"Niederhauser";"Sylvio Reyes";"2003-02-09";"m";"-";"sylvioreyes.niederhauser@bbzsogr.ch";"1";"1";"KOE18A";
-"burim.saciri";"";"gibsso503571";"Saciri";"Burim";"1989-08-21";"m";"-";"burim.saciri@bbzsogr.ch";"1";"1";"NPR17A";
-"emirhan.erbilgic";"";"gibsso503578";"Erbilgic";"Emirhan";"2002-06-05";"m";"-";"emirhan.erbilgic@bbzsogr.ch";"1";"1";"AUF18B";
-"christian.kleeb";"";"gibsso503579";"Kleeb";"Christian";"1999-03-13";"m";"-";"christian.kleeb@bbzsogr.ch";"1";"1";"PMG17B";
-"steve.wirz";"";"gibsso503580";"Wirz";"Steve";"1983-11-30";"m";"-";"steve.wirz@bbzsogr.ch";"1";"1";"NPR17A";
-"michellevanessa.more";"";"gibsso503581";"Moretti";"Michelle Vanessa";"1998-05-15";"w";"-";"michellevanessa.moretti@bbzsogr.ch";"1";"1";"REA18A";
-"driart.haliti";"";"gibsso503585";"Haliti";"Driart";"2001-05-15";"m";"-";"driart.haliti@bbzsogr.ch";"1";"1";"AUF18B";
-"pejo.gavran";"";"gibsso503586";"Gavran";"Pejo";"2002-12-22";"m";"-";"pejo.gavran@bbzsogr.ch";"1";"1";"RPR18A";
-"mariaanita.mutunga";"";"gibsso503587";"Mutunga";"Maria Anita";"1995-10-10";"w";"-";"mariaanita.mutunga@bbzsogr.ch";"1";"1";"KOE18B";
-"dario.joss";"";"gibsso503591";"Joss";"Dario";"2001-12-17";"m";"-";"dario.joss@bbzsogr.ch";"1";"1";"KUA18B";
-"vatan.berisha";"";"gibsso503599";"Berisha";"Vatan";"2000-03-13";"m";"-";"vatan.berisha@bbzsogr.ch";"1";"1";"AUF18B";
-"leonis.bajraktaraj";"";"gibsso503600";"Bajraktaraj";"Leonis";"2002-08-12";"m";"-";"leonis.bajraktaraj@bbzsogr.ch";"1";"1";"PRM18A";
-"albijana.alimusaj";"";"gibsso503601";"Alimusaj";"Albijana";"2003-02-02";"w";"-";"albijana.alimusaj@bbzsogr.ch";"1";"1";"PRM18C";
-"jan.roweck";"";"gibsso503602";"Roweck";"Jan";"2001-11-28";"m";"-";"jan.roweck@bbzsogr.ch";"1";"1";"AUM18A";
-"amanda-amalia.mosima";"";"gibsso503603";"Mosimann";"Amanda-Amalia";"2000-12-16";"w";"-";"amanda-amalia.mosimann@bbzsogr.ch";"1";"1";"REF18A";
-"anastasia.gloor";"";"gibsso503604";"Gloor";"Anastasia";"2002-07-20";"w";"-";"anastasia.gloor@bbzsogr.ch";"1";"1";"KOE18B";
-"cristian-bogdan.flor";"";"gibsso503605";"Florescu";"Cristian-Bogdan";"2001-08-29";"m";"-";"cristian-bogdan.florescu@bbzsogr.ch";"1";"1";"KOE18A";
-"tamara.duerrenberger";"";"gibsso503606";"Dürrenberger";"Tamara";"2001-12-21";"w";"-";"tamara.duerrenberger@bbzsogr.ch";"1";"1";"REF18A";
-"dijamant.gashi";"";"gibsso503607";"Gashi";"Dijamant";"2003-02-21";"m";"-";"dijamant.gashi@bbzsogr.ch";"1";"1";"AUF18A";
-"henok.tesfasilassie";"";"gibsso503608";"Tesfasilassie";"Henok";"1992-03-13";"m";"-";"henok.tesfasilassie@bbzsogr.ch";"1";"1";"PRM18C";
-"gregory.scholl";"";"gibsso503609";"Scholl";"Gregory";"2001-05-20";"m";"-";"gregory.scholl@bbzsogr.ch";"1";"1";"KUA18A";
-"sugjepan.niththiyana";"";"gibsso503622";"Niththiyananthan";"Sugjepan";"2002-01-10";"m";"-";"sugjepan.niththiyananthan@bbzsogr.ch";"1";"1";"KUA18A";
-"arif.akbari";"";"gibsso503623";"Akbari";"Arif";"1995-01-01";"m";"-";"arif.akbari@bbzsogr.ch";"1";"1";"RPR18A";
-"samiel.kibreab";"";"gibsso503626";"Kibreab";"Samiel";"2000-04-02";"m";"-";"samiel.kibreab@bbzsogr.ch";"1";"1";"IJO18A";
-"hiryti.alemnegus";"";"gibsso503627";"Alemnegus";"Hiryti";"2000-07-05";"w";"-";"hiryti.alemnegus@bbzsogr.ch";"1";"1";"IJO18A";
-"selam.anday";"";"gibsso503628";"Anday";"Selam";"2000-09-13";"w";"-";"selam.anday@bbzsogr.ch";"1";"1";"IJO18A";
-"abel.bahlibi";"";"gibsso503630";"Bahlibi";"Abel";"1998-01-01";"m";"-";"abel.bahlibi@bbzsogr.ch";"1";"1";"IJO18A";
-"leonardo.dezdari";"";"gibsso503631";"Dezdari";"Leonardo";"2001-07-27";"m";"-";"leonardo.dezdari@bbzsogr.ch";"1";"1";"IJO18A";
-"habteab.eyob";"";"gibsso503633";"Eyob";"Habteab";"1998-01-01";"m";"-";"habteab.eyob@bbzsogr.ch";"1";"1";"IJO18A";
-"khalilhosein.haidari";"";"gibsso503634";"Haidari";"Khalil Hosein";"1998-01-01";"m";"-";"khalilhosein.haidari@bbzsogr.ch";"1";"1";"IJO18A";
-"norma.ibarrabarreto";"";"gibsso503636";"Ibarra Barreto";"Norma";"2001-04-24";"w";"-";"norma.ibarrabarreto@bbzsogr.ch";"1";"1";"IJO18A";
-"nasir.isa";"";"gibsso503638";"Isa";"Nasir";"2000-05-25";"m";"-";"nasir.isa@bbzsogr.ch";"1";"1";"IJO18A";
-"nourulhuda.jabarin";"";"gibsso503639";"Jabarin";"Nour Ulhuda";"2002-06-26";"w";"-";"nourulhuda.jabarin@bbzsogr.ch";"1";"1";"IJO18A";
-"andeberhan.tsehaye";"";"gibsso503642";"Tsehaye";"Andeberhan";"1998-02-01";"m";"-";"andeberhan.tsehaye@bbzsogr.ch";"1";"1";"IJO18A";
-"denden.mulubrhan";"";"gibsso503643";"mulubrhan";"Denden";"2000-04-05";"m";"-";"denden.mulubrhan@bbzsogr.ch";"1";"1";"IJO18A";
-"tocev.hristijan";"";"gibsso503645";"Tocev";"Hristijan";"2000-01-16";"m";"-";"tocev.hristijan@bbzsogr.ch";"1";"1";"IJO18A";
-"rahmat.ahmadi2";"";"gibsso503647";"Ahmadi";"Rahmat";"1998-01-01";"m";"-";"rahmat.ahmadi2@bbzsogr.ch";"1";"1";"IJO18B";
-"daniel.brhane";"";"gibsso503648";"Brhane";"Daniel";"1999-01-01";"m";"-";"daniel.brhane@bbzsogr.ch";"1";"1";"IJO18B";
-"mogos.daniel";"";"gibsso503649";"Daniel";"Mogos";"1996-06-01";"m";"-";"mogos.daniel@bbzsogr.ch";"1";"1";"IJO18B";
-"samuel.fisehaye";"";"gibsso503650";"Fisehaye";"Samuel";"1999-05-06";"m";"-";"samuel.fisehaye@bbzsogr.ch";"1";"1";"IJO18B";
-"yosief.gebrekidan";"";"gibsso503651";"Gebrekidan";"Yosief";"1995-11-05";"m";"-";"yosief.gebrekidan@bbzsogr.ch";"1";"1";"IJO18B";
-"ruhollah.jafari";"";"gibsso503652";"Jafari";"Ruhollah";"1997-01-01";"m";"-";"ruhollah.jafari@bbzsogr.ch";"1";"1";"IJO18B";
-"christian.limoli";"";"gibsso503653";"Limoli";"Christian";"2001-11-27";"m";"-";"christian.limoli@bbzsogr.ch";"1";"1";"IJO18A";
-"semira.meharena";"";"gibsso503656";"Meharena";"Semira";"1999-05-22";"w";"-";"semira.meharena@bbzsogr.ch";"1";"1";"IJO18B";
-"yordanos.mengisteab";"";"gibsso503658";"Mengisteab";"Yordanos";"1999-01-01";"w";"-";"yordanos.mengisteab@bbzsogr.ch";"1";"1";"IJO18B";
-"abel.minasse";"";"gibsso503659";"Minasse";"Abel";"1996-06-24";"m";"-";"abel.minasse@bbzsogr.ch";"1";"1";"IJO18B";
-"zahra.quahraman";"";"gibsso503660";"Quahraman";"Zahra";"1999-03-21";"w";"-";"zahra.quahraman@bbzsogr.ch";"1";"1";"IJO18B";
-"shams.shirzad";"";"gibsso503662";"Shirzad";"Shams";"2002-03-21";"m";"-";"shams.shirzad@bbzsogr.ch";"1";"1";"IJO18B";
-"dawit.temesgen";"";"gibsso503663";"Temesgen";"Dawit";"1996-01-01";"m";"-";"dawit.temesgen@bbzsogr.ch";"1";"1";"IJO18B";
-"afewerki.hlawe";"";"gibsso503664";"Afewerki";"Hlawe";"1999-01-06";"m";"-";"afewerki.hlawe@bbzsogr.ch";"1";"1";"IJBV18A";
-"khadadad.akbari";"";"gibsso503666";"Akbari";"Khadadad";"2000-01-01";"m";"-";"khadadad.akbari@bbzsogr.ch";"1";"1";"IJBV18A";
-"merhawi.mengstu";"";"gibsso503668";"Mengstu";"Merhawi";"2000-05-01";"m";"-";"merhawi.mengstu@bbzsogr.ch";"1";"1";"IJBV18A";
-"akbar.naseri";"";"gibsso503669";"Naseri";"Akbar";"1998-01-01";"m";"-";"akbar.naseri@bbzsogr.ch";"1";"1";"IJBV18A";
-"samuel.semere";"";"gibsso503671";"Semere";"Samuel";"2000-01-01";"m";"-";"samuel.semere@bbzsogr.ch";"1";"1";"IJBV18A";
-"hasina.fazli";"";"gibsso503673";"Fazli";"Hasina";"1996-03-13";"w";"-";"hasina.fazli@bbzsogr.ch";"1";"1";"IJBV18B";
-"tahir.husseini";"";"gibsso503675";"Husseini";"Tahir";"1997-07-23";"m";"-";"tahir.husseini@bbzsogr.ch";"1";"1";"IJBV18B";
-"issa.khalili";"";"gibsso503677";"Khalili";"Issa";"1999-10-17";"m";"-";"issa.khalili@bbzsogr.ch";"1";"1";"IJBV18B";
-"abel.kibrom";"";"gibsso503678";"Kibrom";"Abel";"2001-03-16";"m";"-";"abel.kibrom@bbzsogr.ch";"1";"1";"IJBV18B";
-"monika.kordoska";"";"gibsso503679";"Kordoska";"Monika";"2000-06-14";"w";"-";"monika.kordoska@bbzsogr.ch";"1";"1";"IJBV18B";
-"paulmwangi.wangui";"";"gibsso503685";"Wangui";"Paul Mwangi";"2001-07-08";"m";"-";"paulmwangi.wangui@bbzsogr.ch";"1";"1";"IJBV18B";
-"yahya.mirzaei";"";"gibsso503690";"Mirzaei";"Yahya";"1998-01-01";"m";"-";"yahya.mirzaei@bbzsogr.ch";"1";"1";"IJBV18C";
-"jessica.ribeiro";"";"gibsso503691";"Ribeiro";"Jessica";"2002-09-22";"w";"-";"jessica.ribeiro@bbzsogr.ch";"1";"1";"IJBV18C";
-"patrick.rubligonzale";"";"gibsso503693";"Rubli Gonzalez";"Patrick";"1998-11-18";"m";"-";"patrick.rubligonzalez@bbzsogr.ch";"1";"1";"IJBV18C";
-"mewael.tsegay";"";"gibsso503695";"Tsegay";"Mewael";"2002-08-02";"m";"-";"mewael.tsegay@bbzsogr.ch";"1";"1";"IJBV18C";
-"mariodahangeeth.wije";"";"gibsso503697";"Wijesinghe";"Mario Dahan Geeth";"2001-02-15";"m";"-";"mariodahangeeth.wijesinghe@bbzsogr.ch";"1";"1";"IJBV18C";
-"mhreteab.gebrekidan";"";"gibsso503720";"Gebrekidan";"Mhreteab";"1991-02-28";"m";"-";"mhreteab.gebrekidan@bbzsogr.ch";"1";"1";"INVOL18A";
-"yohannes.mussietekle";"";"gibsso503721";"Mussie Teklehaimanot";"Yohannes";"1994-09-17";"m";"-";"yohannes.mussieteklehaimanot@bbzsogr.ch";"1";"1";"INVOL18A";
-"erdom.tsigehanes";"";"gibsso503722";"Tsigehanes";"Erdom";"1993-01-01";"m";"-";"erdom.tsigehanes@bbzsogr.ch";"1";"1";"MPR18A";
-"abdulsalam.mohamed";"";"gibsso503723";"Mohamed";"Abdulsalam";"1992-10-03";"m";"-";"abdulsalam.mohamed@bbzsogr.ch";"1";"1";"INVOL18B";
-"joana.brugger";"";"gibsso503729";"Brugger";"Joana";"2001-02-13";"w";"-";"joana.brugger@bbzsogr.ch";"1";"1";"REF18A";
-"nils.herrmann";"";"gibsso503735";"Herrmann";"Nils";"2001-11-27";"m";"-";"nils.herrmann@bbzsogr.ch";"1";"1";"AUF18B";
-"patrickwendel.dejesu";"";"gibsso503736";"De Jesus Pinto";"Patrick Wendel";"2001-05-30";"m";"-";"patrickwendel.dejesuspinto@bbzsogr.ch";"1";"1";"REF18A";
-"ghaida.salmou";"";"gibsso503737";"Salmou";"Ghaida";"1983-10-09";"w";"-";"ghaida.salmou@bbzsogr.ch";"1";"1";"INVOL18B";
-"filimon.abraham";"";"gibsso503738";"Abraham";"Filimon";"1994-11-14";"m";"-";"filimon.abraham@bbzsogr.ch";"1";"1";"KUA18B";
-"sandrine.zimmermann";"";"gibsso503739";"Zimmermann";"Sandrine";"1998-03-16";"w";"-";"sandrine.zimmermann@bbzsogr.ch";"1";"1";"KOE18B";
-"frederico.camposfari";"";"gibsso503745";"Campos Farias";"Frederico";"1991-09-17";"m";"-";"frederico.camposfarias@bbzsogr.ch";"1";"1";"NPR17A";
-"labinot.elezi";"";"gibsso503746";"Elezi";"Labinot";"2002-03-15";"m";"-";"labinot.elezi@bbzsogr.ch";"1";"1";"RPR18A";
-"liridon.thaqi";"";"gibsso503747";"Thaqi";"Liridon";"2001-10-15";"m";"-";"liridon.thaqi@bbzsogr.ch";"1";"1";"RPR18A";
-"veronica.streich";"";"gibsso503748";"Streich";"Veronica";"2002-06-07";"w";"-";"veronica.streich@bbzsogr.ch";"1";"1";"AUF18B";
-"rachele.anchora";"";"gibsso503755";"Anchora";"Rachele";"2002-03-20";"w";"-";"rachele.anchora@bbzsogr.ch";"1";"1";"WTG18A";
-"marcel.vocelka";"";"gibsso503758";"Vocelka";"Marcel";"1995-01-17";"m";"-";"marcel.vocelka@bbzsogr.ch";"1";"1";"REA18A";
-"bereket.mengisteab";"";"gibsso503762";"Mengisteab";"Bereket";"1999-11-11";"m";"-";"bereket.mengisteab@bbzsogr.ch";"1";"1";"IJBV18A";
-"sansujan.satharsan";"";"gibsso503763";"Satharsan";"Sansujan";"2001-08-10";"m";"-";"sansujan.satharsan@bbzsogr.ch";"1";"1";"IJO18A";
-"jasmin.lehmann";"";"gibsso503765";"Lehmann";"Jasmin";"2001-04-25";"w";"-";"jasmin.lehmann@bbzsogr.ch";"1";"1";"SPE";
-"chantal.scheuermeyer";"";"gibsso503766";"Scheuermeyer";"Chantal";"2001-10-09";"";"-";"chantal.scheuermeyer@bbzsogr.ch";"1";"1";"SPE";

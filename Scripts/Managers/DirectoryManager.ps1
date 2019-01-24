@@ -3,20 +3,20 @@ function Create-Directory($dir) {
         New-Item -type directory -Path $dir | Out-Null
     }
 }
-function Set-DirectoryUnused($base, $addon) {
-    try {
-        if (Test-Path -Path (Join-Path -Path $base -ChildPath "unused_${addon}")) {
-            Logger("Removing old unused directory")
-            Remove-Item -Path (Join-Path -Path $base -ChildPath "unused_${addon}") | Out-Null
-        }
-    }
-    catch {
-        Loggerr("Couldnt remove old unused folder of $addon") 
-    }
+function Set-DirectoryUnused($base, $addon, $nr) {
     try {
         if (Test-Path -Path (Join-Path -Path $base -ChildPath $addon)) {
-            Logger("Renaming $addon to unused")
-            Rename-Item -Path (Join-Path -Path $base -ChildPath $addon) -newName (Join-Path -Path $base -ChildPath "unused_${addon}") | Out-Null
+            if (Test-Path -Path (Join-Path -Path $base -ChildPath "unused_${addon}${nr}")) {
+                if ([String]::IsNullOrEmpty()) {
+                    $nr = 0
+                } else {
+                    $nr = $nr + 1
+                }
+                Set-DirectoryUnused $base $addon $nr
+            } else {
+                Logger("Renaming $addon to unused")
+                Rename-Item -Path (Join-Path -Path $base -ChildPath $addon) -newName (Join-Path -Path $base -ChildPath "unused_${addon}${nr}") | Out-Null
+            }
         }
     }
     catch {
@@ -122,7 +122,7 @@ function Create-UserDirectory([String]$username) {
 function Set-GroupDirectoryUnused([String]$name) {
     try{
         if (Test-Path -Path (Get-GroupPath($name))) {
-            Set-DirectoryUnused $global:BaseGroupDirectory $name
+            Set-DirectoryUnused $global:BaseGroupDirectory $name ""
         }
     }catch{
         Logger("Failed setting group directory unused")
@@ -131,7 +131,7 @@ function Set-GroupDirectoryUnused([String]$name) {
 function Set-UserDirectoryUnused($name) {
     try{
         if (Test-Path -Path (Get-UserPath($name))) {
-            Set-DirectoryUnused $global:BaseUserDirectory $name 
+            Set-DirectoryUnused $global:BaseUserDirectory $name ""
         }
     }catch {
         Logger("Failed setting user directory unused")
@@ -172,9 +172,6 @@ function Does-UserDirectoryExist($username) {
         if (Test-Path -Path (Get-UserPath($username))) {
             return $true
         }
-        elseif (Test-Path -Path (Get-UnusedUserPath($username))) {
-            return "unused"
-        }
         else {
             return $false
         }
@@ -186,9 +183,6 @@ function Does-GroupDirectoryExist($name) {
     try{
         if (Test-Path -Path (Get-GroupPath($name))) {
             return $true
-        }
-        elseif (Test-Path -Path (Get-UnusedGroupPath($name))) {
-            return "unused"
         }
         else {
             return $false
