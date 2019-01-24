@@ -37,9 +37,9 @@ function Initial-UserInput {
     } until ($input -eq 'q')
 }
 function Run-SelectableScript {
-    Write-Host "Converting XML to CSV"
-    Write-Host "This might take some seconds"
     if($global:ConvertXMLToCSV -eq $true){
+        Write-Host "Converting XML to CSV"
+        Write-Host "This might take some seconds"
         XMLtoCSV
     }
     Logger-WithMessage "Loading freshly converted CSV"

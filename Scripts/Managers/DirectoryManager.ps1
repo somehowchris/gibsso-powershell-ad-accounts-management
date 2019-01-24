@@ -7,7 +7,7 @@ function Set-DirectoryUnused($base, $addon, $nr) {
     try {
         if (Test-Path -Path (Join-Path -Path $base -ChildPath $addon)) {
             if (Test-Path -Path (Join-Path -Path $base -ChildPath "unused_${addon}${nr}")) {
-                if ([String]::IsNullOrEmpty()) {
+                if ($nr -eq "") {
                     $nr = 0
                 } else {
                     $nr = $nr + 1
